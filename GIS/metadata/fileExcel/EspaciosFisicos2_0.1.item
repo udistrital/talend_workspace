@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:FileExcelConnection xmi:id="_B2hvgUtMEeSyZPVck6-AMQ" name="EspaciosFisicos2" dataPackage="_B2hvgktMEeSyZPVck6-AMQ" Server="Localhost 127.0.0.1" FilePath="/home/aarismendi/Documentos/FuentesExternas/EspacioFisico1.xlsx" Encoding="UTF-8" UseHeader="true" HeaderValue="1" FooterValue="0" LimitValue="0" FirstLineCaption="true" SheetName="espacios2" firstColumn="1" lastColumn="" thousandSeparator="," decimalSeparator="." selectAllSheets="true" sheetList="espacios2:w&#xA;">
+    <sheetColumns>A</sheetColumns>
+    <sheetColumns>B</sheetColumns>
+    <sheetColumns>C</sheetColumns>
+    <sheetColumns>D</sheetColumns>
+    <sheetColumns>E</sheetColumns>
+    <sheetColumns>F</sheetColumns>
+    <sheetColumns>G</sheetColumns>
+    <sheetColumns>H</sheetColumns>
+    <sheetColumns>I</sheetColumns>
+  </TalendMetadata:FileExcelConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_B2hvgktMEeSyZPVck6-AMQ" name="default" dataManager="_B2hvgUtMEeSyZPVck6-AMQ">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_B2hvg0tMEeSyZPVck6-AMQ" id="_2dhP4EtLEeSyZPVck6-AMQ" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_B2hvhEtMEeSyZPVck6-AMQ" label="EspCodigo" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_B2hvhUtMEeSyZPVck6-AMQ" label="EspNombre" length="43" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_B2hvhktMEeSyZPVck6-AMQ" label="EspEstado" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_B2hvh0tMEeSyZPVck6-AMQ" label="EspAltura" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_B2hviEtMEeSyZPVck6-AMQ" label="EspAreaUtil" length="13" talendType="id_Double" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_B2hviUtMEeSyZPVck6-AMQ" label="EspFechaIni" length="28" talendType="id_Date" pattern="&quot;dd/MM/yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_B2hviktMEeSyZPVck6-AMQ" label="EspFechaFin" talendType="id_Date" pattern="&quot;dd/MM/yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_B2hvi0tMEeSyZPVck6-AMQ" label="EspEstancia" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_B2hvjEtMEeSyZPVck6-AMQ" label="NivelCodigo_Nivel" length="8" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

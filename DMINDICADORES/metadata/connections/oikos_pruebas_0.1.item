@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
+  <TalendMetadata:DatabaseConnection xmi:id="_R1f_QBWREeeDqOfxCAoeIA" name="oikos_pruebas" id="_HqmRgBWREeeDqOfxCAoeIA" label="oikos_pruebas" dataPackage="_4eB6EBsJEeeisbB_esz1DA" DatabaseType="PostgreSQL" DriverClass="org.postgresql.Driver" URL="jdbc:postgresql://10.20.0.159:5432/udistrital_core_db" dbVersionString="PRIOR_TO_V9" Port="5432" Username="crud_user" Password="1QY6ZyNqCD4BAhKeqSkILQ==" ServerName="10.20.0.159" DatasourceName="" FileFieldName="" SID="udistrital_core_db" SqlSynthax="Sintaxis SQL" DbmsId="postgres_id" ProductId="POSTGRESQL" AdditionalParams="" StandardSQL="true" SQLMode="false" UiSchema="oikos">
+    <taggedValue xmi:id="_R1f_QRWREeeDqOfxCAoeIA" tag="Is Conn Need Reload" value="true"/>
+    <taggedValue xmi:id="_R6ksgBWREeeDqOfxCAoeIA" tag="package filter" value=""/>
+    <taggedValue xmi:id="_R6ksgRWREeeDqOfxCAoeIA" tag="Status" value=""/>
+    <taggedValue xmi:id="_R6ksghWREeeDqOfxCAoeIA" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_R6ksgxWREeeDqOfxCAoeIA" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_R6kshBWREeeDqOfxCAoeIA" tag="Description" value=""/>
+    <taggedValue xmi:id="_R6kshRWREeeDqOfxCAoeIA" tag="Author" value=""/>
+    <taggedValue xmi:id="_R6kshhWREeeDqOfxCAoeIA" tag="otherParameter"/>
+    <taggedValue xmi:id="_HiJOMBWTEeeDqOfxCAoeIA" tag="DB ProductName" value="PostgreSQL"/>
+    <taggedValue xmi:id="_HiJOMRWTEeeDqOfxCAoeIA" tag="DB ProductVersion" value="9.5.6"/>
+    <taggedValue xmi:id="_HiJOMhWTEeeDqOfxCAoeIA" tag="DB IdentifierQuoteString" value="&quot;"/>
+    <parameters xmi:id="_R1f_QhWREeeDqOfxCAoeIA" key="CONN_PARA_KEY_USERNAME" value="crud_user"/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_4eB6EBsJEeeisbB_esz1DA" name="udistrital_core_db" dataManager="_R1f_QBWREeeDqOfxCAoeIA">
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_4eB6ERsJEeeisbB_esz1DA" name="oikos">
+      <ownedElement xsi:type="relational:TdTable" xmi:id="_4eB6EhsJEeeisbB_esz1DA" name="asignacion_espacio_fisico_dependencia" id="_3uMYkBsJEeeisbB_esz1DA" comment="Tabla de rompimiento que reune los atributos necesarios para la asignacion de un espacio fisico." label="asignacion_espacio_fisico_dependencia" tableType="TABLE">
+        <taggedValue xmi:id="_4eChIBsJEeeisbB_esz1DA" tag="Comment" value="Tabla de rompimiento que reune los atributos necesarios para la asignacion de un espacio fisico."/>
+        <taggedValue xmi:id="_4eChIRsJEeeisbB_esz1DA" tag="Comment" value="Tabla de rompimiento que reune los atributos necesarios para la asignacion de un espacio fisico."/>
+        <feature xsi:type="relational:TdColumn" xmi:id="_4eChIhsJEeeisbB_esz1DA" name="id" comment="Identificador de la asignacion del espacio fisico" label="id" length="10" sourceType="INT4" talendType="id_Integer" key="true" nullable="false">
+          <taggedValue xmi:id="_4eChIxsJEeeisbB_esz1DA" tag="Comment" value="Identificador de la asignacion del espacio fisico"/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_4eChJBsJEeeisbB_esz1DA" body="nextval('asignacion_espacio_fisico_dependencia_id_seq'::regclass)" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_4eChJRsJEeeisbB_esz1DA" name="SERIAL" numericPrecisionRadix="10" javaDataType="4"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_4eChJhsJEeeisbB_esz1DA" name="estado" label="estado" length="2147483647" sourceType="VARCHAR" talendType="id_String" nullable="false">
+          <taggedValue xmi:id="_4eChJxsJEeeisbB_esz1DA" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_4eChKBsJEeeisbB_esz1DA" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_4eChKRsJEeeisbB_esz1DA" name="VARCHAR" numericPrecisionRadix="10" javaDataType="12"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_4eChKhsJEeeisbB_esz1DA" name="fecha_inicio" label="fecha_inicio" length="13" sourceType="TIMESTAMP" talendType="id_Date" nullable="false" pattern="&quot;dd-MM-yyyy&quot;">
+          <taggedValue xmi:id="_4eChKxsJEeeisbB_esz1DA" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_4eChLBsJEeeisbB_esz1DA" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_4eChLRsJEeeisbB_esz1DA" name="DATE" numericPrecisionRadix="10" javaDataType="91"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_4eChLhsJEeeisbB_esz1DA" name="fecha_fin" label="fecha_fin" length="13" sourceType="TIMESTAMP" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;">
+          <taggedValue xmi:id="_4eChLxsJEeeisbB_esz1DA" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_4eChMBsJEeeisbB_esz1DA" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_4eChMRsJEeeisbB_esz1DA" name="DATE" numericPrecisionRadix="10" javaDataType="91" nullable="columnNullable"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_4eChMhsJEeeisbB_esz1DA" name="documento_soporte" label="documento_soporte" length="2147483647" sourceType="VARCHAR" talendType="id_String" nullable="false">
+          <taggedValue xmi:id="_4eChMxsJEeeisbB_esz1DA" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_4eChNBsJEeeisbB_esz1DA" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_4eChNRsJEeeisbB_esz1DA" name="VARCHAR" numericPrecisionRadix="10" javaDataType="12"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_4eChNhsJEeeisbB_esz1DA" name="espacio_fisico_id" comment="Campo que contiene el id, de la llave foranea" label="espacio_fisico_id" length="10" sourceType="INT4" talendType="id_Integer" nullable="false">
+          <taggedValue xmi:id="_4eChNxsJEeeisbB_esz1DA" tag="Comment" value="Campo que contiene el id, de la llave foranea"/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_4eChOBsJEeeisbB_esz1DA" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_4eChORsJEeeisbB_esz1DA" name="INT4" numericPrecisionRadix="10" javaDataType="4"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_4eChOhsJEeeisbB_esz1DA" name="dependencia_id" comment="Identificador que contiene el id de dependencia" label="dependencia_id" length="10" sourceType="INT4" talendType="id_Integer" nullable="false">
+          <taggedValue xmi:id="_4eChOxsJEeeisbB_esz1DA" tag="Comment" value="Identificador que contiene el id de dependencia"/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_4eChPBsJEeeisbB_esz1DA" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_4eChPRsJEeeisbB_esz1DA" name="INT4" numericPrecisionRadix="10" javaDataType="4"/>
+        </feature>
+      </ownedElement>
+      <ownedElement xsi:type="relational:TdTable" xmi:id="_4eChPhsJEeeisbB_esz1DA" name="tipo_uso_espacio_fisico" id="_3usu4BsJEeeisbB_esz1DA" comment="Tabla de rompimiento entre tipo_espacio_fisico y espacio_fisico" label="tipo_uso_espacio_fisico" tableType="TABLE">
+        <taggedValue xmi:id="_4eChPxsJEeeisbB_esz1DA" tag="Comment" value="Tabla de rompimiento entre tipo_espacio_fisico y espacio_fisico"/>
+        <taggedValue xmi:id="_4eChQBsJEeeisbB_esz1DA" tag="Comment" value="Tabla de rompimiento entre tipo_espacio_fisico y espacio_fisico"/>
+        <feature xsi:type="relational:TdColumn" xmi:id="_4eChQRsJEeeisbB_esz1DA" name="id" comment="Identificador de la tabla " label="id" length="10" sourceType="INT4" talendType="id_Integer" key="true" nullable="false">
+          <taggedValue xmi:id="_4eChQhsJEeeisbB_esz1DA" tag="Comment" value="Identificador de la tabla "/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_4eChQxsJEeeisbB_esz1DA" body="nextval('tipo_uso_espacio_fisico_id_seq'::regclass)" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_4eChRBsJEeeisbB_esz1DA" name="SERIAL" numericPrecisionRadix="10" javaDataType="4"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_4eChRRsJEeeisbB_esz1DA" name="tipo_uso_id" comment="Campo que contiene el identificador del espacio fisico" label="tipo_uso_id" length="10" sourceType="INT4" talendType="id_Integer" nullable="false">
+          <taggedValue xmi:id="_4eChRhsJEeeisbB_esz1DA" tag="Comment" value="Campo que contiene el identificador del espacio fisico"/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_4eChRxsJEeeisbB_esz1DA" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_4eChSBsJEeeisbB_esz1DA" name="INT4" numericPrecisionRadix="10" javaDataType="4"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_4eChSRsJEeeisbB_esz1DA" name="espacio_fisico_id" comment="Campo para el id del espacio fisico" label="espacio_fisico_id" length="10" sourceType="INT4" talendType="id_Integer" nullable="false">
+          <taggedValue xmi:id="_4eChShsJEeeisbB_esz1DA" tag="Comment" value="Campo para el id del espacio fisico"/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_4eChSxsJEeeisbB_esz1DA" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_4eChTBsJEeeisbB_esz1DA" name="INT4" numericPrecisionRadix="10" javaDataType="4"/>
+        </feature>
+      </ownedElement>
+      <ownedElement xsi:type="relational:TdTable" xmi:id="_4eChTRsJEeeisbB_esz1DA" name="tipo_uso" id="_3vJa0BsJEeeisbB_esz1DA" comment="Tabla quie contiene los diversos usos que puede tener un espacio fisicoi" label="tipo_uso" tableType="TABLE">
+        <taggedValue xmi:id="_4eChThsJEeeisbB_esz1DA" tag="Comment" value="Tabla quie contiene los diversos usos que puede tener un espacio fisicoi"/>
+        <taggedValue xmi:id="_4eChTxsJEeeisbB_esz1DA" tag="Comment" value="Tabla quie contiene los diversos usos que puede tener un espacio fisicoi"/>
+        <feature xsi:type="relational:TdColumn" xmi:id="_4eChUBsJEeeisbB_esz1DA" name="id" comment="Identificador del tipo de uso de espacios fisicos" label="id" length="10" sourceType="INT4" talendType="id_Integer" key="true" nullable="false">
+          <taggedValue xmi:id="_4eChURsJEeeisbB_esz1DA" tag="Comment" value="Identificador del tipo de uso de espacios fisicos"/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_4eChUhsJEeeisbB_esz1DA" body="nextval('tipo_uso_id_seq'::regclass)" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_4eChUxsJEeeisbB_esz1DA" name="SERIAL" numericPrecisionRadix="10" javaDataType="4"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_4eChVBsJEeeisbB_esz1DA" name="nombre" comment="Nombre del uso que se le va a dar al espacio fisico" label="nombre" length="2147483647" sourceType="VARCHAR" talendType="id_String" nullable="false">
+          <taggedValue xmi:id="_4eChVRsJEeeisbB_esz1DA" tag="Comment" value="Nombre del uso que se le va a dar al espacio fisico"/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_4eChVhsJEeeisbB_esz1DA" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_4eChVxsJEeeisbB_esz1DA" name="VARCHAR" numericPrecisionRadix="10" javaDataType="12"/>
+        </feature>
+      </ownedElement>
+      <ownedElement xsi:type="relational:TdTable" xmi:id="_4eChWBsJEeeisbB_esz1DA" name="dependencia_tipo_dependencia" id="_3vnU4BsJEeeisbB_esz1DA" comment="Tabla de rompimiento entre tipo_dependencia y dependencia" label="dependencia_tipo_dependencia" tableType="TABLE">
+        <taggedValue xmi:id="_4eChWRsJEeeisbB_esz1DA" tag="Comment" value="Tabla de rompimiento entre tipo_dependencia y dependencia"/>
+        <taggedValue xmi:id="_4eChWhsJEeeisbB_esz1DA" tag="Comment" value="Tabla de rompimiento entre tipo_dependencia y dependencia"/>
+        <feature xsi:type="relational:TdColumn" xmi:id="_4eChWxsJEeeisbB_esz1DA" name="id" comment="Identificador de la tabla " label="id" length="10" sourceType="INT4" talendType="id_Integer" key="true" nullable="false">
+          <taggedValue xmi:id="_4eChXBsJEeeisbB_esz1DA" tag="Comment" value="Identificador de la tabla "/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_4eChXRsJEeeisbB_esz1DA" body="nextval('oikos.dependencia_tipo_dependencia_id_seq'::regclass)" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_4eChXhsJEeeisbB_esz1DA" name="SERIAL" numericPrecisionRadix="10" javaDataType="4"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_4eChXxsJEeeisbB_esz1DA" name="tipo_dependencia_id" comment="Campo que contiene el identificador del tipo dependencia" label="tipo_dependencia_id" length="10" sourceType="INT4" talendType="id_Integer" nullable="false">
+          <taggedValue xmi:id="_4eChYBsJEeeisbB_esz1DA" tag="Comment" value="Campo que contiene el identificador del tipo dependencia"/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_4eChYRsJEeeisbB_esz1DA" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_4eChYhsJEeeisbB_esz1DA" name="INT4" numericPrecisionRadix="10" javaDataType="4"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_4eChYxsJEeeisbB_esz1DA" name="dependencia_id" comment="Campo para el id de la dependencia" label="dependencia_id" length="10" sourceType="INT4" talendType="id_Integer" nullable="false">
+          <taggedValue xmi:id="_4eChZBsJEeeisbB_esz1DA" tag="Comment" value="Campo para el id de la dependencia"/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_4eChZRsJEeeisbB_esz1DA" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_4eChZhsJEeeisbB_esz1DA" name="INT4" numericPrecisionRadix="10" javaDataType="4"/>
+        </feature>
+      </ownedElement>
+      <ownedElement xsi:type="relational:TdTable" xmi:id="_4eChZxsJEeeisbB_esz1DA" name="dependencia_padre" id="_3wFO8BsJEeeisbB_esz1DA" comment="Tabla que contiene las dependencias de la Universidad Distrital" label="dependencia_padre" tableType="TABLE">
+        <taggedValue xmi:id="_4eChaBsJEeeisbB_esz1DA" tag="Comment" value="Tabla que contiene las dependencias de la Universidad Distrital"/>
+        <taggedValue xmi:id="_4eChaRsJEeeisbB_esz1DA" tag="Comment" value="Tabla que contiene las dependencias de la Universidad Distrital"/>
+        <feature xsi:type="relational:TdColumn" xmi:id="_4eChahsJEeeisbB_esz1DA" name="id" comment="Identificador de la dependencia." label="id" length="10" sourceType="INT4" talendType="id_Integer" key="true" nullable="false">
+          <taggedValue xmi:id="_4eChaxsJEeeisbB_esz1DA" tag="Comment" value="Identificador de la dependencia."/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_4eChbBsJEeeisbB_esz1DA" body="nextval('dependencia_padre_id_seq'::regclass)" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_4eChbRsJEeeisbB_esz1DA" name="SERIAL" numericPrecisionRadix="10" javaDataType="4"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_4eChbhsJEeeisbB_esz1DA" name="padre" comment="Id dependencia padre" label="padre" length="10" sourceType="INT4" talendType="id_Integer" nullable="false">
+          <taggedValue xmi:id="_4eChbxsJEeeisbB_esz1DA" tag="Comment" value="Id dependencia padre"/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_4eChcBsJEeeisbB_esz1DA" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_4eChcRsJEeeisbB_esz1DA" name="INT4" numericPrecisionRadix="10" javaDataType="4"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_4eChchsJEeeisbB_esz1DA" name="hija" comment="Identificador dependencia hija (si la hay)" label="hija" length="10" sourceType="INT4" talendType="id_Integer" nullable="false">
+          <taggedValue xmi:id="_4eChcxsJEeeisbB_esz1DA" tag="Comment" value="Identificador dependencia hija (si la hay)"/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_4eChdBsJEeeisbB_esz1DA" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_4eChdRsJEeeisbB_esz1DA" name="INT4" numericPrecisionRadix="10" javaDataType="4"/>
+        </feature>
+      </ownedElement>
+      <ownedElement xsi:type="relational:TdTable" xmi:id="_4eChdhsJEeeisbB_esz1DA" name="dependencia" id="_3wjwEBsJEeeisbB_esz1DA" comment="Tabla que contiene las dependencias de la Universidad Distrital" label="dependencia" tableType="TABLE">
+        <taggedValue xmi:id="_4eChdxsJEeeisbB_esz1DA" tag="Comment" value="Tabla que contiene las dependencias de la Universidad Distrital"/>
+        <taggedValue xmi:id="_4eCheBsJEeeisbB_esz1DA" tag="Comment" value="Tabla que contiene las dependencias de la Universidad Distrital"/>
+        <feature xsi:type="relational:TdColumn" xmi:id="_4eCheRsJEeeisbB_esz1DA" name="id" comment="Identificador de la dependencia." label="id" length="10" sourceType="INT4" talendType="id_Integer" key="true" nullable="false">
+          <taggedValue xmi:id="_4eChehsJEeeisbB_esz1DA" tag="Comment" value="Identificador de la dependencia."/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_4eChexsJEeeisbB_esz1DA" body="nextval('dependencia_id_seq'::regclass)" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_4eChfBsJEeeisbB_esz1DA" name="SERIAL" numericPrecisionRadix="10" javaDataType="4"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_4eChfRsJEeeisbB_esz1DA" name="nombre" comment="Nombre de la dependencia perteneciente a la Universidad Distrital" label="nombre" length="2147483647" sourceType="VARCHAR" talendType="id_String" nullable="false">
+          <taggedValue xmi:id="_4eChfhsJEeeisbB_esz1DA" tag="Comment" value="Nombre de la dependencia perteneciente a la Universidad Distrital"/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_4eChfxsJEeeisbB_esz1DA" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_4eChgBsJEeeisbB_esz1DA" name="VARCHAR" numericPrecisionRadix="10" javaDataType="12"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_4eChgRsJEeeisbB_esz1DA" name="telefono_dependencia" comment="Indica el numero de telefono de la dependencia." label="telefono_dependencia" length="500" sourceType="VARCHAR" talendType="id_String" nullable="false">
+          <taggedValue xmi:id="_4eChghsJEeeisbB_esz1DA" tag="Comment" value="Indica el numero de telefono de la dependencia."/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_4eChgxsJEeeisbB_esz1DA" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_4eChhBsJEeeisbB_esz1DA" name="VARCHAR" numericPrecisionRadix="10" javaDataType="12"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_4eChhRsJEeeisbB_esz1DA" name="correo_electronico" comment="Correo electrónico asociado a la dependencia" label="correo_electronico" length="2147483647" sourceType="VARCHAR" talendType="id_String">
+          <taggedValue xmi:id="_4eChhhsJEeeisbB_esz1DA" tag="Comment" value="Correo electrónico asociado a la dependencia"/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_4eChhxsJEeeisbB_esz1DA" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_4eChiBsJEeeisbB_esz1DA" name="VARCHAR" numericPrecisionRadix="10" javaDataType="12" nullable="columnNullable"/>
+        </feature>
+      </ownedElement>
+      <ownedElement xsi:type="relational:TdTable" xmi:id="_4eChiRsJEeeisbB_esz1DA" name="campo" id="_3xCRMBsJEeeisbB_esz1DA" comment="Tabla de los campos o atributos que se necesiten en un espacio fisico" label="campo" tableType="TABLE">
+        <taggedValue xmi:id="_4eChihsJEeeisbB_esz1DA" tag="Comment" value="Tabla de los campos o atributos que se necesiten en un espacio fisico"/>
+        <taggedValue xmi:id="_4eChixsJEeeisbB_esz1DA" tag="Comment" value="Tabla de los campos o atributos que se necesiten en un espacio fisico"/>
+        <feature xsi:type="relational:TdColumn" xmi:id="_4eChjBsJEeeisbB_esz1DA" name="id" label="id" length="10" sourceType="INT4" talendType="id_Integer" key="true" nullable="false">
+          <taggedValue xmi:id="_4eChjRsJEeeisbB_esz1DA" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_4eChjhsJEeeisbB_esz1DA" body="nextval('campo_id_seq'::regclass)" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_4eChjxsJEeeisbB_esz1DA" name="SERIAL" numericPrecisionRadix="10" javaDataType="4"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_4eChkBsJEeeisbB_esz1DA" name="nombre" comment="Nombre del nuevo campo" label="nombre" length="2147483647" sourceType="VARCHAR" talendType="id_String" nullable="false">
+          <taggedValue xmi:id="_4eChkRsJEeeisbB_esz1DA" tag="Comment" value="Nombre del nuevo campo"/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_4eChkhsJEeeisbB_esz1DA" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_4eChkxsJEeeisbB_esz1DA" name="VARCHAR" numericPrecisionRadix="10" javaDataType="12"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_4eChlBsJEeeisbB_esz1DA" name="descripcion" comment="Descripcion del campo que se acabo de crear" label="descripcion" length="50" sourceType="VARCHAR" talendType="id_String">
+          <taggedValue xmi:id="_4eChlRsJEeeisbB_esz1DA" tag="Comment" value="Descripcion del campo que se acabo de crear"/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_4eChlhsJEeeisbB_esz1DA" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_4eChlxsJEeeisbB_esz1DA" name="VARCHAR" numericPrecisionRadix="10" javaDataType="12" nullable="columnNullable"/>
+        </feature>
+      </ownedElement>
+      <ownedElement xsi:type="relational:TdTable" xmi:id="_4eChmBsJEeeisbB_esz1DA" name="tipo_espacio_fisico" id="_3xe9IBsJEeeisbB_esz1DA" comment="Tabla que contiene los tipos de espacios fisicos existentes." label="tipo_espacio_fisico" tableType="TABLE">
+        <taggedValue xmi:id="_4eChmRsJEeeisbB_esz1DA" tag="Comment" value="Tabla que contiene los tipos de espacios fisicos existentes."/>
+        <taggedValue xmi:id="_4eChmhsJEeeisbB_esz1DA" tag="Comment" value="Tabla que contiene los tipos de espacios fisicos existentes."/>
+        <feature xsi:type="relational:TdColumn" xmi:id="_4eChmxsJEeeisbB_esz1DA" name="id" comment="Identificador de cada tipo de espacio fisico que pertenece a la Universidad Distr" label="id" length="10" sourceType="INT4" talendType="id_Integer" key="true" nullable="false">
+          <taggedValue xmi:id="_4eChnBsJEeeisbB_esz1DA" tag="Comment" value="Identificador de cada tipo de espacio fisico que pertenece a la Universidad Distr"/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_4eChnRsJEeeisbB_esz1DA" body="nextval('tipo_espacio_fisico_id_seq'::regclass)" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_4eChnhsJEeeisbB_esz1DA" name="SERIAL" numericPrecisionRadix="10" javaDataType="4"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_4eChnxsJEeeisbB_esz1DA" name="nombre" comment="Nombre del tipo de espacio fisico perteneciente a la Universidad Distrital" label="nombre" length="2147483647" sourceType="VARCHAR" talendType="id_String" nullable="false">
+          <taggedValue xmi:id="_4eChoBsJEeeisbB_esz1DA" tag="Comment" value="Nombre del tipo de espacio fisico perteneciente a la Universidad Distrital"/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_4eChoRsJEeeisbB_esz1DA" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_4eChohsJEeeisbB_esz1DA" name="VARCHAR" numericPrecisionRadix="10" javaDataType="12"/>
+        </feature>
+      </ownedElement>
+      <ownedElement xsi:type="relational:TdTable" xmi:id="_4eChoxsJEeeisbB_esz1DA" name="tipo_dependencia" id="_3x9eQBsJEeeisbB_esz1DA" comment="Tabla que contiene los distintos tipos de dependencia que hay en la Universidad Distrital." label="tipo_dependencia" tableType="TABLE">
+        <taggedValue xmi:id="_4eChpBsJEeeisbB_esz1DA" tag="Comment" value="Tabla que contiene los distintos tipos de dependencia que hay en la Universidad Distrital."/>
+        <taggedValue xmi:id="_4eChpRsJEeeisbB_esz1DA" tag="Comment" value="Tabla que contiene los distintos tipos de dependencia que hay en la Universidad Distrital."/>
+        <feature xsi:type="relational:TdColumn" xmi:id="_4eChphsJEeeisbB_esz1DA" name="id" comment="Identificador de la tabla " label="id" length="10" sourceType="INT4" talendType="id_Integer" key="true" nullable="false">
+          <taggedValue xmi:id="_4eChpxsJEeeisbB_esz1DA" tag="Comment" value="Identificador de la tabla "/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_4eChqBsJEeeisbB_esz1DA" body="nextval('oikos.tipo_dependencia_id_seq'::regclass)" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_4eChqRsJEeeisbB_esz1DA" name="SERIAL" numericPrecisionRadix="10" javaDataType="4"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_4eChqhsJEeeisbB_esz1DA" name="nombre" comment="Campo que contiene el tipo de dependencia" label="nombre" length="2147483647" sourceType="VARCHAR" talendType="id_String" nullable="false">
+          <taggedValue xmi:id="_4eChqxsJEeeisbB_esz1DA" tag="Comment" value="Campo que contiene el tipo de dependencia"/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_4eChrBsJEeeisbB_esz1DA" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_4eChrRsJEeeisbB_esz1DA" name="VARCHAR" numericPrecisionRadix="10" javaDataType="12"/>
+        </feature>
+      </ownedElement>
+      <ownedElement xsi:type="relational:TdTable" xmi:id="_4eChrhsJEeeisbB_esz1DA" name="espacio_fisico_padre" id="_3yaKMBsJEeeisbB_esz1DA" comment="Contiene las relaciones de los espacios fisicos " label="espacio_fisico_padre" tableType="TABLE">
+        <taggedValue xmi:id="_4eChrxsJEeeisbB_esz1DA" tag="Comment" value="Contiene las relaciones de los espacios fisicos "/>
+        <taggedValue xmi:id="_4eChsBsJEeeisbB_esz1DA" tag="Comment" value="Contiene las relaciones de los espacios fisicos "/>
+        <feature xsi:type="relational:TdColumn" xmi:id="_4eChsRsJEeeisbB_esz1DA" name="id" comment="Identificador de la tabla " label="id" length="10" sourceType="INT4" talendType="id_Integer" key="true" nullable="false">
+          <taggedValue xmi:id="_4eChshsJEeeisbB_esz1DA" tag="Comment" value="Identificador de la tabla "/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_4eChsxsJEeeisbB_esz1DA" body="nextval('espacio_fisico_padre_id_seq'::regclass)" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_4eChtBsJEeeisbB_esz1DA" name="SERIAL" numericPrecisionRadix="10" javaDataType="4"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_4eChtRsJEeeisbB_esz1DA" name="padre" comment="Identificador del espacio fisico padre" label="padre" length="10" sourceType="INT4" talendType="id_Integer" nullable="false">
+          <taggedValue xmi:id="_4eChthsJEeeisbB_esz1DA" tag="Comment" value="Identificador del espacio fisico padre"/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_4eChtxsJEeeisbB_esz1DA" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_4eChuBsJEeeisbB_esz1DA" name="INT4" numericPrecisionRadix="10" javaDataType="4"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_4eChuRsJEeeisbB_esz1DA" name="hijo" comment="Identificador del espacio fisico hijo" label="hijo" length="10" sourceType="INT4" talendType="id_Integer" nullable="false">
+          <taggedValue xmi:id="_4eChuhsJEeeisbB_esz1DA" tag="Comment" value="Identificador del espacio fisico hijo"/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_4eChuxsJEeeisbB_esz1DA" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_4eChvBsJEeeisbB_esz1DA" name="INT4" numericPrecisionRadix="10" javaDataType="4"/>
+        </feature>
+      </ownedElement>
+      <ownedElement xsi:type="relational:TdTable" xmi:id="_4eChvRsJEeeisbB_esz1DA" name="espacio_fisico_campo" id="_3y6ggBsJEeeisbB_esz1DA" comment="Tabla de rompimiento entre campo y espacio fisico" label="espacio_fisico_campo" tableType="TABLE">
+        <taggedValue xmi:id="_4eChvhsJEeeisbB_esz1DA" tag="Comment" value="Tabla de rompimiento entre campo y espacio fisico"/>
+        <taggedValue xmi:id="_4eChvxsJEeeisbB_esz1DA" tag="Comment" value="Tabla de rompimiento entre campo y espacio fisico"/>
+        <feature xsi:type="relational:TdColumn" xmi:id="_4eChwBsJEeeisbB_esz1DA" name="id" label="id" length="10" sourceType="INT4" talendType="id_Integer" key="true" nullable="false">
+          <taggedValue xmi:id="_4eChwRsJEeeisbB_esz1DA" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_4eChwhsJEeeisbB_esz1DA" body="nextval('espacio_fisico_campo_id_seq'::regclass)" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_4eChwxsJEeeisbB_esz1DA" name="SERIAL" numericPrecisionRadix="10" javaDataType="4"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_4eChxBsJEeeisbB_esz1DA" name="valor" comment="Contiene la informacion del campo" label="valor" length="50" sourceType="VARCHAR" talendType="id_String" nullable="false">
+          <taggedValue xmi:id="_4eChxRsJEeeisbB_esz1DA" tag="Comment" value="Contiene la informacion del campo"/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_4eChxhsJEeeisbB_esz1DA" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_4eChxxsJEeeisbB_esz1DA" name="VARCHAR" numericPrecisionRadix="10" javaDataType="12"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_4eChyBsJEeeisbB_esz1DA" name="espacio_fisico" comment="Campo de referencia de la entidad espacio fisico" label="espacio_fisico" length="10" sourceType="INT4" talendType="id_Integer" nullable="false">
+          <taggedValue xmi:id="_4eChyRsJEeeisbB_esz1DA" tag="Comment" value="Campo de referencia de la entidad espacio fisico"/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_4eChyhsJEeeisbB_esz1DA" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_4eChyxsJEeeisbB_esz1DA" name="INT4" numericPrecisionRadix="10" javaDataType="4"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_4eChzBsJEeeisbB_esz1DA" name="campo" comment="Referencia del campo" label="campo" length="10" sourceType="INT4" talendType="id_Integer" nullable="false">
+          <taggedValue xmi:id="_4eChzRsJEeeisbB_esz1DA" tag="Comment" value="Referencia del campo"/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_4eChzhsJEeeisbB_esz1DA" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_4eChzxsJEeeisbB_esz1DA" name="INT4" numericPrecisionRadix="10" javaDataType="4"/>
+        </feature>
+      </ownedElement>
+      <ownedElement xsi:type="relational:TdTable" xmi:id="_4eCh0BsJEeeisbB_esz1DA" name="espacio_fisico" id="_3zVXQBsJEeeisbB_esz1DA" comment="Tabla de Rompimiento que reune los atributos de un espacio fisico" label="espacio_fisico" tableType="TABLE">
+        <taggedValue xmi:id="_4eCh0RsJEeeisbB_esz1DA" tag="Comment" value="Tabla de Rompimiento que reune los atributos de un espacio fisico"/>
+        <taggedValue xmi:id="_4eCh0hsJEeeisbB_esz1DA" tag="Comment" value="Tabla de Rompimiento que reune los atributos de un espacio fisico"/>
+        <feature xsi:type="relational:TdColumn" xmi:id="_4eCh0xsJEeeisbB_esz1DA" name="id" comment="Identificador del espacio fisico especifico de la Universidad Distrital." label="id" length="10" sourceType="INT4" talendType="id_Integer" key="true" nullable="false">
+          <taggedValue xmi:id="_4eCh1BsJEeeisbB_esz1DA" tag="Comment" value="Identificador del espacio fisico especifico de la Universidad Distrital."/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_4eCh1RsJEeeisbB_esz1DA" body="nextval('espacio_fisico_id_seq'::regclass)" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_4eCh1hsJEeeisbB_esz1DA" name="SERIAL" numericPrecisionRadix="10" javaDataType="4"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_4eCh1xsJEeeisbB_esz1DA" name="estado" comment="Indica el estado del espacio fisico" label="estado" length="2147483647" sourceType="VARCHAR" talendType="id_String" nullable="false">
+          <taggedValue xmi:id="_4eCh2BsJEeeisbB_esz1DA" tag="Comment" value="Indica el estado del espacio fisico"/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_4eCh2RsJEeeisbB_esz1DA" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_4eCh2hsJEeeisbB_esz1DA" name="VARCHAR" numericPrecisionRadix="10" javaDataType="12"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_4eCh2xsJEeeisbB_esz1DA" name="tipo_espacio" comment="Llave foranea que contiene el identificador del tipo de espacio fisico de la entidad tipo_espacio_fisico" label="tipo_espacio" length="10" sourceType="INT4" talendType="id_Integer" nullable="false">
+          <taggedValue xmi:id="_4eCh3BsJEeeisbB_esz1DA" tag="Comment" value="Llave foranea que contiene el identificador del tipo de espacio fisico de la entidad tipo_espacio_fisico"/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_4eCh3RsJEeeisbB_esz1DA" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_4eCh3hsJEeeisbB_esz1DA" name="INT4" numericPrecisionRadix="10" javaDataType="4"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_4eCh3xsJEeeisbB_esz1DA" name="nombre" comment="Nombre perteneciente al espacio físico" label="nombre" length="2147483647" sourceType="VARCHAR" talendType="id_String" nullable="false">
+          <taggedValue xmi:id="_4eCh4BsJEeeisbB_esz1DA" tag="Comment" value="Nombre perteneciente al espacio físico"/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_4eCh4RsJEeeisbB_esz1DA" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_4eCh4hsJEeeisbB_esz1DA" name="VARCHAR" numericPrecisionRadix="10" javaDataType="12"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_4eCh4xsJEeeisbB_esz1DA" name="codigo" comment="Código pertinente al espacio físico" label="codigo" length="2147483647" sourceType="VARCHAR" talendType="id_String" nullable="false">
+          <taggedValue xmi:id="_4eCh5BsJEeeisbB_esz1DA" tag="Comment" value="Código pertinente al espacio físico"/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_4eCh5RsJEeeisbB_esz1DA" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_4eCh5hsJEeeisbB_esz1DA" name="VARCHAR" numericPrecisionRadix="10" javaDataType="12"/>
+        </feature>
+      </ownedElement>
+    </ownedElement>
+  </orgomg.cwm.resource.relational:Catalog>
+</xmi:XMI>

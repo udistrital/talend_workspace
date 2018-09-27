@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" confirmationNeeded="false" name="Default">
+  <contextParameter comment="" name="freeipa_Host" prompt="freeipa_Host?" promptNeeded="false" type="id_String" value="freeipa.udistritaloas.edu.co"/>
+  <contextParameter comment="" name="freeipa_Port" prompt="freeipa_Port?" promptNeeded="false" type="id_Integer" value="389"/>
+  <contextParameter comment="" name="freeipa_BindPassword" prompt="freeipa_BindPassword?" promptNeeded="false" type="id_Password" value="rWavoA9a+fZjabBYQEF8hcR8L4Y7HvP0"/>
+  <contextParameter comment="" name="freeipa_BindPrincipal" prompt="freeipa_BindPrincipal?" promptNeeded="false" type="id_String" value="uid=admin,cn=users,cn=accounts,dc=udistritaloas,dc=edu,dc=co"/>
+  <contextParameter comment="" name="freeipa_Filter" prompt="freeipa_Filter?" promptNeeded="false" type="id_String" value="(&amp;(objectClass=*))"/>
+  <contextParameter comment="" name="freeipa_TimeOutLimit" prompt="freeipa_TimeOutLimit?" promptNeeded="false" type="id_Integer" value="0"/>
+  <contextParameter comment="" name="freeipa_CountLimit" prompt="freeipa_CountLimit?" promptNeeded="false" type="id_Integer" value="100"/>
+  <contextParameter comment="" name="freeipa_BaseDN" prompt="freeipa_BaseDN?" promptNeeded="false" type="id_String" value="cn=users,cn=accounts,dc=udistritaloas,dc=edu,dc=co"/>
+</talendfile:ContextType>

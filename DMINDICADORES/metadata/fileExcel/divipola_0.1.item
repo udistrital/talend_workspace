@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:FileExcelConnection xmi:id="_LxE18M3WEeSOQtNHHo9L6A" name="divipola" dataPackage="_LxE18c3WEeSOQtNHHo9L6A" Server="Localhost 127.0.0.1" FilePath="/home/adbius/Documentos/divipola/DIVIPOLA_20141231.xlsx" Encoding="UTF-8" UseHeader="true" HeaderValue="1" FirstLineCaption="true" SheetName="reportExcel" firstColumn="1" thousandSeparator="','" decimalSeparator="'.'" selectAllSheets="true" sheetList="reportExcel:w&#xA;">
+    <sheetColumns>A</sheetColumns>
+    <sheetColumns>B</sheetColumns>
+    <sheetColumns>C</sheetColumns>
+    <sheetColumns>D</sheetColumns>
+    <sheetColumns>E</sheetColumns>
+    <sheetColumns>F</sheetColumns>
+    <sheetColumns>G</sheetColumns>
+    <sheetColumns>H</sheetColumns>
+    <sheetColumns>I</sheetColumns>
+    <sheetColumns>J</sheetColumns>
+    <sheetColumns>K</sheetColumns>
+    <sheetColumns>L</sheetColumns>
+    <sheetColumns>M</sheetColumns>
+  </TalendMetadata:FileExcelConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_LxE18c3WEeSOQtNHHo9L6A" name="default" dataManager="_LxE18M3WEeSOQtNHHo9L6A">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_LxE18s3WEeSOQtNHHo9L6A" id="_46wQMM3VEeSOQtNHHo9L6A" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LxE1883WEeSOQtNHHo9L6A" label="Codigo_Departamento" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LxE19M3WEeSOQtNHHo9L6A" label="Codigo_Municipio" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LxE19c3WEeSOQtNHHo9L6A" label="Codigo_Centro_Poblado" length="8" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LxE19s3WEeSOQtNHHo9L6A" label="Nombre_Departamento" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LxE1983WEeSOQtNHHo9L6A" label="Nombre_Municipio" length="8" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LxE1-M3WEeSOQtNHHo9L6A" label="Nombre_Centro_Poblado" length="23" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LxE1-c3WEeSOQtNHHo9L6A" label="Tipo_Centro_Poblado" length="27" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LxE1-s3WEeSOQtNHHo9L6A" label="Longitud" length="14" precision="11" talendType="id_Double" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LxE1-83WEeSOQtNHHo9L6A" label="Latitud" length="13" precision="11" talendType="id_Double" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LxE1_M3WEeSOQtNHHo9L6A" label="Distrito" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;" originalLength="255"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LxE1_c3WEeSOQtNHHo9L6A" label="Tipo_de_Municipio" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LxE1_s3WEeSOQtNHHo9L6A" label="Area_Metropolitana" length="38" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

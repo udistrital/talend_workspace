@@ -1,0 +1,1424 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMapper="http://www.talend.org/mapper" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="Default" jobType="Standard">
+  <context confirmationNeeded="false" name="Default">
+    <contextParameter comment="" name="annio" prompt="annio?" promptNeeded="false" type="id_String" value="null"/>
+    <contextParameter comment="" name="periodo" prompt="periodo?" promptNeeded="false" type="id_String" value="null"/>
+  </context>
+  <parameters>
+    <elementParameter field="TEXT" name="JOB_RUN_VM_ARGUMENTS" value=" -Xms1024M -Xmx5096M " show="false"/>
+    <elementParameter field="CHECK" name="JOB_RUN_VM_ARGUMENTS_OPTION" value="true" show="false"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_X" value="0" show="false"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" value="0" show="false"/>
+    <elementParameter field="TEXT" name="REPOSITORY_CONNECTION_ID" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_PROPERTY_TYPENAME" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_HADOOP_DISTRIBUTION" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_HADOOP_VERSION" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_ENABLE_KERBEROS" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_NAME_NODE_PRINCIPAL" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_USERNAME" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_GROUP" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_USE_KEYTAB" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_KT_PRINCIPAL" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_KEY_TAB" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_ENABLE_OO_KERBEROS" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_NAME_NODE_END_POINT" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_JOB_TRACKER_ENDPOINT" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_END_POINT" value="" show="false"/>
+    <elementParameter field="CHECK" name="IMPLICITCONTEXT_USE_PROJECT_SETTINGS" value="true" show="false"/>
+    <elementParameter field="CHECK" name="STATANDLOG_USE_PROJECT_SETTINGS" value="true" show="false"/>
+    <elementParameter field="CHECK" name="MULTI_THREAD_EXECATION" value="false"/>
+    <elementParameter field="CHECK" name="IMPLICIT_TCONTEXTLOAD" value="false"/>
+    <elementParameter field="RADIO" name="FROM_FILE_FLAG_IMPLICIT_CONTEXT" value="false" show="false"/>
+    <elementParameter field="RADIO" name="FROM_DATABASE_FLAG_IMPLICIT_CONTEXT" value="false" show="false"/>
+    <elementParameter field="FILE" name="IMPLICIT_TCONTEXTLOAD_FILE" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY_TYPE_IMPLICIT_CONTEXT:PROPERTY_TYPE" value="" show="false"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY_TYPE_IMPLICIT_CONTEXT:REPOSITORY_PROPERTY_TYPE" value="" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_TYPE_IMPLICIT_CONTEXT" value="" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION_IMPLICIT_CONTEXT" value="" show="false"/>
+    <elementParameter field="TEXT" name="URL_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TABLE" name="DRIVER_JAR_IMPLICIT_CONTEXT" show="false"/>
+    <elementParameter field="TEXT" name="DRIVER_CLASS_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="HOST_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="PORT_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="DBNAME_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" value="0RMsyjmybrE=" show="false"/>
+    <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="LOAD_NEW_VARIABLE" value="Warning" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="NOT_LOAD_OLD_VARIABLE" value="Warning" show="false"/>
+    <elementParameter field="CHECK" name="PRINT_OPERATIONS" value="false" show="false"/>
+    <elementParameter field="CHECK" name="DISABLE_ERROR" value="false" show="false"/>
+    <elementParameter field="CHECK" name="DISABLE_WARNINGS" value="false" show="false"/>
+    <elementParameter field="CHECK" name="DISABLE_INFO" value="false" show="false"/>
+    <elementParameter field="CHECK" name="ON_STATCATCHER_FLAG" value="true"/>
+    <elementParameter field="CHECK" name="ON_LOGCATCHER_FLAG" value="true"/>
+    <elementParameter field="CHECK" name="ON_METERCATCHER_FLAG" value="true"/>
+    <elementParameter field="CHECK" name="ON_CONSOLE_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_FILES_FLAG" value="false"/>
+    <elementParameter field="DIRECTORY" name="FILE_PATH" value="&quot;/root/Documentos/TOS_DI-r111943-V5.4.1/workspace/.metadata&quot;" show="false"/>
+    <elementParameter field="TEXT" name="FILENAME_STATS" value="&quot;stats_file.txt&quot;" show="false"/>
+    <elementParameter field="TEXT" name="FILENAME_LOGS" value="&quot;logs_file.txt&quot;" show="false"/>
+    <elementParameter field="TEXT" name="FILENAME_METTER" value="&quot;meter_file.txt&quot;" show="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="ISO-8859-15" show="false"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15" show="false"/>
+    <elementParameter field="CHECK" name="ON_DATABASE_FLAG" value="true"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY_TYPE:PROPERTY_TYPE" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY_TYPE:REPOSITORY_PROPERTY_TYPE" value="_Y_C3QKr7EeO6KqyPmKrEmA" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_TYPE" value="tPostgresqlOutput"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="PRIOR_TO_V9"/>
+    <elementParameter field="TEXT" name="URL" value="" show="false"/>
+    <elementParameter field="TABLE" name="DRIVER_JAR" show="false"/>
+    <elementParameter field="TEXT" name="DRIVER_CLASS" value="" show="false"/>
+    <elementParameter field="TEXT" name="HOST" value="&quot;10.20.0.88&quot;"/>
+    <elementParameter field="TEXT" name="PORT" value="&quot;5432&quot;"/>
+    <elementParameter field="TEXT" name="DATASOURCE" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="DBNAME" value="&quot;co_udistrital_log&quot;"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;public&quot;"/>
+    <elementParameter field="TEXT" name="USER" value="&quot;spagobi&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS" value="2gOap6JvPFcyDq4wM2MZm5XZL/MfI7xW5O1OlATRK5M="/>
+    <elementParameter field="FILE" name="DBFILE" value="&quot;&quot;" show="false"/>
+    <elementParameter field="DBTABLE" name="TABLE_STATS" value="&quot;statcatcher&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE_LOGS" value="&quot;logcatcher&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE_METER" value="&quot;flowmetercatcher&quot;"/>
+    <elementParameter field="CHECK" name="CATCH_RUNTIME_ERRORS" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_USER_ERRORS" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_USER_WARNING" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_REALTIME_STATS" value="true"/>
+    <elementParameter field="TEXT" name="HEADERFOOTER_HEADERID" value="" show="false"/>
+    <elementParameter field="CHECK" name="HEADER_ENABLED" value="false" show="false"/>
+    <elementParameter field="TEXT" name="HEADER_LIBRARY" value="" show="false"/>
+    <elementParameter field="TEXT" name="HEADER_CODE" value="" show="false"/>
+    <elementParameter field="TEXT" name="HEADER_IMPORT" value="" show="false"/>
+    <elementParameter field="TEXT" name="HEADERFOOTER_FOOTERID" value="" show="false"/>
+    <elementParameter field="CHECK" name="FOOTER_ENABLED" value="false" show="false"/>
+    <elementParameter field="TEXT" name="FOOTER_LIBRARY" value="" show="false"/>
+    <elementParameter field="TEXT" name="FOOTER_CODE" value="" show="false"/>
+    <elementParameter field="TEXT" name="FOOTER_IMPORT" value="" show="false"/>
+    <routinesParameter id="_Ym7CgKL1EeOqbp7w959yow" name="DataOperation"/>
+    <routinesParameter id="_YmzGsKL1EeOqbp7w959yow" name="Mathematical"/>
+    <routinesParameter id="_Ym8QoKL1EeOqbp7w959yow" name="Numeric"/>
+    <routinesParameter id="_Ym83sKL1EeOqbp7w959yow" name="Relational"/>
+    <routinesParameter id="_Ym_7AKL1EeOqbp7w959yow" name="StringHandling"/>
+    <routinesParameter id="_Ym50YKL1EeOqbp7w959yow" name="TalendDataGenerator"/>
+    <routinesParameter id="_Ym-F0KL1EeOqbp7w959yow" name="TalendDate"/>
+    <routinesParameter id="_Ym_T8KL1EeOqbp7w959yow" name="TalendString"/>
+    <routinesParameter id="_JM29QHE0EeaadZKkS9jMNQ" name="GeoOperation"/>
+    <routinesParameter id="_JM4ycHE0EeaadZKkS9jMNQ" name="GeometryOperation"/>
+    <routinesParameter id="_JM6noHE0EeaadZKkS9jMNQ" name="GeometryUtility"/>
+    <routinesParameter id="_JMbfcHE0EeaadZKkS9jMNQ" name="OpenStreetMap"/>
+    <routinesParameter id="_S0X1cLExEeidXsatmJXsNA" name="TalendStringUtil"/>
+  </parameters>
+  <node componentName="tOracleInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="192" posY="224">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tOracleInput_2" show="false"/>
+    <elementParameter field="CHECK" name="TSTATCATCHER_STATS" value="true"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY" show="false"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="__ux0UFXLEeaAS5TwIydAdQ" show="false"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tOracleConnection_1"/>
+    <elementParameter field="CLOSED_LIST" name="CONNECTION_TYPE" value="ORACLE_SID" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="ORACLE_10" show="false"/>
+    <elementParameter field="TEXT" name="RAC_URL" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="HOST" value="&quot;academicaproduccion.c8an9arwoaua.us-east-1.rds.amazonaws.com&quot;" show="false"/>
+    <elementParameter field="TEXT" name="TYPE" value="ORACLE_SID" show="false"/>
+    <elementParameter field="TEXT" name="PORT" value="&quot;1521&quot;" show="false"/>
+    <elementParameter field="TEXT" name="DBNAME" value="&quot;sudd&quot;" show="false"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;MNTAC&quot;" show="false"/>
+    <elementParameter field="TEXT" name="USER" value="&quot;datawarefnl2&quot;" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS" value="HUY/CV1KPU4So/v8UZn6lA==" show="false"/>
+    <elementParameter field="TEXT" name="JDBC_URL" value="&quot;jdbc:oracle:oci:/@talend&quot;" show="false"/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;&quot;"/>
+    <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
+    <elementParameter field="GUESS_SCHEMA" name="GUESS_SCHEMA" value="&quot;&quot;"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;SELECT distinct&#xA;1301 IES_CODE,&#xA;primiparo.anio,&#xA;primiparo.semestre,&#xA;primiparo.codigo_facultad,&#xA;primiparo.facultad,&#xA;primiparo.codigo_proyecto_snies,&#xA;primiparo.proyecto_snies,&#xA;primiparo.codigo_proyecto,&#xA;primiparo.proyecto,&#xA;primiparo.modalidad,&#xA;primiparo.nivel,&#xA;'11' dpto_cod,&#xA;'BOGOTA D.C' dpto,&#xA;'1101' mun_cod,&#xA;'BOGOTA D.C' mun,&#xA;primiparo.genero,&#xA;primiparo.codigo_localidad,&#xA;primiparo.localidad_aspirante,&#xA;primiparo.estrato,&#xA;primiparo.codigo_estudiante,&#xA;primiparo.documento,&#xA;primiparo.nombre,&#xA;primiparo.tipo_colegio,&#xA;primiparo.codigo_localidad_colegio,&#xA;primiparo.localidad_colegio,&#xA;primiparo.codigo_colegio,&#xA;primiparo.calendario_colegio,&#xA;primiparo.colegio,&#xA;primiparo.municipio_colegio,&#xA;primiparo.departamento_colegio,&#xA;primiparo.codigo_inscripcion,&#xA;primiparo.inscripcion,&#xA;primiparo.biologia,&#xA;primiparo.quimica,&#xA;primiparo.fisica,&#xA;primiparo.sociales,&#xA;primiparo.aptitud_verbal,&#xA;primiparo.espanol_literatura,&#xA;primiparo.aptitud_matematica,&#xA;primiparo.condicion_matematica,&#xA;primiparo.filosofia,&#xA;primiparo.historia,&#xA;primiparo.geografia,&#xA;primiparo.idioma,&#xA;primiparo.interdiciplinar,&#xA;primiparo.codigo_interdiciplinar,&#xA;primiparo.puntos_icfes,&#xA;primiparo.ASP_PTOS_HOM ,&#xA;primiparo.profundizacion,&#xA;primiparo.valor_profundizacion,&#xA;primiparo.profundizacion_dos,&#xA;primiparo.valor_profundizacion_dos,&#xA;primiparo.profundizacion_tres,&#xA;primiparo.valor_profundizacion_tres,&#xA;primiparo.valor_matricula,&#xA;primiparo.codigo_estado,&#xA;primiparo.estado&#xA;FROM&#xA;(SELECT DISTINCT&#xA;est_nro_iden documento,&#xA;est_nombre nombre,&#xA;est_cod codigo_estudiante,&#xA;est_estado_est codigo_estado,&#xA;estado_nombre estado,&#xA;est_valor_matricula valor_matricula,&#xA;as_cra_cod_snies codigo_proyecto_snies, &#xA;as_cra_nom proyecto_snies,&#xA;cra_cod codigo_proyecto,&#xA;cra_nombre proyecto,&#xA;dep_cod codigo_facultad,&#xA;dep_nombre facultad,&#xA;tra_nombre modalidad, &#xA;tra_nivel  nivel,&#xA;decode(length(est_cod),7,(substr(est_cod,1,2)+1900),11,(substr(est_cod, 1,4))) anio, &#xA;decode(decode(length(est_cod),7,((substr(est_cod,3,1))),11,(substr(est_cod, 5,1))), '1','1',&#xA; '3') semestre, &#xA;TO_CHAR(DECODE(asp_sexo,'M','MASCULINO','F','FEMENINO','NO REGISTRA')) genero,  &#xA;asp_estrato estrato,&#xA;asp_localidad codigo_localidad,&#xA;localidad_aspirante.loc_nombre localidad_aspirante,&#xA;asp_ti_cod codigo_inscripcion,&#xA;ti_nombre inscripcion,&#xA;naturaleza tipo_colegio,&#xA;asp_cod_colegio codigo_colegio,&#xA;gecolegio.nombreoficial colegio,&#xA;gecolegio.municipio municipio_colegio,&#xA;gecolegio.departamento departamento_colegio,&#xA;gecolegio.calendario calendario_colegio,&#xA;asp_localidad_colegio codigo_localidad_colegio,&#xA;ASP_BIO biologia,&#xA;ASP_QUI quimica,&#xA;ASP_FIS fisica,&#xA;ASP_SOC sociales,&#xA;ASP_APT_VERBAL aptitud_verbal,&#xA;ASP_ESP_Y_LIT espanol_literatura,&#xA;ASP_APT_MAT aptitud_matematica,&#xA;ASP_CON_MAT condicion_matematica,&#xA;ASP_FIL filosofia,&#xA;ASP_HIS historia,&#xA;ASP_GEO geografia,&#xA;ASP_IDIOMA idioma,&#xA;ASP_INTERDIS interdiciplinar,&#xA;ASP_COD_INTER codigo_interdiciplinar,&#xA;ASP_PTOS puntos_icfes,&#xA;ASP_PTOS_HOM ,&#xA;ASP_PROFUND profundizacion,&#xA;ASP_VAL_PROF valor_profundizacion,&#xA;ASP_PROFUND2 profundizacion_dos,&#xA;ASP_VAL_PROF2 valor_profundizacion_dos,&#xA;ASP_PROFUND3 profundizacion_tres,&#xA;ASP_VAL_PROF3 valor_profundizacion_tres,&#xA;localidad_colegio.loc_nombre localidad_colegio&#xA;FROM mntac.acest&#xA;INNER JOIN mntac.accra_snies ON as_cra_cod=est_cra_cod &#xA;LEFT JOIN mntac.accra ON  cra_cod = as_cra_cod &#xA;LEFT JOIN mntac.actipcra ON  cra_tip_cra=tra_cod&#xA;LEFT JOIN mntac.acestotr ON  est_cod = eot_cod&#xA;LEFT JOIN gedep ON cra_dep_cod=dep_cod&#xA;LEFT JOIN acestadm on ead_cod=est_cod&#xA;LEFT JOIN mntac.acasp ON acestadm.ead_asp_cred=asp_cred and asp_ape_ano=acestadm.ead_asp_ano and &#xA; asp_ape_per=acestadm.ead_asp_per&#xA;LEFT JOIN actipins ON asp_ti_cod=ti_cod&#xA;LEFT JOIN mntge.gecolegio ON codigocolegio=asp_cod_colegio&#xA;LEFT JOIN aclocalidad localidad_aspirante ON localidad_aspirante.loc_nro=asp_localidad and &#xA; asp_ape_ano=localidad_aspirante.loc_ape_ano and asp_ape_per=localidad_aspirante.loc_ape_per&#xA;LEFT JOIN aclocalidad localidad_colegio ON localidad_colegio.loc_nro=asp_localidad_colegio  and &#xA; asp_ape_ano=localidad_colegio.loc_ape_ano and asp_ape_per=localidad_colegio.loc_ape_per&#xA; LEFT join acestado on (est_estado_est=estado_cod)&#xA;WHERE &#xA;est_estado_est != 'M' &#xA;AND est_estado_est != 'N' &#xA;AND tra_nivel   IN ('PREGRADO')&#xA;UNION &#xA;SELECT DISTINCT&#xA;est_nro_iden documento,&#xA;est_nombre nombre,&#xA;est_cod codigo_estudiante,&#xA;est_estado_est codigo_estado,&#xA;estado_nombre estado,&#xA;est_valor_matricula valor_matricula,&#xA;as_cra_cod_snies codigo_proyecto_snies, &#xA;as_cra_nom proyecto_snies,&#xA;cra_cod codigo_proyecto,&#xA;cra_nombre proyecto,&#xA;dep_cod codigo_facultad,&#xA;dep_nombre facultad,&#xA;tra_nombre modalidad, &#xA;tra_nivel  nivel,&#xA;decode(length(est_cod),7,(substr(est_cod,1,2)+1900),11,(substr(est_cod, 1,4))) anio, &#xA;decode(decode(length(est_cod),7,((substr(est_cod,3,1))),11,(substr(est_cod, 5,1))), '1','1',&#xA; '3') semestre, &#xA;TO_CHAR(DECODE(est_sexo,'M','MASCULINO','F','FEMENINO','NO REGISTRA')) genero,  &#xA;asp_estrato estrato,&#xA;asp_localidad codigo_localidad,&#xA;localidad_aspirante.loc_nombre localidad_aspirante,&#xA;asp_ti_cod codigo_inscripcion,&#xA;ti_nombre inscripcion,&#xA;naturaleza tipo_colegio,&#xA;asp_cod_colegio codigo_colegio,&#xA;gecolegio.nombreoficial colegio,&#xA;gecolegio.municipio municipio_colegio,&#xA;gecolegio.departamento departamento_colegio,&#xA;gecolegio.calendario calendario_colegio,&#xA;asp_localidad_colegio codigo_localidad_colegio,&#xA;ASP_BIO biologia,&#xA;ASP_QUI quimica,&#xA;ASP_FIS fisica,&#xA;ASP_SOC sociales,&#xA;ASP_APT_VERBAL aptitud_verbal,&#xA;ASP_ESP_Y_LIT espanol_literatura,&#xA;ASP_APT_MAT aptitud_matematica,&#xA;ASP_CON_MAT condicion_matematica,&#xA;ASP_FIL filosofia,&#xA;ASP_HIS historia,&#xA;ASP_GEO geografia,&#xA;ASP_IDIOMA idioma,&#xA;ASP_INTERDIS interdiciplinar,&#xA;ASP_COD_INTER codigo_interdiciplinar,&#xA;ASP_PTOS puntos_icfes,&#xA;ASP_PTOS_HOM ,&#xA;ASP_PROFUND profundizacion,&#xA;ASP_VAL_PROF valor_profundizacion,&#xA;ASP_PROFUND2 profundizacion_dos,&#xA;ASP_VAL_PROF2 valor_profundizacion_dos,&#xA;ASP_PROFUND3 profundizacion_tres,&#xA;ASP_VAL_PROF3 valor_profundizacion_tres,&#xA;localidad_colegio.loc_nombre localidad_colegio&#xA;FROM mntac.acest&#xA;INNER JOIN mntac.accra_snies ON as_cra_cod=est_cra_cod &#xA;LEFT JOIN mntac.accra ON  cra_cod = as_cra_cod &#xA;LEFT JOIN mntac.actipcra ON  cra_tip_cra=tra_cod&#xA;LEFT JOIN mntac.acestotr ON  est_cod = eot_cod&#xA;LEFT JOIN gedep ON cra_dep_cod=dep_cod&#xA;LEFT JOIN acestadm on ead_cod=est_cod&#xA;LEFT JOIN mntac.acasp ON acestadm.ead_asp_cred=asp_cred and asp_ape_ano=acestadm.ead_asp_ano and &#xA; asp_ape_per=acestadm.ead_asp_per&#xA;LEFT JOIN actipins ON asp_ti_cod=ti_cod&#xA;LEFT JOIN mntge.gecolegio ON codigocolegio=asp_cod_colegio&#xA;LEFT JOIN aclocalidad localidad_aspirante ON localidad_aspirante.loc_nro=asp_localidad and &#xA; asp_ape_ano=localidad_aspirante.loc_ape_ano and asp_ape_per=localidad_aspirante.loc_ape_per&#xA;LEFT JOIN aclocalidad localidad_colegio ON localidad_colegio.loc_nro=asp_localidad_colegio  and &#xA; asp_ape_ano=localidad_colegio.loc_ape_ano and asp_ape_per=localidad_colegio.loc_ape_per&#xA; LEFT join acestado on (est_estado_est=estado_cod)&#xA;WHERE &#xA;est_estado_est != 'M' &#xA;AND est_estado_est != 'N' &#xA;AND tra_nivel         IN ('DOCTORADO','MAESTRIA','POSGRADO') &#xA;) primiparo&#xA;order by &#xA;primiparo.anio, &#xA;primiparo.semestre&quot;"/>
+    <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime" show="false"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false" show="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" value="&quot;&quot;" show="false"/>
+    <elementParameter field="MAPPING_TYPE" name="MAPPING" value="oracle_id" show="false"/>
+    <elementParameter field="CHECK" name="FORCE_CRS" value="false"/>
+    <elementParameter field="TEXT" name="CRS" value="&quot;EPSG:4326&quot;" show="false"/>
+    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="import org.talend.sdi.geometry.Geometry;" show="false"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;" show="false"/>
+    <elementParameter field="LABEL" name="NOTE" value="*Note: Example for Additional JDBC Parameters: &quot;parameterName1=value1&amp;&amp;parameterName2=value2&quot;" show="false"/>
+    <elementParameter field="CHECK" name="IS_CONVERT_XMLTYPE" value="false"/>
+    <elementParameter field="TABLE" name="CONVERT_XMLTYPE" show="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15" show="false"/>
+    <elementParameter field="CHECK" name="USE_CURSOR" value="false"/>
+    <elementParameter field="TEXT" name="CURSOR_SIZE" value="1000" show="false"/>
+    <elementParameter field="CHECK" name="TRIM_ALL_COLUMN" value="true"/>
+    <elementParameter field="TABLE" name="TRIM_COLUMN" show="false">
+      <elementValue elementRef="SCHEMA_COLUMN" value="IES_CODE"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="ANIO"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SEMESTRE"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CODIGO_FACULTAD"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="FACULTAD"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CODIGO_PROYECTO_SNIES"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PROYECTO_SNIES"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CODIGO_PROYECTO"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PROYECTO"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="MODALIDAD"/>
+      <elementValue elementRef="TRIM" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="NIVEL"/>
+      <elementValue elementRef="TRIM" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="DPTO_COD"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="DPTO"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="MUN_COD"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="MUN"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="GENERO"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CODIGO_LOCALIDAD"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="LOCALIDAD_ASPIRANTE"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="ESTRATO"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CODIGO_ESTUDIANTE"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="DOCUMENTO"/>
+      <elementValue elementRef="TRIM" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="NOMBRE"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="TIPO_COLEGIO"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CODIGO_LOCALIDAD_COLEGIO"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="LOCALIDAD_COLEGIO"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CODIGO_COLEGIO"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CALENDARIO_COLEGIO"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="COLEGIO"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="MUNICIPIO_COLEGIO"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="DEPARTAMENTO_COLEGIO"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CODIGO_INSCRIPCION"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="INSCRIPCION"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="BIOLOGIA"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="QUIMICA"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="FISICA"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SOCIALES"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="APTITUD_VERBAL"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="ESPANOL_LITERATURA"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="APTITUD_MATEMATICA"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CONDICION_MATEMATICA"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="FILOSOFIA"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="HISTORIA"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="GEOGRAFIA"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="IDIOMA"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="INTERDICIPLINAR"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CODIGO_INTERDICIPLINAR"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PUNTOS_ICFES"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="ASP_PTOS_HOM"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PROFUNDIZACION"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="VALOR_PROFUNDIZACION"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PROFUNDIZACION_DOS"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="VALOR_PROFUNDIZACION_DOS"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PROFUNDIZACION_TRES"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="VALOR_PROFUNDIZACION_TRES"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="VALOR_MATRICULA"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CODIGO_ESTADO"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="ESTADO"/>
+      <elementValue elementRef="TRIM" value="false"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="NO_NULL_VALUES" value="true"/>
+    <elementParameter field="TEXT" name="LABEL" value="CO_UDISTRITAL_ACADEMICA"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tOracleInput_2">
+      <column comment="" defaultValue="" key="false" length="4" name="IES_CODE" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" originalLength="4" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="4" name="ANIO" nullable="true" pattern="" precision="-1" sourceType="INT" type="id_Integer" originalLength="4" usefulColumn="true"/>
+      <column comment="" key="false" length="1" name="SEMESTRE" nullable="true" pattern="" precision="0" sourceType="" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="3" name="CODIGO_FACULTAD" nullable="true" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="64" name="FACULTAD" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="CODIGO_PROYECTO_SNIES" nullable="true" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="100" name="PROYECTO_SNIES" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="3" name="CODIGO_PROYECTO" nullable="true" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="100" name="PROYECTO" nullable="true" pattern="" precision="0" sourceType="" type="id_String" originalLength="100" usefulColumn="true"/>
+      <column comment="" key="false" length="50" name="MODALIDAD" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="NIVEL" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="2" name="DPTO_COD" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="DPTO" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="4" name="MUN_COD" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="MUN" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="11" name="GENERO" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="2" name="CODIGO_LOCALIDAD" nullable="true" pattern="" precision="0" sourceType="" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="30" name="LOCALIDAD_ASPIRANTE" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="2" name="ESTRATO" nullable="true" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="11" name="CODIGO_ESTUDIANTE" nullable="true" pattern="" precision="0" sourceType="NUMBER" type="id_Long" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="14" name="DOCUMENTO" nullable="true" pattern="" precision="0" sourceType="NUMBER" type="id_Long" usefulColumn="true"/>
+      <column comment="" key="false" length="50" name="NOMBRE" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="TIPO_COLEGIO" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="2" name="CODIGO_LOCALIDAD_COLEGIO" nullable="true" pattern="" precision="0" sourceType="" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="30" name="LOCALIDAD_COLEGIO" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="15" name="CODIGO_COLEGIO" nullable="true" pattern="" precision="0" sourceType="INT" type="id_Long" usefulColumn="true"/>
+      <column comment="" key="false" length="1" name="CALENDARIO_COLEGIO" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="100" name="COLEGIO" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="30" name="MUNICIPIO_COLEGIO" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="15" name="DEPARTAMENTO_COLEGIO" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="2" name="CODIGO_INSCRIPCION" nullable="true" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="50" name="INSCRIPCION" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="5" name="BIOLOGIA" nullable="true" pattern="" precision="2" sourceType="DOUBLE PRECISION" type="id_Double" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="5" name="QUIMICA" nullable="true" pattern="" precision="2" sourceType="DOUBLE PRECISION" type="id_Double" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="5" name="FISICA" nullable="true" pattern="" precision="2" sourceType="DOUBLE PRECISION" type="id_Double" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="5" name="SOCIALES" nullable="true" pattern="" precision="2" sourceType="DOUBLE PRECISION" type="id_Double" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="5" name="APTITUD_VERBAL" nullable="true" pattern="" precision="2" sourceType="DOUBLE PRECISION" type="id_Double" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="5" name="ESPANOL_LITERATURA" nullable="true" pattern="" precision="2" sourceType="DOUBLE PRECISION" type="id_Double" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="5" name="APTITUD_MATEMATICA" nullable="true" pattern="" precision="2" sourceType="DOUBLE PRECISION" type="id_Double" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="5" name="CONDICION_MATEMATICA" nullable="true" pattern="" precision="2" sourceType="DOUBLE PRECISION" type="id_Double" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="5" name="FILOSOFIA" nullable="true" pattern="" precision="2" sourceType="DOUBLE PRECISION" type="id_Double" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="5" name="HISTORIA" nullable="true" pattern="" precision="2" sourceType="DOUBLE PRECISION" type="id_Double" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="5" name="GEOGRAFIA" nullable="true" pattern="" precision="2" sourceType="DOUBLE PRECISION" type="id_Double" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="5" name="IDIOMA" nullable="true" pattern="" precision="2" sourceType="DOUBLE PRECISION" type="id_Double" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="5" name="INTERDICIPLINAR" nullable="true" pattern="" precision="2" sourceType="DOUBLE PRECISION" type="id_Double" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="1" name="CODIGO_INTERDICIPLINAR" nullable="true" pattern="" precision="0" sourceType="DOUBLE PRECISION" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="6" name="PUNTOS_ICFES" nullable="true" pattern="" precision="2" sourceType="DOUBLE PRECISION" type="id_Double" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="6" name="ASP_PTOS_HOM" nullable="true" pattern="" precision="2" sourceType="DOUBLE PRECISION" type="id_Double" usefulColumn="true"/>
+      <column comment="" key="false" length="1" name="PROFUNDIZACION" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="2" name="VALOR_PROFUNDIZACION" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="1" name="PROFUNDIZACION_DOS" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="2" name="VALOR_PROFUNDIZACION_DOS" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="1" name="PROFUNDIZACION_TRES" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="2" name="VALOR_PROFUNDIZACION_TRES" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="8" name="VALOR_MATRICULA" nullable="true" pattern="" precision="0" sourceType="DOUBLE PRECISION" type="id_Double" usefulColumn="true"/>
+      <column comment="" key="false" length="1" name="CODIGO_ESTADO" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="ESTADO" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="320" posY="224">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tMap_1" show="false"/>
+    <elementParameter field="CHECK" name="TSTATCATCHER_STATS" value="true"/>
+    <elementParameter field="EXTERNAL" name="MAP" value=""/>
+    <elementParameter field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
+    <elementParameter field="DIRECTORY" name="TEMPORARY_DATA_DIRECTORY" value=""/>
+    <elementParameter field="IMAGE" name="PREVIEW" value="_S-R1oOxMEeOJG-zVQ5Esdg-tMap_1-PREVIEW.bmp"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true" show="false"/>
+    <elementParameter field="CHECK" name="LKUP_PARALLELIZE" value="false" show="false"/>
+    <elementParameter field="TEXT" name="LEVENSHTEIN" value="0" show="false"/>
+    <elementParameter field="TEXT" name="JACCARD" value="0" show="false"/>
+    <elementParameter field="CHECK" name="ENABLE_AUTO_CONVERT_TYPE" value="false" show="false"/>
+    <elementParameter field="TEXT" name="ROWS_BUFFER_SIZE" value="2000000"/>
+    <elementParameter field="CHECK" name="CHANGE_HASH_AND_EQUALS_FOR_BIGDECIMAL" value="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="primiparos" name="primiparos">
+      <column comment="" key="true" length="-1" name="id" nullable="false" pattern="" precision="-1" sourceType="" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="4" name="codigo_ies" nullable="true" pattern="" precision="0" sourceType="" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="4" name="anno" nullable="true" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="2" name="semestre" nullable="true" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="3" name="codigo_facultad" nullable="true" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="64" name="facultad" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="codigo_proyecto_snies" nullable="true" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="100" name="proyecto_snies" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="3" name="codigo_proyecto" nullable="true" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="100" name="proyecto" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="metodologia" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="50" name="modalidad" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="nivel" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="2" name="estrato" nullable="true" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="11" name="genero" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="2" name="codigo_departamento" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="departamento" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="4" name="codigo_municipio" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="municipio" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="14" name="documento" nullable="true" pattern="" precision="0" sourceType="NUMBER" type="id_Long" usefulColumn="true"/>
+      <column comment="" key="false" length="50" name="nombre" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="2" name="codigo_localidad" nullable="true" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="30" name="localidad" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="11" name="tipo_colegio" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="2" name="codigo_localidad_colegio" nullable="true" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="30" name="localidad_colegio" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="11" name="calendario_colegio" nullable="true" pattern="" precision="0" sourceType="" type="id_String" originalLength="11" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="12" name="codigo_colegio" nullable="true" pattern="" precision="0" sourceType="INT" type="id_Long" usefulColumn="true"/>
+      <column comment="" key="false" length="100" name="colegio" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="30" name="municipio_colegio" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="15" name="departamento_colegio" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="2" name="codigo_inscripcion" nullable="true" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="50" name="inscripcion" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="5" name="biologia" nullable="true" pattern="" precision="2" sourceType="INT" type="id_Double" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="5" name="quimica" nullable="true" pattern="" precision="2" sourceType="INT" type="id_Double" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="5" name="fisica" nullable="true" pattern="" precision="2" sourceType="INT" type="id_Double" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="5" name="sociales" nullable="true" pattern="" precision="2" sourceType="INT" type="id_Double" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="5" name="aptitud_verbal" nullable="true" pattern="" precision="2" sourceType="INT" type="id_Double" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="5" name="espanol_literatura" nullable="true" pattern="" precision="2" sourceType="INT" type="id_Double" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="5" name="aptitud_matematica" nullable="true" pattern="" precision="2" sourceType="INT" type="id_Double" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="5" name="condicion_matematica" nullable="true" pattern="" precision="2" sourceType="INT" type="id_Double" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="5" name="filosofia" nullable="true" pattern="" precision="2" sourceType="INT" type="id_Double" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="5" name="historia" nullable="true" pattern="" precision="2" sourceType="INT" type="id_Double" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="5" name="geografia" nullable="true" pattern="" precision="2" sourceType="INT" type="id_Double" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="5" name="idioma" nullable="true" pattern="" precision="2" sourceType="INT" type="id_Double" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="5" name="interdiciplinar" nullable="true" pattern="" precision="2" sourceType="INT" type="id_Double" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="1" name="codiogo_interdiciplinar" nullable="true" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="6" name="puntos_icfes" nullable="true" pattern="" precision="2" sourceType="INT" type="id_Double" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="6" name="puntos_homologados" nullable="true" pattern="" precision="2" sourceType="INT" type="id_Double" usefulColumn="true"/>
+      <column comment="" key="false" length="1" name="profundizacion" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="2" name="valor_profundizacion" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="1" name="profundizacion_dos" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="2" name="valor_profundizacion_dos" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="1" name="profundizacion_tres" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="2" name="valor_profundizacion_tres" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="1" name="codigo_estado" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="estado" nullable="true" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="11" name="codigo_estudiante" nullable="true" pattern="" precision="0" sourceType="NUMBER" type="id_Long" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="8" name="valor_matricula" nullable="true" pattern="" precision="0" sourceType="" type="id_Double" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="anno_semestre" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="fecha_carga" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="" type="id_Date" usefulColumn="true"/>
+    </metadata>
+    <nodeData xsi:type="TalendMapper:MapperData">
+      <uiProperties/>
+      <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
+      <outputTables sizeState="INTERMEDIATE" name="primiparos">
+        <mapperTableEntries name="id" expression="Numeric.sequence(&quot;s1&quot;,1,1) " type="id_Integer"/>
+        <mapperTableEntries name="codigo_ies" expression="row1.IES_CODE " type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="anno" expression="row1.ANIO " type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="semestre" expression="row1.SEMESTRE " type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="codigo_facultad" expression="row1.CODIGO_FACULTAD " type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="facultad" expression="row1.FACULTAD " type="id_String" nullable="true"/>
+        <mapperTableEntries name="codigo_proyecto_snies" expression="row1.CODIGO_PROYECTO_SNIES ==null?99:row1.CODIGO_PROYECTO_SNIES " type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="proyecto_snies" expression="row1.PROYECTO_SNIES ==null?&quot;NO REGISTRA&quot;:row1.PROYECTO_SNIES " type="id_String" nullable="true"/>
+        <mapperTableEntries name="codigo_proyecto" expression="row1.CODIGO_PROYECTO " type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="proyecto" expression="row1.PROYECTO " type="id_String" nullable="true"/>
+        <mapperTableEntries name="metodologia" expression="&quot;PRESENCIAL&quot;" type="id_String" nullable="true"/>
+        <mapperTableEntries name="modalidad" expression="row1.MODALIDAD " type="id_String" nullable="true"/>
+        <mapperTableEntries name="nivel" expression="row1.NIVEL " type="id_String" nullable="true"/>
+        <mapperTableEntries name="estrato" expression="row1.ESTRATO == null ?99:row1.ESTRATO  " type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="genero" expression="row1.GENERO ==null?&quot;NO REGISTRA&quot;:row1.GENERO " type="id_String" nullable="true"/>
+        <mapperTableEntries name="codigo_departamento" expression="row1.DPTO_COD " type="id_String" nullable="true"/>
+        <mapperTableEntries name="departamento" expression="row1.DPTO " type="id_String" nullable="true"/>
+        <mapperTableEntries name="codigo_municipio" expression="row1.MUN_COD " type="id_String" nullable="true"/>
+        <mapperTableEntries name="municipio" expression="row1.MUN " type="id_String" nullable="true"/>
+        <mapperTableEntries name="documento" expression="row1.DOCUMENTO " type="id_Long" nullable="true"/>
+        <mapperTableEntries name="nombre" expression="row1.NOMBRE " type="id_String" nullable="true"/>
+        <mapperTableEntries name="codigo_localidad" expression="row1.CODIGO_LOCALIDAD ==null?99:row1.CODIGO_LOCALIDAD   " type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="localidad" expression="row1.LOCALIDAD_ASPIRANTE == null ? &quot;NO REGISTRA&quot;:row1.LOCALIDAD_ASPIRANTE " type="id_String" nullable="true"/>
+        <mapperTableEntries name="tipo_colegio" expression="row1.TIPO_COLEGIO ==null?&quot;NO REGISTRA&quot;:row1.TIPO_COLEGIO  " type="id_String" nullable="true"/>
+        <mapperTableEntries name="codigo_localidad_colegio" expression="row1.CODIGO_LOCALIDAD_COLEGIO == null?99:row1.CODIGO_LOCALIDAD_COLEGIO " type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="localidad_colegio" expression="row1.LOCALIDAD_COLEGIO ==null?&quot;NO REGISTRA&quot;:row1.LOCALIDAD_COLEGIO " type="id_String" nullable="true"/>
+        <mapperTableEntries name="calendario_colegio" expression="row1.CALENDARIO_COLEGIO " type="id_String" nullable="true"/>
+        <mapperTableEntries name="codigo_colegio" expression="row1.COLEGIO == null?99:row1.CODIGO_COLEGIO " type="id_Long" nullable="true"/>
+        <mapperTableEntries name="colegio" expression="row1.COLEGIO == null?&quot;NO REGISTRA&quot;:row1.COLEGIO " type="id_String" nullable="true"/>
+        <mapperTableEntries name="municipio_colegio" expression="row1.MUNICIPIO_COLEGIO == null?&quot;NO REGISTRA&quot;:row1.MUNICIPIO_COLEGIO  " type="id_String" nullable="true"/>
+        <mapperTableEntries name="departamento_colegio" expression="row1.DEPARTAMENTO_COLEGIO == null?&quot;NO REGISTRA&quot;:row1.DEPARTAMENTO_COLEGIO " type="id_String" nullable="true"/>
+        <mapperTableEntries name="codigo_inscripcion" expression="row1.CODIGO_INSCRIPCION ==null?99:row1.CODIGO_INSCRIPCION  " type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="inscripcion" expression="row1.INSCRIPCION ==null?&quot;NO REGISTRA&quot;:row1.INSCRIPCION  " type="id_String" nullable="true"/>
+        <mapperTableEntries name="biologia" expression="row1.BIOLOGIA " type="id_Double" nullable="true"/>
+        <mapperTableEntries name="quimica" expression="row1.QUIMICA " type="id_Double" nullable="true"/>
+        <mapperTableEntries name="fisica" expression="row1.FISICA " type="id_Double" nullable="true"/>
+        <mapperTableEntries name="sociales" expression="row1.SOCIALES " type="id_Double" nullable="true"/>
+        <mapperTableEntries name="aptitud_verbal" expression="row1.APTITUD_VERBAL " type="id_Double" nullable="true"/>
+        <mapperTableEntries name="espanol_literatura" expression="row1.ESPANOL_LITERATURA " type="id_Double" nullable="true"/>
+        <mapperTableEntries name="aptitud_matematica" expression="row1.APTITUD_MATEMATICA " type="id_Double" nullable="true"/>
+        <mapperTableEntries name="condicion_matematica" expression="row1.CONDICION_MATEMATICA " type="id_Double" nullable="true"/>
+        <mapperTableEntries name="filosofia" expression="row1.FILOSOFIA " type="id_Double" nullable="true"/>
+        <mapperTableEntries name="historia" expression="row1.HISTORIA " type="id_Double" nullable="true"/>
+        <mapperTableEntries name="geografia" expression="row1.GEOGRAFIA " type="id_Double" nullable="true"/>
+        <mapperTableEntries name="idioma" expression="row1.IDIOMA " type="id_Double" nullable="true"/>
+        <mapperTableEntries name="interdiciplinar" expression="row1.INTERDICIPLINAR " type="id_Double" nullable="true"/>
+        <mapperTableEntries name="codiogo_interdiciplinar" expression="row1.CODIGO_INTERDICIPLINAR " type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="puntos_icfes" expression="row1.PUNTOS_ICFES " type="id_Double" nullable="true"/>
+        <mapperTableEntries name="puntos_homologados" expression="row1.ASP_PTOS_HOM " type="id_Double" nullable="true"/>
+        <mapperTableEntries name="profundizacion" expression="row1.PROFUNDIZACION " type="id_String" nullable="true"/>
+        <mapperTableEntries name="valor_profundizacion" expression="row1.VALOR_PROFUNDIZACION " type="id_String" nullable="true"/>
+        <mapperTableEntries name="profundizacion_dos" expression="row1.PROFUNDIZACION_DOS " type="id_String" nullable="true"/>
+        <mapperTableEntries name="valor_profundizacion_dos" expression="row1.VALOR_PROFUNDIZACION_DOS " type="id_String" nullable="true"/>
+        <mapperTableEntries name="profundizacion_tres" expression="row1.PROFUNDIZACION_TRES " type="id_String" nullable="true"/>
+        <mapperTableEntries name="valor_profundizacion_tres" expression="row1.VALOR_PROFUNDIZACION_TRES " type="id_String" nullable="true"/>
+        <mapperTableEntries name="codigo_estado" expression="row1.CODIGO_ESTADO " type="id_String" nullable="true"/>
+        <mapperTableEntries name="estado" expression="row1.ESTADO " type="id_String" nullable="true"/>
+        <mapperTableEntries name="codigo_estudiante" expression="row1.CODIGO_ESTUDIANTE " type="id_Long" nullable="true"/>
+        <mapperTableEntries name="valor_matricula" expression="row1.VALOR_MATRICULA " type="id_Double" nullable="true"/>
+        <mapperTableEntries name="anno_semestre" expression="row1.ANIO+&quot;-&quot;+row1.SEMESTRE " type="id_String" nullable="true"/>
+        <mapperTableEntries name="fecha_carga" expression="TalendDate.parseDate(&quot;DD-MM-yyyy&quot;,TalendDate.getDate(&quot;dd-mm-yyyy&quot;)) " type="id_Date" nullable="true"/>
+      </outputTables>
+      <inputTables sizeState="INTERMEDIATE" name="row1" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
+        <mapperTableEntries name="IES_CODE" type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="ANIO" type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="SEMESTRE" type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="CODIGO_FACULTAD" type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="FACULTAD" type="id_String" nullable="true"/>
+        <mapperTableEntries name="CODIGO_PROYECTO_SNIES" type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="PROYECTO_SNIES" type="id_String" nullable="true"/>
+        <mapperTableEntries name="CODIGO_PROYECTO" type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="PROYECTO" type="id_String" nullable="true"/>
+        <mapperTableEntries name="MODALIDAD" type="id_String" nullable="true"/>
+        <mapperTableEntries name="NIVEL" type="id_String" nullable="true"/>
+        <mapperTableEntries name="DPTO_COD" type="id_String" nullable="true"/>
+        <mapperTableEntries name="DPTO" type="id_String" nullable="true"/>
+        <mapperTableEntries name="MUN_COD" type="id_String" nullable="true"/>
+        <mapperTableEntries name="MUN" type="id_String" nullable="true"/>
+        <mapperTableEntries name="GENERO" type="id_String" nullable="true"/>
+        <mapperTableEntries name="CODIGO_LOCALIDAD" type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="LOCALIDAD_ASPIRANTE" type="id_String" nullable="true"/>
+        <mapperTableEntries name="ESTRATO" type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="CODIGO_ESTUDIANTE" type="id_Long" nullable="true"/>
+        <mapperTableEntries name="DOCUMENTO" type="id_Long" nullable="true"/>
+        <mapperTableEntries name="NOMBRE" type="id_String" nullable="true"/>
+        <mapperTableEntries name="TIPO_COLEGIO" type="id_String" nullable="true"/>
+        <mapperTableEntries name="CODIGO_LOCALIDAD_COLEGIO" type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="LOCALIDAD_COLEGIO" type="id_String" nullable="true"/>
+        <mapperTableEntries name="CODIGO_COLEGIO" type="id_Long" nullable="true"/>
+        <mapperTableEntries name="CALENDARIO_COLEGIO" type="id_String" nullable="true"/>
+        <mapperTableEntries name="COLEGIO" type="id_String" nullable="true"/>
+        <mapperTableEntries name="MUNICIPIO_COLEGIO" type="id_String" nullable="true"/>
+        <mapperTableEntries name="DEPARTAMENTO_COLEGIO" type="id_String" nullable="true"/>
+        <mapperTableEntries name="CODIGO_INSCRIPCION" type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="INSCRIPCION" type="id_String" nullable="true"/>
+        <mapperTableEntries name="BIOLOGIA" type="id_Double" nullable="true"/>
+        <mapperTableEntries name="QUIMICA" type="id_Double" nullable="true"/>
+        <mapperTableEntries name="FISICA" type="id_Double" nullable="true"/>
+        <mapperTableEntries name="SOCIALES" type="id_Double" nullable="true"/>
+        <mapperTableEntries name="APTITUD_VERBAL" type="id_Double" nullable="true"/>
+        <mapperTableEntries name="ESPANOL_LITERATURA" type="id_Double" nullable="true"/>
+        <mapperTableEntries name="APTITUD_MATEMATICA" type="id_Double" nullable="true"/>
+        <mapperTableEntries name="CONDICION_MATEMATICA" type="id_Double" nullable="true"/>
+        <mapperTableEntries name="FILOSOFIA" type="id_Double" nullable="true"/>
+        <mapperTableEntries name="HISTORIA" type="id_Double" nullable="true"/>
+        <mapperTableEntries name="GEOGRAFIA" type="id_Double" nullable="true"/>
+        <mapperTableEntries name="IDIOMA" type="id_Double" nullable="true"/>
+        <mapperTableEntries name="INTERDICIPLINAR" type="id_Double" nullable="true"/>
+        <mapperTableEntries name="CODIGO_INTERDICIPLINAR" type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="PUNTOS_ICFES" type="id_Double" nullable="true"/>
+        <mapperTableEntries name="ASP_PTOS_HOM" type="id_Double" nullable="true"/>
+        <mapperTableEntries name="PROFUNDIZACION" type="id_String" nullable="true"/>
+        <mapperTableEntries name="VALOR_PROFUNDIZACION" type="id_String" nullable="true"/>
+        <mapperTableEntries name="PROFUNDIZACION_DOS" type="id_String" nullable="true"/>
+        <mapperTableEntries name="VALOR_PROFUNDIZACION_DOS" type="id_String" nullable="true"/>
+        <mapperTableEntries name="PROFUNDIZACION_TRES" type="id_String" nullable="true"/>
+        <mapperTableEntries name="VALOR_PROFUNDIZACION_TRES" type="id_String" nullable="true"/>
+        <mapperTableEntries name="VALOR_MATRICULA" type="id_Double" nullable="true"/>
+        <mapperTableEntries name="CODIGO_ESTADO" type="id_String" nullable="true"/>
+        <mapperTableEntries name="ESTADO" type="id_String" nullable="true"/>
+      </inputTables>
+    </nodeData>
+  </node>
+  <node componentName="tPostgresqlOutput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="512" posY="224">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tPostgresqlOutput_1" show="false"/>
+    <elementParameter field="CHECK" name="TSTATCATCHER_STATS" value="true"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY" show="false"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_0BQUcLR_EeO1O9EGlcYshg" show="false"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tPostgresqlConnection_1"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="PRIOR_TO_V9" show="false"/>
+    <elementParameter field="TEXT" name="HOST" value="&quot;10.20.0.88&quot;" show="false"/>
+    <elementParameter field="TEXT" name="PORT" value="&quot;5432&quot;" show="false"/>
+    <elementParameter field="TEXT" name="DBNAME" value="&quot;DMINDICADORES&quot;" show="false"/>
+    <elementParameter field="TEXT" name="TYPE" value="POSTGRESQL" show="false"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;public&quot;" show="false"/>
+    <elementParameter field="TEXT" name="USER" value="&quot;postgres&quot;" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS" value="NrE2x5vAkVTo4I4wi1Afkw==" show="false"/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;primiparos&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="DROP_CREATE"/>
+    <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="INSERT"/>
+    <elementParameter field="CHECK" name="USE_SPATIAL_OPTIONS" value="false"/>
+    <elementParameter field="CHECK" name="SPATIAL_INDEX" value="false" show="false"/>
+    <elementParameter field="CHECK" name="GEOMETRY_COLUMNS" value="false" show="false"/>
+    <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime" show="false"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false" show="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" value="&quot;&quot;" show="false"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true"/>
+    <elementParameter field="MAPPING_TYPE" name="MAPPING" value="postgres_id" show="false"/>
+    <elementParameter field="CHECK" name="SAVE_POINT" value="false" show="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="TEXT" name="COMMIT_EVERY" value="10000" show="false"/>
+    <elementParameter field="TABLE" name="ADD_COLS"/>
+    <elementParameter field="CHECK" name="USE_FIELD_OPTIONS" value="false"/>
+    <elementParameter field="TABLE" name="FIELD_OPTIONS" show="false">
+      <elementValue elementRef="SCHEMA_COLUMN" value="id"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="codigo_ies"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="anno"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="semestre"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="codigo_facultad"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="facultad"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="codigo_proyecto_snies"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="proyecto_snies"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="codigo_proyecto"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="proyecto"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="metodologia"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="modalidad"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="nivel"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="estrato"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="genero"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="codigo_departamento"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="departamento"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="codigo_municipio"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="municipio"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="documento"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="nombre"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="codigo_localidad"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="localidad"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="tipo_colegio"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="codigo_localidad_colegio"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="localidad_colegio"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="calendario_colegio"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="codigo_colegio"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="colegio"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="municipio_colegio"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="departamento_colegio"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="codigo_inscripcion"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="inscripcion"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="biologia"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="quimica"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="fisica"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="sociales"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="aptitud_verbal"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="espanol_literatura"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="aptitud_matematica"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="condicion_matematica"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="filosofia"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="historia"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="geografia"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="idioma"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="interdiciplinar"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="codiogo_interdiciplinar"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="puntos_icfes"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="puntos_homologados"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="profundizacion"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="valor_profundizacion"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="profundizacion_dos"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="valor_profundizacion_dos"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="profundizacion_tres"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="valor_profundizacion_tres"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="codigo_estado"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="estado"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="codigo_estudiante"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="valor_matricula"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="anno_semestre"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="fecha_carga"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="ENABLE_DEBUG_MODE" value="false"/>
+    <elementParameter field="CHECK" name="SUPPORT_NULL_WHERE" value="false"/>
+    <elementParameter field="CHECK" name="USE_BATCH_SIZE" value="false"/>
+    <elementParameter field="TEXT" name="BATCH_SIZE" value="10000" show="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="CO_UDISTRITAL_INDICADORES14"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="primiparos" name="tPostgresqlOutput_1">
+      <column comment="" key="true" length="-1" name="id" nullable="false" pattern="" precision="-1" sourceType="INT4" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="4" name="codigo_ies" nullable="true" pattern="" precision="0" sourceType="INT4" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="4" name="anno" nullable="true" pattern="" precision="0" sourceType="INT4" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="2" name="semestre" nullable="true" pattern="" precision="0" sourceType="INT4" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="3" name="codigo_facultad" nullable="true" pattern="" precision="0" sourceType="INT4" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="64" name="facultad" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="codigo_proyecto_snies" nullable="true" pattern="" precision="0" sourceType="INT4" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="100" name="proyecto_snies" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="3" name="codigo_proyecto" nullable="true" pattern="" precision="0" sourceType="INT4" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="100" name="proyecto" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="metodologia" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="50" name="modalidad" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="nivel" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="2" name="estrato" nullable="true" pattern="" precision="0" sourceType="INT4" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="11" name="genero" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="2" name="codigo_departamento" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="departamento" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="4" name="codigo_municipio" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="municipio" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="14" name="documento" nullable="true" pattern="" precision="0" sourceType="INT8" type="id_Long" usefulColumn="true"/>
+      <column comment="" key="false" length="50" name="nombre" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="2" name="codigo_localidad" nullable="true" pattern="" precision="0" sourceType="INT4" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="30" name="localidad" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="11" name="tipo_colegio" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="2" name="codigo_localidad_colegio" nullable="true" pattern="" precision="0" sourceType="INT4" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="30" name="localidad_colegio" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="11" name="calendario_colegio" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="11" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="12" name="codigo_colegio" nullable="true" pattern="" precision="0" sourceType="INT8" type="id_Long" usefulColumn="true"/>
+      <column comment="" key="false" length="100" name="colegio" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="30" name="municipio_colegio" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="15" name="departamento_colegio" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="2" name="codigo_inscripcion" nullable="true" pattern="" precision="0" sourceType="INT4" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="50" name="inscripcion" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="5" name="biologia" nullable="true" pattern="" precision="2" sourceType="FLOAT8" type="id_Double" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="5" name="quimica" nullable="true" pattern="" precision="2" sourceType="FLOAT8" type="id_Double" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="5" name="fisica" nullable="true" pattern="" precision="2" sourceType="FLOAT8" type="id_Double" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="5" name="sociales" nullable="true" pattern="" precision="2" sourceType="FLOAT8" type="id_Double" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="5" name="aptitud_verbal" nullable="true" pattern="" precision="2" sourceType="FLOAT8" type="id_Double" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="5" name="espanol_literatura" nullable="true" pattern="" precision="2" sourceType="FLOAT8" type="id_Double" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="5" name="aptitud_matematica" nullable="true" pattern="" precision="2" sourceType="FLOAT8" type="id_Double" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="5" name="condicion_matematica" nullable="true" pattern="" precision="2" sourceType="FLOAT8" type="id_Double" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="5" name="filosofia" nullable="true" pattern="" precision="2" sourceType="FLOAT8" type="id_Double" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="5" name="historia" nullable="true" pattern="" precision="2" sourceType="FLOAT8" type="id_Double" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="5" name="geografia" nullable="true" pattern="" precision="2" sourceType="FLOAT8" type="id_Double" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="5" name="idioma" nullable="true" pattern="" precision="2" sourceType="FLOAT8" type="id_Double" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="5" name="interdiciplinar" nullable="true" pattern="" precision="2" sourceType="FLOAT8" type="id_Double" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="1" name="codiogo_interdiciplinar" nullable="true" pattern="" precision="0" sourceType="INT4" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="6" name="puntos_icfes" nullable="true" pattern="" precision="2" sourceType="FLOAT8" type="id_Double" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="6" name="puntos_homologados" nullable="true" pattern="" precision="2" sourceType="FLOAT8" type="id_Double" usefulColumn="true"/>
+      <column comment="" key="false" length="1" name="profundizacion" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="2" name="valor_profundizacion" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="1" name="profundizacion_dos" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="2" name="valor_profundizacion_dos" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="1" name="profundizacion_tres" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="2" name="valor_profundizacion_tres" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="1" name="codigo_estado" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="estado" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="11" name="codigo_estudiante" nullable="true" pattern="" precision="0" sourceType="INT8" type="id_Long" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="8" name="valor_matricula" nullable="true" pattern="" precision="0" sourceType="FLOAT8" type="id_Double" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="anno_semestre" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="fecha_carga" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="TIMESTAMP" type="id_Date" usefulColumn="true"/>
+    </metadata>
+    <metadata connector="REJECT" label="primiparos" name="REJECT">
+      <column comment="" key="true" length="-1" name="id" nullable="false" pattern="" precision="-1" sourceType="INT4" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="4" name="codigo_ies" nullable="true" pattern="" precision="0" sourceType="INT4" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="4" name="anno" nullable="true" pattern="" precision="0" sourceType="INT4" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="2" name="semestre" nullable="true" pattern="" precision="0" sourceType="INT4" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="3" name="codigo_facultad" nullable="true" pattern="" precision="0" sourceType="INT4" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="64" name="facultad" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="codigo_proyecto_snies" nullable="true" pattern="" precision="0" sourceType="INT4" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="100" name="proyecto_snies" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="3" name="codigo_proyecto" nullable="true" pattern="" precision="0" sourceType="INT4" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="100" name="proyecto" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="metodologia" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="50" name="modalidad" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="nivel" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="2" name="estrato" nullable="true" pattern="" precision="0" sourceType="INT4" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="11" name="genero" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="2" name="codigo_departamento" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="departamento" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="4" name="codigo_municipio" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="municipio" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="14" name="documento" nullable="true" pattern="" precision="0" sourceType="INT8" type="id_Long" usefulColumn="true"/>
+      <column comment="" key="false" length="50" name="nombre" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="2" name="codigo_localidad" nullable="true" pattern="" precision="0" sourceType="INT4" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="30" name="localidad" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="11" name="tipo_colegio" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="2" name="codigo_localidad_colegio" nullable="true" pattern="" precision="0" sourceType="INT4" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="30" name="localidad_colegio" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="11" name="calendario_colegio" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="11" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="12" name="codigo_colegio" nullable="true" pattern="" precision="0" sourceType="INT8" type="id_Long" usefulColumn="true"/>
+      <column comment="" key="false" length="100" name="colegio" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="30" name="municipio_colegio" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="15" name="departamento_colegio" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="2" name="codigo_inscripcion" nullable="true" pattern="" precision="0" sourceType="INT4" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="50" name="inscripcion" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="5" name="biologia" nullable="true" pattern="" precision="2" sourceType="FLOAT8" type="id_Double" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="5" name="quimica" nullable="true" pattern="" precision="2" sourceType="FLOAT8" type="id_Double" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="5" name="fisica" nullable="true" pattern="" precision="2" sourceType="FLOAT8" type="id_Double" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="5" name="sociales" nullable="true" pattern="" precision="2" sourceType="FLOAT8" type="id_Double" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="5" name="aptitud_verbal" nullable="true" pattern="" precision="2" sourceType="FLOAT8" type="id_Double" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="5" name="espanol_literatura" nullable="true" pattern="" precision="2" sourceType="FLOAT8" type="id_Double" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="5" name="aptitud_matematica" nullable="true" pattern="" precision="2" sourceType="FLOAT8" type="id_Double" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="5" name="condicion_matematica" nullable="true" pattern="" precision="2" sourceType="FLOAT8" type="id_Double" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="5" name="filosofia" nullable="true" pattern="" precision="2" sourceType="FLOAT8" type="id_Double" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="5" name="historia" nullable="true" pattern="" precision="2" sourceType="FLOAT8" type="id_Double" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="5" name="geografia" nullable="true" pattern="" precision="2" sourceType="FLOAT8" type="id_Double" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="5" name="idioma" nullable="true" pattern="" precision="2" sourceType="FLOAT8" type="id_Double" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="5" name="interdiciplinar" nullable="true" pattern="" precision="2" sourceType="FLOAT8" type="id_Double" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="1" name="codiogo_interdiciplinar" nullable="true" pattern="" precision="0" sourceType="INT4" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="6" name="puntos_icfes" nullable="true" pattern="" precision="2" sourceType="FLOAT8" type="id_Double" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="6" name="puntos_homologados" nullable="true" pattern="" precision="2" sourceType="FLOAT8" type="id_Double" usefulColumn="true"/>
+      <column comment="" key="false" length="1" name="profundizacion" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="2" name="valor_profundizacion" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="1" name="profundizacion_dos" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="2" name="valor_profundizacion_dos" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="1" name="profundizacion_tres" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="2" name="valor_profundizacion_tres" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="1" name="codigo_estado" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="estado" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="11" name="codigo_estudiante" nullable="true" pattern="" precision="0" sourceType="INT8" type="id_Long" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="8" name="valor_matricula" nullable="true" pattern="" precision="0" sourceType="FLOAT8" type="id_Double" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="anno_semestre" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="fecha_carga" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="TIMESTAMP" type="id_Date" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tOracleConnection" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="160" posY="64">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tOracleConnection_1" show="false"/>
+    <elementParameter field="CHECK" name="TSTATCATCHER_STATS" value="true"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="__ux0UFXLEeaAS5TwIydAdQ" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="CONNECTION_TYPE" value="ORACLE_SID"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="ORACLE_12"/>
+    <elementParameter field="TEXT" name="RAC_URL" value="&quot;&quot;" show="false"/>
+    <elementParameter field="CHECK" name="USE_TNS_FILE" value="false"/>
+    <elementParameter field="FILE" name="TNS_FILE" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TNS_EDITOR" name="TNS_EDITOR" value="" show="false"/>
+    <elementParameter field="TEXT" name="HOST" value="&quot;academicaproduccion.c8an9arwoaua.us-east-1.rds.amazonaws.com&quot;"/>
+    <elementParameter field="TEXT" name="TYPE" value="ORACLE_SID" show="false"/>
+    <elementParameter field="TEXT" name="PORT" value="&quot;1521&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME" value="&quot;sudd&quot;"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;MNTAC&quot;"/>
+    <elementParameter field="TEXT" name="USER" value="&quot;datawarefnl2&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS" value="HUY/CV1KPU4QqN98EfL1XQ=="/>
+    <elementParameter field="CHECK" name="USE_SSL" value="false" show="false"/>
+    <elementParameter field="FILE" name="SSL_TRUSTSERVER_TRUSTSTORE" value="&quot;&quot;" show="false"/>
+    <elementParameter field="PASSWORD" name="SSL_TRUSTSERVER_PASSWORD" value="0RMsyjmybrE=" show="false"/>
+    <elementParameter field="CHECK" name="NEED_CLIENT_AUTH" value="false" show="false"/>
+    <elementParameter field="FILE" name="SSL_KEYSTORE" value="&quot;&quot;" show="false"/>
+    <elementParameter field="PASSWORD" name="SSL_KEYSTORE_PASSWORD" value="0RMsyjmybrE=" show="false"/>
+    <elementParameter field="CHECK" name="DISABLE_CBC_PROTECTION" value="true" show="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;"/>
+    <elementParameter field="LABEL" name="NOTE" value="*Note: Example for Additional JDBC Parameters: &quot;parameterName1=value1&amp;&amp;parameterName2=value2&quot;"/>
+    <elementParameter field="CHECK" name="USE_SHARED_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="SHARED_CONNECTION_NAME" value="" show="false"/>
+    <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="JDBC_URL" value="&quot;jdbc:oracle:thin:USER/MDP@server&quot;" show="false"/>
+    <elementParameter field="CHECK" name="AUTO_COMMIT" value="true"/>
+    <elementParameter field="TEXT" name="LABEL" value="academica_amazon"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node componentName="tOracleClose" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="352" posY="320">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tOracleClose_1" show="false"/>
+    <elementParameter field="CHECK" name="TSTATCATCHER_STATS" value="true"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tOracleConnection_1"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node componentName="tPostjob" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="128" posY="320">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tPostjob_1" show="false"/>
+    <elementParameter field="CHECK" name="TSTATCATCHER_STATS" value="true"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node componentName="tPostgresqlClose" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="512" posY="320">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tPostgresqlClose_1" show="false"/>
+    <elementParameter field="CHECK" name="TSTATCATCHER_STATS" value="true"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tPostgresqlConnection_1"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node componentName="tPostgresqlConnection" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="416" posY="64">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tPostgresqlConnection_1" show="false"/>
+    <elementParameter field="CHECK" name="TSTATCATCHER_STATS" value="true"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_0BQUcLR_EeO1O9EGlcYshg" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="PRIOR_TO_V9"/>
+    <elementParameter field="TEXT" name="HOST" value="&quot;10.20.0.88&quot;"/>
+    <elementParameter field="TEXT" name="TYPE" value="POSTGRESQL" show="false"/>
+    <elementParameter field="TEXT" name="PORT" value="&quot;5432&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME" value="&quot;DMINDICADORES&quot;"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;public&quot;"/>
+    <elementParameter field="TEXT" name="USER" value="&quot;postgres&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS" value="NrE2x5vAkVTo4I4wi1Afkw=="/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="USE_SHARED_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="SHARED_CONNECTION_NAME" value="" show="false"/>
+    <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" value="&quot;&quot;" show="false"/>
+    <elementParameter field="CHECK" name="AUTO_COMMIT" value="true"/>
+    <elementParameter field="TEXT" name="LABEL" value="CO_UDISTRITAL_INDICADORES"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <connection connectorName="FLOW" label="row1" lineStyle="0" metaname="tOracleInput_2" offsetLabelX="0" offsetLabelY="0" source="tOracleInput_2" target="tMap_1">
+    <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER" show="false">
+      <elementValue elementRef="TRACE_COLUMN" value="COD_IES"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="ANO"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="PERIODO"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="MODALIDAD"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="NIVEL"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="CODIGO_FACULTAD"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="FACULTAD"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="CODIGO_PROYECTO_SNIES"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="PROYECTO_SNIES"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="CODIGO_PROYECTO"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="PROYECTO"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="DPTO_COD"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="DPTO"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="MUN_COD"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="MUN"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="DOCUMENTO"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="NOMBRE"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="row1" show="false"/>
+  </connection>
+  <connection connectorName="FLOW" label="primiparos" lineStyle="0" metaname="primiparos" offsetLabelX="0" offsetLabelY="0" source="tMap_1" target="tPostgresqlOutput_1">
+    <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER" show="false">
+      <elementValue elementRef="TRACE_COLUMN" value="codigo_ies"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="anno"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="semestre"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="PRO_CONSECUTIVO"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="PROGRAMA"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="MODALIDAD"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="NIVEL"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="DPTO_COD"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="DPTO"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="MUN_COD"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="MUN"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="DOCUMENTO"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="NOMBRE"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="modalidad"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="codigo_departamento"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="facultad"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="codigo_proyecto_snies"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="documento"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="codigo_municipio"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="fecha_carga"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="proyecto"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="nombre"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="id"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="municipio"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="departamento"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="codigo_proyecto"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="proyecto_snies"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="codigo_facultad"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="nivel"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="genero"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="estrato"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="valor_profundizacion_tres"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="codigo_localidad"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="aptitud_matematica"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="fisica"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="valor_profundizacion"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="codigo_colegio"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="historia"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="puntos_icfes"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="tipo_colegio"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="filosofia"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="inscripcion"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="puntos_homologados"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="localidad_colegio"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="sociales"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="espanol_literatura"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="aptitud_verbal"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="localidad"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="colegio"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="profundizacion_tres"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="profundizacion_dos"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="departamento_colegio"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="idioma"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="municipio_colegio"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="profundizacion"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="codigo_localidad_colegio"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="geografia"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="quimica"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="condicion_matematica"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="biologia"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="codigo_inscripcion"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="interdiciplinar"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="valor_profundizacion_dos"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="codiogo_interdiciplinar"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="CODIGO_ESTUDIANTE"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="codigo_estudiante"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="valor_matricula"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="metodologia"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="calendario_colegio"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="ESTADO"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="estado"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="codigo_estado"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="anno_semestre"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="primiparos" show="false"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tOracleConnection_1" offsetLabelX="0" offsetLabelY="0" source="tOracleConnection_1" target="tPostgresqlConnection_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk2" show="false"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tOracleClose_1" offsetLabelX="0" offsetLabelY="0" source="tOracleClose_1" target="tPostgresqlClose_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk1" show="false"/>
+  </connection>
+  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tPostjob_1" offsetLabelX="0" offsetLabelY="0" source="tPostjob_1" target="tOracleClose_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnComponentOk1" show="false"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tPostgresqlConnection_1" offsetLabelX="0" offsetLabelY="0" source="tPostgresqlConnection_1" target="tOracleInput_2">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk3" show="false"/>
+  </connection>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tOracleInput_2" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tOracleConnection_1" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tOracleClose_1" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tPostjob_1" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="230;100;0"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="255;220;180"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tPostgresqlClose_1" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tPostgresqlConnection_1" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+</talendfile:ProcessType>

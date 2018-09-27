@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_jcXnUCJ3EeiGjpTF28niHg" name="jovenes_accion_dps" dataPackage="_jcXnUSJ3EeiGjpTF28niHg" Server="Localhost 127.0.0.1" FilePath="/home/devmachine/jea_2017_2.csv" Encoding="UTF-8" FieldSeparatorValue="&quot;;&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_jcXnUSJ3EeiGjpTF28niHg" name="default" dataManager="_jcXnUCJ3EeiGjpTF28niHg">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_jcXnUiJ3EeiGjpTF28niHg" id="_YNc30CJ3EeiGjpTF28niHg" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jcXnUyJ3EeiGjpTF28niHg" label="CONSECUTIVO" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jcXnVCJ3EeiGjpTF28niHg" label="MUNICIPIO_OFERTA_PROGRAMA" length="5" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jcXnVSJ3EeiGjpTF28niHg" label="CODIGO_SNIES_INSTITUCION" length="4" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jcXnViJ3EeiGjpTF28niHg" label="CODIGO_SNIES_PROGRAMA" length="6" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jcXnVyJ3EeiGjpTF28niHg" label="CODIGO_ESTUDIANTE" length="11" talendType="id_Long" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jcXnWCJ3EeiGjpTF28niHg" label="TIPO_IDENTIFICACION_ESTUDIANTE" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jcXnWSJ3EeiGjpTF28niHg" label="IDENTIFICACION_ESTUDIANTE" length="10" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jcXnWiJ3EeiGjpTF28niHg" label="PRIMER_NOMBRE_ESTUDIANTE" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jcXnWyJ3EeiGjpTF28niHg" label="SEGUNDO_NOMBRE_ESTUDIANTE" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jcXnXCJ3EeiGjpTF28niHg" label="PRIMER_APELLIDO_ESTUDIANTE" length="11" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jcXnXSJ3EeiGjpTF28niHg" label="SEGUNDO_APELLIDO_ESTUDIANTE" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jcXnXiJ3EeiGjpTF28niHg" label="SEXO" length="1" talendType="id_Character" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jcXnXyJ3EeiGjpTF28niHg" label="FECHA_DE_NACIMIENTO" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jcXnYCJ3EeiGjpTF28niHg" label="CODIGO_MUNICIPIO_ESTUDIO_JOVEN" length="5" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jcXnYSJ3EeiGjpTF28niHg" label="PERIODO_ACADEMICO_INGRESO" length="6" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jcXnYiJ3EeiGjpTF28niHg" label="PROMEDIO_PERIODO_ACADEMICO" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jcXnYyJ3EeiGjpTF28niHg" label="PERIODO_ACADEMICO_MATRICULADO" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jcXnZCJ3EeiGjpTF28niHg" label="ESTADO_ESTUDIANTE" length="6" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jcXnZSJ3EeiGjpTF28niHg" label="IDPERSONA" length="7" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

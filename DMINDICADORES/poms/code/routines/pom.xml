@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>org.example.dmindicadores</groupId>
+    <artifactId>code.Master</artifactId>
+    <version>7.1.1</version>
+    <relativePath>../../</relativePath>
+  </parent>
+  <groupId>org.example.dmindicadores.code</groupId>
+  <artifactId>routines</artifactId>
+  <version>7.1.1</version>
+  <name>DMINDICADORES Routines</name>
+  <properties>
+    <talend.codes.package>routines</talend.codes.package>
+  </properties>
+  <dependencies>
+    <dependency>
+      <groupId>org.talend.libraries</groupId>
+      <artifactId>org.talend.sdi</artifactId>
+      <version>6.0.0</version>
+    </dependency>
+    <dependency>
+      <groupId>org.talend.libraries</groupId>
+      <artifactId>jts-1.12</artifactId>
+      <version>6.0.0</version>
+    </dependency>
+    <dependency>
+      <groupId>org.talend.libraries</groupId>
+      <artifactId>log4j-1.2.17</artifactId>
+      <version>6.4.0</version>
+    </dependency>
+    <dependency>
+      <groupId>org.talend.libraries</groupId>
+      <artifactId>gt-xsd-core-8.5</artifactId>
+      <version>6.0.0-SNAPSHOT</version>
+    </dependency>
+    <dependency>
+      <groupId>org.talend.libraries</groupId>
+      <artifactId>dom4j-1.6.1</artifactId>
+      <version>6.0.0</version>
+    </dependency>
+  </dependencies>
+</project>

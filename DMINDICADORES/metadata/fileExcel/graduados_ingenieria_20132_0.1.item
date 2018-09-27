@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:FileExcelConnection xmi:id="_hYud8Ep7EeS496sefmZIhQ" name="graduados_ingenieria_20132" dataPackage="_hYud8Up7EeS496sefmZIhQ _ybdvwEqHEeSPye378R0aqQ" Server="Localhost 127.0.0.1" FilePath="/home/adbius/Documentos/graduados/graduados_ingenieria_20132.xlsx" Encoding="UTF-8" UseHeader="true" HeaderValue="1" FooterValue="0" UseLimit="true" LimitValue="564" FirstLineCaption="true" SheetName="Hoja1" firstColumn="1" lastColumn="" thousandSeparator="," decimalSeparator="." selectAllSheets="true" sheetList="Hoja1:w&#xA;">
+    <sheetColumns>A</sheetColumns>
+    <sheetColumns>B</sheetColumns>
+    <sheetColumns>C</sheetColumns>
+    <sheetColumns>D</sheetColumns>
+    <sheetColumns>E</sheetColumns>
+    <sheetColumns>F</sheetColumns>
+    <sheetColumns>G</sheetColumns>
+    <sheetColumns>H</sheetColumns>
+    <sheetColumns>I</sheetColumns>
+    <sheetColumns>J</sheetColumns>
+    <sheetColumns>K</sheetColumns>
+    <sheetColumns>L</sheetColumns>
+    <sheetColumns>M</sheetColumns>
+    <sheetColumns>N</sheetColumns>
+    <sheetColumns>O</sheetColumns>
+    <sheetColumns>P</sheetColumns>
+    <sheetColumns>Q</sheetColumns>
+    <sheetColumns>R</sheetColumns>
+    <sheetColumns>S</sheetColumns>
+    <sheetColumns>T</sheetColumns>
+    <sheetColumns>U</sheetColumns>
+  </TalendMetadata:FileExcelConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_hYud8Up7EeS496sefmZIhQ" name="default" dataManager="_hYud8Ep7EeS496sefmZIhQ">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_hYud8kp7EeS496sefmZIhQ" id="_SMqjcEp7EeS496sefmZIhQ" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hYud80p7EeS496sefmZIhQ" label="DOCUMENTO" length="8" talendType="id_Long" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hYud9Ep7EeS496sefmZIhQ" label="TITULO" length="59" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hYud9Up7EeS496sefmZIhQ" label="NOMBRE" length="16" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hYud9kp7EeS496sefmZIhQ" label="APELLIDOS" length="18" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hYud90p7EeS496sefmZIhQ" label="TIPO_DE_DOCUMENTO" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hYud-Ep7EeS496sefmZIhQ" label="Sexo" length="1" talendType="id_Character" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hYud-Up7EeS496sefmZIhQ" label="EXPEDIDA" length="15" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hYud-kp7EeS496sefmZIhQ" label="TRABAJO_DE_GRADO" length="381" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hYud-0p7EeS496sefmZIhQ" label="DIRECTOR" length="29" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hYud_Ep7EeS496sefmZIhQ" label="NOTA_LETRA" length="19" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hYud_Up7EeS496sefmZIhQ" label="CARACTER" length="8" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hYud_kp7EeS496sefmZIhQ" label="NOTA_NO_" length="3" talendType="id_Double" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hYud_0p7EeS496sefmZIhQ" label="DIA" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hYueAEp7EeS496sefmZIhQ" label="MES" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hYueAUp7EeS496sefmZIhQ" label="ANO" length="4" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hYueAkp7EeS496sefmZIhQ" label="ACTA" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hYueA0p7EeS496sefmZIhQ" label="LIBRO" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hYueBEp7EeS496sefmZIhQ" label="REGISTRO" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hYueBUp7EeS496sefmZIhQ" label="FOLIO" length="3" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hYueBkp7EeS496sefmZIhQ" label="PROMEDIO" length="4" talendType="id_Double" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hYueB0p7EeS496sefmZIhQ" label="ACTUALIZAR" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_ybdvwEqHEeSPye378R0aqQ" name="default" dataManager="_hYud8Ep7EeS496sefmZIhQ"/>
+</xmi:XMI>

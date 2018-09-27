@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
+  <TalendMetadata:DatabaseConnection xmi:id="_hbMJILqBEeeRk97VUvK1hA" name="wso2_pruebas" id="_UJMuoLqBEeeRk97VUvK1hA" label="wso2_pruebas" dataPackage="_hjkCALqBEeeRk97VUvK1hA" DatabaseType="PostgreSQL" DriverClass="org.postgresql.Driver" URL="jdbc:postgresql://10.20.0.149:5432/co_udistrital_usuarios" dbVersionString="PRIOR_TO_V9" Port="5432" Username="apiuser" Password="FVAypvdHglfsd3IFs6o9zA==" ServerName="10.20.0.149" DatasourceName="" FileFieldName="" SID="co_udistrital_usuarios" SqlSynthax="Sintaxis SQL" DbmsId="postgres_id" ProductId="POSTGRESQL" AdditionalParams="" StandardSQL="true" SQLMode="false" UiSchema="">
+    <taggedValue xmi:id="_hbMJIbqBEeeRk97VUvK1hA" tag="Is Conn Need Reload" value="false"/>
+    <taggedValue xmi:id="_hi-zMLqBEeeRk97VUvK1hA" tag="package filter" value=""/>
+    <taggedValue xmi:id="_hjGH8LqBEeeRk97VUvK1hA" tag="Status" value=""/>
+    <taggedValue xmi:id="_hjGH8bqBEeeRk97VUvK1hA" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_hjGH8rqBEeeRk97VUvK1hA" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_hjGH87qBEeeRk97VUvK1hA" tag="Description" value=""/>
+    <taggedValue xmi:id="_hjGH9LqBEeeRk97VUvK1hA" tag="Author" value=""/>
+    <taggedValue xmi:id="_hjGH9bqBEeeRk97VUvK1hA" tag="otherParameter"/>
+    <taggedValue xmi:id="_hjNcsLqBEeeRk97VUvK1hA" tag="DB ProductName" value="PostgreSQL"/>
+    <taggedValue xmi:id="_hjNcsbqBEeeRk97VUvK1hA" tag="DB ProductVersion" value="9.5.5"/>
+    <taggedValue xmi:id="_hjNcsrqBEeeRk97VUvK1hA" tag="DB IdentifierQuoteString" value="&quot;"/>
+    <parameters xmi:id="_hbMJIrqBEeeRk97VUvK1hA" key="CONN_PARA_KEY_USERNAME" value="apiuser"/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_hjkCALqBEeeRk97VUvK1hA" name="co_udistrital_usuarios" dataManager="_hbMJILqBEeeRk97VUvK1hA">
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_hjkCAbqBEeeRk97VUvK1hA" name="information_schema"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_hjkCArqBEeeRk97VUvK1hA" name="pg_catalog"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_hjkCA7qBEeeRk97VUvK1hA" name="pg_toast_temp_1"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_hjkCBLqBEeeRk97VUvK1hA" name="public"/>
+  </orgomg.cwm.resource.relational:Catalog>
+</xmi:XMI>

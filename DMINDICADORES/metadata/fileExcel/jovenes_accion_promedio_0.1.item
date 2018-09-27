@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:FileExcelConnection xmi:id="_aymnwKiwEeS7Dqut-Tmh2Q" name="jovenes_accion_promedio" dataPackage="_aymnwaiwEeS7Dqut-Tmh2Q _MJt8QECREeWtZvLC0fbslQ _kxo88GV4EeaN2LoIg05b-g" Server="Localhost 127.0.0.1" FilePath="/home/devmachine/Documentos/jovenes_accion/jovenes_accion_20161.xlsx" Encoding="UTF-8" UseHeader="true" HeaderValue="1" FooterValue="0" LimitValue="" FirstLineCaption="true" SheetName="Hoja1" firstColumn="1" lastColumn="" thousandSeparator="','" decimalSeparator="'.'" sheetList="Hoja1:w&#xA;">
+    <sheetColumns>A</sheetColumns>
+    <sheetColumns>B</sheetColumns>
+    <sheetColumns>C</sheetColumns>
+    <sheetColumns>D</sheetColumns>
+    <sheetColumns>E</sheetColumns>
+    <sheetColumns>F</sheetColumns>
+    <sheetColumns>G</sheetColumns>
+    <sheetColumns>H</sheetColumns>
+    <sheetColumns>I</sheetColumns>
+    <sheetColumns>J</sheetColumns>
+    <sheetColumns>K</sheetColumns>
+    <sheetColumns>L</sheetColumns>
+    <sheetColumns>M</sheetColumns>
+    <sheetColumns>N</sheetColumns>
+    <sheetColumns>O</sheetColumns>
+    <sheetColumns>P</sheetColumns>
+    <sheetColumns>Q</sheetColumns>
+    <sheetColumns>R</sheetColumns>
+    <sheetColumns>S</sheetColumns>
+  </TalendMetadata:FileExcelConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_aymnwaiwEeS7Dqut-Tmh2Q" name="default" dataManager="_aymnwKiwEeS7Dqut-Tmh2Q"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_MJt8QECREeWtZvLC0fbslQ" name="default" dataManager="_aymnwKiwEeS7Dqut-Tmh2Q">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_MJt8QUCREeWtZvLC0fbslQ" properties="deleted&#xA;&#xA;true&#xA;&#xA;" id="_E5mkoECREeWtZvLC0fbslQ" label="jovenes_accion_2015">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_MJt8QkCREeWtZvLC0fbslQ" label="FCONSECUTIVO" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_MJt8Q0CREeWtZvLC0fbslQ" label="FCODIMUNICIPIO" length="5" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_MJt8RECREeWtZvLC0fbslQ" label="FCODISNIESINSTITUCION" length="4" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_MJt8RUCREeWtZvLC0fbslQ" label="FCODISNIESPROGRAMA" length="5" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_MJt8RkCREeWtZvLC0fbslQ" label="FCODIESTUDIANTE" length="11" talendType="id_Long" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_MJt8R0CREeWtZvLC0fbslQ" label="FTIPOIDENTIFICACION" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_MJt8SECREeWtZvLC0fbslQ" label="FNUMEROIDENTIFICACION" length="11" talendType="id_Long" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_MJt8SUCREeWtZvLC0fbslQ" label="FPRIMERNOMBRE" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_MJt8SkCREeWtZvLC0fbslQ" label="FSEGUNDONOMBRE" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_MJt8S0CREeWtZvLC0fbslQ" label="FPRIMERAPELLIDO" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_MJt8TECREeWtZvLC0fbslQ" label="FSEGUNDOAPELLIDO" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_MJt8TUCREeWtZvLC0fbslQ" label="FSEXO" length="1" talendType="id_Character" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_MJt8TkCREeWtZvLC0fbslQ" label="FFECHANACIMIENTO" length="29" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_MJt8T0CREeWtZvLC0fbslQ" label="FMUNICIPIOESTUDIO" length="5" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_MJt8UECREeWtZvLC0fbslQ" label="FPERIODOACADEMICOINGRESO" length="6" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_MJt8UUCREeWtZvLC0fbslQ" label="FPROMEDIOPERIODOACADEMICO" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_MJt8UkCREeWtZvLC0fbslQ" label="FPERIODOSACADEMICOSCURSADOS" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_MJt8U0CREeWtZvLC0fbslQ" label="FESTADOESTUDIANTE" length="12" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_MJt8VECREeWtZvLC0fbslQ" label="FJOVENENACCION" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_MJt8VUCREeWtZvLC0fbslQ" label="IDPERSONA" length="7" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_MJt8VkCREeWtZvLC0fbslQ" label="RESULTADO_PARA_ENTREGAR_A_LA_IES" length="101" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_kxo88GV4EeaN2LoIg05b-g" name="default" dataManager="_aymnwKiwEeS7Dqut-Tmh2Q">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_kxo88WV4EeaN2LoIg05b-g" id="_g4p5MGV4EeaN2LoIg05b-g" label="jovenes_accion">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_q0Lr8GYtEeaN2LoIg05b-g" label="CONSECUTIVO" length="5" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_q0Lr8WYtEeaN2LoIg05b-g" label="MUNICIPIO_OFERTA_PROGRAMA" length="5" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_q0Lr8mYtEeaN2LoIg05b-g" label="CODIGO_SNIES_INSTITUCION" length="4" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_q0Lr82YtEeaN2LoIg05b-g" label="CODIGO_SNIES_PROGRAMA" length="5" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_q0Lr9GYtEeaN2LoIg05b-g" label="CODIGO_ESTUDIANTE" length="11" talendType="id_Long" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_q0Lr9WYtEeaN2LoIg05b-g" label="TIPO_IDENTIFICACION_ESTUDIANTE" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_q0Lr9mYtEeaN2LoIg05b-g" label="IDENTIFICACION_ESTUDIANTE" length="11" talendType="id_Long" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_q0Lr92YtEeaN2LoIg05b-g" label="PRIMER_NOMBRE_ESTUDIANTE" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_q0Lr-GYtEeaN2LoIg05b-g" label="SEGUNDO_NOMBRE_ESTUDIANTE" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_q0Lr-WYtEeaN2LoIg05b-g" label="PRIMER_APELLIDO_ESTUDIANTE" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_q0Lr-mYtEeaN2LoIg05b-g" label="SEGUNDO_APELLIDO_ESTUDIANTE" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_q0Lr-2YtEeaN2LoIg05b-g" label="SEXO" length="1" talendType="id_Character" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_q0Lr_GYtEeaN2LoIg05b-g" label="FECHA_DE_NACIMIENTO" length="29" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_q0Lr_WYtEeaN2LoIg05b-g" label="CODIGO_MUNICIPIO_ESTUDIO_JOVEN" length="5" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_q0Lr_mYtEeaN2LoIg05b-g" label="PERIODO_ACADEMICO_INGRESO" length="6" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_q0Lr_2YtEeaN2LoIg05b-g" label="PROMEDIO_PERIODO_ACADEMICO" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_q0LsAGYtEeaN2LoIg05b-g" label="PERIODO_ACADEMICO_MATRICULADO" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_q0LsAWYtEeaN2LoIg05b-g" label="ESTADO_ESTUDIANTE" length="12" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_SMiLUGYuEeaN2LoIg05b-g" name="ID_PERSONA" label="ID_PERSONA" length="7" talendType="id_Integer"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

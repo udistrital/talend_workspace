@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:FileExcelConnection xmi:id="_dUXrwDkkEeS9-fT5rE34tg" name="docentes" dataPackage="_dUXrwTkkEeS9-fT5rE34tg _v0pJADkkEeS9-fT5rE34tg _KDe_ADkmEeS9-fT5rE34tg _4ELEUDkmEeS9-fT5rE34tg _wUYD4HsNEeSu1rrtO4r3Hg" ContextMode="true" ContextId="_k8ciUHsNEeSu1rrtO4r3Hg" Server="Localhost 127.0.0.1" FilePath="context.docentes_File" Encoding="context.docentes_Encoding" UseHeader="true" HeaderValue="context.docentes_Header" FirstLineCaption="true" SheetName="Identificación de profesores Pl" firstColumn="context.docentes_FirstColumn" lastColumn="context.docentes_LastColumn" thousandSeparator="context.docentes_ThousandSeparator" decimalSeparator="context.docentes_DecimalSeparator" selectAllSheets="true" sheetList="Identificación de profesores Pl:w&#xA;">
+    <sheetColumns>A</sheetColumns>
+    <sheetColumns>B</sheetColumns>
+    <sheetColumns>C</sheetColumns>
+    <sheetColumns>D</sheetColumns>
+    <sheetColumns>E</sheetColumns>
+    <sheetColumns>F</sheetColumns>
+    <sheetColumns>G</sheetColumns>
+    <sheetColumns>H</sheetColumns>
+    <sheetColumns>I</sheetColumns>
+    <sheetColumns>J</sheetColumns>
+    <sheetColumns>K</sheetColumns>
+  </TalendMetadata:FileExcelConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_dUXrwTkkEeS9-fT5rE34tg" name="default" dataManager="_dUXrwDkkEeS9-fT5rE34tg"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_v0pJADkkEeS9-fT5rE34tg" name="default" dataManager="_dUXrwDkkEeS9-fT5rE34tg"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_KDe_ADkmEeS9-fT5rE34tg" name="default" dataManager="_dUXrwDkkEeS9-fT5rE34tg"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_4ELEUDkmEeS9-fT5rE34tg" name="default" dataManager="_dUXrwDkkEeS9-fT5rE34tg"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_wUYD4HsNEeSu1rrtO4r3Hg" name="default" dataManager="_dUXrwDkkEeS9-fT5rE34tg">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_wUYD4XsNEeSu1rrtO4r3Hg" id="_n0dRQHsNEeSu1rrtO4r3Hg" label="docentes_metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_wUYD4nsNEeSu1rrtO4r3Hg" label="ANO" length="4" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_wUYD43sNEeSu1rrtO4r3Hg" label="SEMESTRE" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_wUYD5HsNEeSu1rrtO4r3Hg" label="FACULTAD" length="20" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_wUYD5XsNEeSu1rrtO4r3Hg" label="PROYECTO" length="60" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_wUYD5nsNEeSu1rrtO4r3Hg" label="CODIGO_DOCENTE" length="11" talendType="id_Long" pattern="&quot;dd-MM-yyyy&quot;" originalLength="11"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_wUYD53sNEeSu1rrtO4r3Hg" label="DOCENTE" length="34" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_wUYD6HsNEeSu1rrtO4r3Hg" label="CATEGORIA" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_wUYD6XsNEeSu1rrtO4r3Hg" label="DEDICACION" length="15" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_wUYD6nsNEeSu1rrtO4r3Hg" label="NIVEL_FORMACION" length="15" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_wUYD63sNEeSu1rrtO4r3Hg" label="INSTITUCION" length="73" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_wUYD7HsNEeSu1rrtO4r3Hg" label="TIPO_CONTRATO" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

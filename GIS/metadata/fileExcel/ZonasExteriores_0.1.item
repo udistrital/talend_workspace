@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:FileExcelConnection xmi:id="_QWpQME2gEeSa_e_yyYjhKw" name="ZonasExteriores" dataPackage="_QWpQMU2gEeSa_e_yyYjhKw" Server="Localhost 127.0.0.1" FilePath="/home/aarismendi/Documentos/FuentesExternas/FAASv2.xlsx" Encoding="UTF-8" UseHeader="true" HeaderValue="1" FirstLineCaption="true" SheetName="Lote" firstColumn="1" thousandSeparator="','" decimalSeparator="'.'" sheetList="ZonasExteriores:w&#xA;">
+    <sheetColumns>A</sheetColumns>
+    <sheetColumns>B</sheetColumns>
+    <sheetColumns>C</sheetColumns>
+    <sheetColumns>D</sheetColumns>
+    <sheetColumns>E</sheetColumns>
+    <sheetColumns>F</sheetColumns>
+    <sheetColumns>G</sheetColumns>
+    <sheetColumns>H</sheetColumns>
+    <sheetColumns>I</sheetColumns>
+    <sheetColumns>J</sheetColumns>
+    <sheetColumns>K</sheetColumns>
+    <sheetColumns>L</sheetColumns>
+    <sheetColumns>M</sheetColumns>
+    <sheetColumns>N</sheetColumns>
+    <sheetColumns>O</sheetColumns>
+    <sheetColumns>P</sheetColumns>
+  </TalendMetadata:FileExcelConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_QWpQMU2gEeSa_e_yyYjhKw" name="default" dataManager="_QWpQME2gEeSa_e_yyYjhKw">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_QWpQMk2gEeSa_e_yyYjhKw" id="_EDmxQE2gEeSa_e_yyYjhKw" label="ZonasExteriores">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_QWpQM02gEeSa_e_yyYjhKw" label="ZoExtCodigo" length="6" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_QWpQNE2gEeSa_e_yyYjhKw" label="ZoExtTipoEspacio" length="13" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_QWpQNU2gEeSa_e_yyYjhKw" label="ZoExtSubtipoEsp" length="12" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_QWpQNk2gEeSa_e_yyYjhKw" label="ZoExtFechaIni" length="28" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_QWpQN02gEeSa_e_yyYjhKw" label="ZoExtFechaFin" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_QWpQOE2gEeSa_e_yyYjhKw" label="ZoExtArea" length="8" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_QWpQOU2gEeSa_e_yyYjhKw" label="LotCodigo_Lote" length="12" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_QWpQOk2gEeSa_e_yyYjhKw" label="DepEncCodigo_DependenciaEncargada" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

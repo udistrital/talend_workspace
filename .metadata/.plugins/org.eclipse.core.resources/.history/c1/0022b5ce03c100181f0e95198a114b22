@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
+  <TalendProperties:Property xmi:id="_JLuadMECEeiyTIjeL8aLxQ" id="_JLtzQMECEeiyTIjeL8aLxQ" label="fichero_prueba" version="0.1" statusCode="" item="_JLuadsECEeiyTIjeL8aLxQ" displayName="fichero_prueba">
+    <author href="../../talend.project#_IVQlkINgEeWQnZvn-Dmq4g"/>
+    <additionalProperties xmi:id="_JL9q4MECEeiyTIjeL8aLxQ" key="created_product_fullname" value="Talend Open Studio for Data Integration"/>
+    <additionalProperties xmi:id="_JL9q4cECEeiyTIjeL8aLxQ" key="created_product_version" value="7.1.1.20180829_1603-M3"/>
+    <additionalProperties xmi:id="_JL9q4sECEeiyTIjeL8aLxQ" key="created_date" value="2018-09-25T15:32:38.542-0500"/>
+    <additionalProperties xmi:id="_JL9q48ECEeiyTIjeL8aLxQ" key="modified_product_fullname" value="Talend Open Studio for Data Integration"/>
+    <additionalProperties xmi:id="_JL9q5MECEeiyTIjeL8aLxQ" key="modified_product_version" value="7.1.1.20180829_1603-M3"/>
+    <additionalProperties xmi:id="_JL9q5cECEeiyTIjeL8aLxQ" key="modified_date" value="2018-09-25T15:32:38.542-0500"/>
+  </TalendProperties:Property>
+  <TalendProperties:ItemState xmi:id="_JLuadcECEeiyTIjeL8aLxQ" path=""/>
+  <TalendProperties:DelimitedFileConnectionItem xmi:id="_JLuadsECEeiyTIjeL8aLxQ" property="_JLuadMECEeiyTIjeL8aLxQ" state="_JLuadcECEeiyTIjeL8aLxQ">
+    <connection href="fichero_prueba_0.1.item#_JLuaUMECEeiyTIjeL8aLxQ"/>
+  </TalendProperties:DelimitedFileConnectionItem>
+</xmi:XMI>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
+  <TalendProperties:Property xmi:id="_1eR2IOt0EeOJG-zVQ5Esdg" id="_1eQoAOt0EeOJG-zVQ5Esdg" label="cuadro_maestro_estudiantes" version="0.1" statusCode="" item="_1eR2Iut0EeOJG-zVQ5Esdg" displayName="cuadro_maestro_estudiantes">
+    <author href="../talend.project#_YTjakqL1EeOqbp7w959yow"/>
+    <additionalProperties xmi:id="_DFVrMLq9Eei7XeacPSgcPg" key="import_product_fullname" value="Talend Open Studio for Data Integration"/>
+    <additionalProperties xmi:id="_DFVrMbq9Eei7XeacPSgcPg" key="import_product_version" value="6.1.0.20151029_1337"/>
+    <additionalProperties xmi:id="_DFVrMrq9Eei7XeacPSgcPg" key="import_date" value="2018-09-17T16:02:54.338-0500"/>
+    <additionalProperties xmi:id="_DFVrM7q9Eei7XeacPSgcPg" key="created_product_fullname" value="Talend Open Studio for Data Integration"/>
+    <additionalProperties xmi:id="_DFVrNLq9Eei7XeacPSgcPg" key="created_product_version" value="6.1.0.20151029_1337"/>
+    <additionalProperties xmi:id="_DFVrNbq9Eei7XeacPSgcPg" key="created_date" value="2014-06-03T18:14:38.849-0500"/>
+    <additionalProperties xmi:id="_DFVrNrq9Eei7XeacPSgcPg" key="modified_product_fullname" value="Talend Open Studio for Data Integration"/>
+    <additionalProperties xmi:id="_DFVrN7q9Eei7XeacPSgcPg" key="modified_product_version" value="7.1.1.20180829_1603-M3"/>
+    <additionalProperties xmi:id="_DFVrOLq9Eei7XeacPSgcPg" key="modified_date" value="2018-09-25T16:00:47.076-0500"/>
+  </TalendProperties:Property>
+  <TalendProperties:ItemState xmi:id="_1eR2Iet0EeOJG-zVQ5Esdg" path="" locked="true" lockDate="2018-09-25T16:00:47.076-0500">
+    <locker href="../talend.project#_IVQlkINgEeWQnZvn-Dmq4g"/>
+  </TalendProperties:ItemState>
+  <TalendProperties:ProcessItem xmi:id="_1eR2Iut0EeOJG-zVQ5Esdg" property="_1eR2IOt0EeOJG-zVQ5Esdg" state="_1eR2Iet0EeOJG-zVQ5Esdg">
+    <process href="cuadro_maestro_estudiantes_0.1.item#/"/>
+  </TalendProperties:ProcessItem>
+</xmi:XMI>

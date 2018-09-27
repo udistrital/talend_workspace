@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.talend.org/mapper" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="Default">
+  <context confirmationNeeded="false" name="Default"/>
+  <parameters>
+    <elementParameter field="TEXT" name="JOB_RUN_VM_ARGUMENTS" value=" -Xms256M -Xmx1024M"/>
+    <elementParameter field="CHECK" name="JOB_RUN_VM_ARGUMENTS_OPTION" value="false"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_X" value="32"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" value="0"/>
+    <elementParameter field="TEXT" name="SCHEMA_OPTIONS" value="none"/>
+    <elementParameter field="TEXT" name="OEM_CUSTOM_ATTRIBUTE" value=""/>
+    <elementParameter field="TEXT" name="HADOOP_APP_PATH" value=""/>
+    <elementParameter field="TEXT" name="JOBID_FOR_OOZIE" value=""/>
+    <elementParameter field="TEXT" name="REPOSITORY_CONNECTION_ID" value=""/>
+    <elementParameter field="TABLE" name="HADOOP_ADVANCED_PROPERTIES"/>
+    <elementParameter field="CHECK" name="IMPLICITCONTEXT_USE_PROJECT_SETTINGS" value="true"/>
+    <elementParameter field="CHECK" name="STATANDLOG_USE_PROJECT_SETTINGS" value="true"/>
+    <elementParameter field="CHECK" name="MULTI_THREAD_EXECATION" value="false"/>
+    <elementParameter field="FILE" name="IMPLICIT_TCONTEXTLOAD_FILE" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION_IMPLICIT_CONTEXT" value=""/>
+    <elementParameter field="CHECK" name="DISABLE_WARNINGS" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_INFO" value="false"/>
+    <elementParameter field="DIRECTORY" name="FILE_PATH" value="&quot;/root/Documentos/TOS_DI-r111943-V5.4.1/workspace/.metadata&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="ORACLE_10"/>
+    <routinesParameter id="_Ym7CgKL1EeOqbp7w959yow" name="DataOperation"/>
+    <routinesParameter id="_YmzGsKL1EeOqbp7w959yow" name="Mathematical"/>
+    <routinesParameter id="_Ym8QoKL1EeOqbp7w959yow" name="Numeric"/>
+    <routinesParameter id="_Ym83sKL1EeOqbp7w959yow" name="Relational"/>
+    <routinesParameter id="_Ym_7AKL1EeOqbp7w959yow" name="StringHandling"/>
+    <routinesParameter id="_Ym50YKL1EeOqbp7w959yow" name="TalendDataGenerator"/>
+    <routinesParameter id="_Ym-F0KL1EeOqbp7w959yow" name="TalendDate"/>
+    <routinesParameter id="_Ym_T8KL1EeOqbp7w959yow" name="TalendString"/>
+  </parameters>
+  <node componentName="tFileInputDelimited" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="32" posY="64">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileInputDelimited_1"/>
+    <elementParameter field="CHECK" name="START" value="true"/>
+    <elementParameter field="CHECK" name="END_OF_FLOW" value="false"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_Vd6-0PUfEeSt_N4hFOJQRA"/>
+    <elementParameter field="LABEL" name="FILENAMETEXT" value="&quot;When the input source is a stream or a zip file,footer and random shouldn't be bigger than 0.&quot;"/>
+    <elementParameter field="FILE" name="FILENAME" value="&quot;/home/devmachine/Documentos/presupuesto/gastos_historia.csv&quot;"/>
+    <elementParameter field="TEXT" name="ROWSEPARATOR" value="&quot;\n&quot;"/>
+    <elementParameter field="OPENED_LIST" name="CSVROWSEPARATOR" value="&quot;\n&quot;"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;;&quot;"/>
+    <elementParameter field="CHECK" name="CSV_OPTION" value="false"/>
+    <elementParameter field="TEXT" name="ESCAPE_CHAR" value="&quot;&quot;&quot;"/>
+    <elementParameter field="TEXT" name="TEXT_ENCLOSURE" value="&quot;&quot;&quot;"/>
+    <elementParameter field="TEXT" name="HEADER" value="1"/>
+    <elementParameter field="TEXT" name="FOOTER" value="0"/>
+    <elementParameter field="TEXT" name="LIMIT" value=""/>
+    <elementParameter field="CHECK" name="REMOVE_EMPTY_ROW" value="false"/>
+    <elementParameter field="CHECK" name="UNCOMPRESS" value="false"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA_REJECT:SCHEMA_TYPE" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA_REJECT:REPOSITORY_SCHEMA_TYPE" value="_Vd6-0PUfEeSt_N4hFOJQRA - metadata"/>
+    <elementParameter field="DIRECTORY" name="TEMP_DIR" value="&quot;/home/devmachine/Documentos/BI/TOS_DI-r111943-V5.4.1/workspace&quot;"/>
+    <elementParameter field="CHECK" name="ADVANCED_SEPARATOR" value="true"/>
+    <elementParameter field="TEXT" name="THOUSANDS_SEPARATOR" value="&quot;.&quot;"/>
+    <elementParameter field="TEXT" name="DECIMAL_SEPARATOR" value="&quot;,&quot;"/>
+    <elementParameter field="CHECK" name="RANDOM" value="false"/>
+    <elementParameter field="TEXT" name="NB_RANDOM" value="10"/>
+    <elementParameter field="CHECK" name="TRIMALL" value="true"/>
+    <elementParameter field="TABLE" name="TRIMSELECT">
+      <elementValue elementRef="SCHEMA_COLUMN" value="VIGENCIA"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CODIGO"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="RUBRO"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PRESUPUESTO_INICIAL"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="MODIFICACIONES_MES"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="MODIFICACIONES_ACUMULADO"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PRESUPUESTO_DEFINITIVO"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="DISPONIBILIDAD_ACUMULADA"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="COMPROMISOS_MES"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="COMPROMISOS_ACUMULADO"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="GIROS_MES"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="GIROS_ACUMULADO"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PROCENTAJE_EJECUCION"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SALDO_LIBRE_AFECTACION"/>
+      <elementValue elementRef="TRIM" value="false"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="CHECK_FIELDS_NUM" value="false"/>
+    <elementParameter field="CHECK" name="CHECK_DATE" value="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;UTF-8&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="UTF-8"/>
+    <elementParameter field="CHECK" name="SPLITRECORD" value="false"/>
+    <elementParameter field="TEXT" name="DESTINATION" value=""/>
+    <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="100"/>
+    <elementParameter field="TEXT" name="LABEL" value="gastos_historia_tres"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter field="CHECK" name="INFORMATION" value="false"/>
+    <elementParameter field="MEMO" name="COMMENT" value=""/>
+    <elementParameter field="CHECK" name="VALIDATION_RULES" value="false"/>
+    <metadata connector="FLOW" label="metadata" name="tFileInputDelimited_1">
+      <column comment="" key="false" length="4" name="VIGENCIA" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="250" name="CODIGO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="250" name="RUBRO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="18" name="PRESUPUESTO_INICIAL" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="2" type="id_Double" usefulColumn="true"/>
+      <column comment="" key="false" length="16" name="MODIFICACIONES_MES" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="2" type="id_Double" usefulColumn="true"/>
+      <column comment="" key="false" length="17" name="MODIFICACIONES_ACUMULADO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="2" type="id_Double" usefulColumn="true"/>
+      <column comment="" key="false" length="18" name="PRESUPUESTO_DEFINITIVO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="2" type="id_Double" usefulColumn="true"/>
+      <column comment="" key="false" length="18" name="DISPONIBILIDAD_ACUMULADA" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="2" type="id_Double" usefulColumn="true"/>
+      <column comment="" key="false" length="17" name="COMPROMISOS_MES" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="2" type="id_Double" usefulColumn="true"/>
+      <column comment="" key="false" length="18" name="COMPROMISOS_ACUMULADO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="2" type="id_Double" usefulColumn="true"/>
+      <column comment="" key="false" length="17" name="GIROS_MES" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="2" type="id_Double" usefulColumn="true"/>
+      <column comment="" key="false" length="18" name="GIROS_ACUMULADO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="2" type="id_Double" usefulColumn="true"/>
+      <column comment="" key="false" length="4" name="PROCENTAJE_EJECUCION" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="2" type="id_Double" usefulColumn="true"/>
+      <column comment="" key="false" length="17" name="SALDO_LIBRE_AFECTACION" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="2" type="id_Double" usefulColumn="true"/>
+    </metadata>
+    <metadata connector="REJECT" label="metadata" name="REJECT">
+      <column comment="" key="false" length="4" name="VIGENCIA" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="22" name="CODIGO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="49" name="RUBRO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="18" name="PRESUPUESTO_INICIAL" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="16" name="MODIFICACIONES_MES" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="17" name="MODIFICACIONES_ACUMULADO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="18" name="PRESUPUESTO_DEFINITIVO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="18" name="DISPONIBILIDAD_ACUMULADA" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="17" name="COMPROMISOS_MES" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="18" name="COMPROMISOS_ACUMULADO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="17" name="GIROS_MES" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="18" name="GIROS_ACUMULADO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="4" name="PROCENTAJE_EJECUCION" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="17" name="SALDO_LIBRE_AFECTACION" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="160" posY="128">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tMap_1"/>
+    <elementParameter field="EXTERNAL" name="MAP" value=""/>
+    <elementParameter field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
+    <elementParameter field="DIRECTORY" name="TEMPORARY_DATA_DIRECTORY" value=""/>
+    <elementParameter field="IMAGE" name="PREVIEW" value="_527rIPUSEeSt_N4hFOJQRA-tMap_1-PREVIEW.bmp"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true"/>
+    <elementParameter field="CHECK" name="LKUP_PARALLELIZE" value="false"/>
+    <elementParameter field="TEXT" name="ROWS_BUFFER_SIZE" value="2000000"/>
+    <elementParameter field="CHECK" name="CHANGE_HASH_AND_EQUALS_FOR_BIGDECIMAL" value="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter field="CHECK" name="INFORMATION" value="false"/>
+    <elementParameter field="MEMO" name="COMMENT" value=""/>
+    <elementParameter field="CHECK" name="VALIDATION_RULES" value="false"/>
+    <metadata connector="FLOW" label="metadata" name="gastos_historia">
+      <column comment="" key="true" name="ID" nullable="true" pattern="" sourceType="" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="4" name="VIGENCIA" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="250" name="RUBRO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="18" name="PRESUPUESTO_INICIAL" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="2" type="id_Double" usefulColumn="true"/>
+      <column comment="" key="false" length="16" name="MODIFICACIONES_MES" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="2" type="id_Double" usefulColumn="true"/>
+      <column comment="" key="false" length="17" name="MODIFICACIONES_ACUMULADO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="2" type="id_Double" usefulColumn="true"/>
+      <column comment="" key="false" length="18" name="PRESUPUESTO_DEFINITIVO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="2" type="id_Double" usefulColumn="true"/>
+      <column comment="" key="false" length="18" name="DISPONIBILIDAD_ACUMULADA" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="2" type="id_Double" usefulColumn="true"/>
+      <column comment="" key="false" length="17" name="COMPROMISOS_MES" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="2" type="id_Double" usefulColumn="true"/>
+      <column comment="" key="false" length="18" name="COMPROMISOS_ACUMULADO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="2" type="id_Double" usefulColumn="true"/>
+      <column comment="" key="false" length="17" name="GIROS_MES" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="2" type="id_Double" usefulColumn="true"/>
+      <column comment="" key="false" length="18" name="GIROS_ACUMULADO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="2" type="id_Double" usefulColumn="true"/>
+      <column comment="" key="false" length="4" name="PROCENTAJE_EJECUCION" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="2" type="id_Double" usefulColumn="true"/>
+      <column comment="" key="false" length="17" name="SALDO_LIBRE_AFECTACION" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="2" type="id_Double" usefulColumn="true"/>
+    </metadata>
+    <nodeData xsi:type="MapperData">
+      <uiProperties/>
+      <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
+      <outputTables sizeState="INTERMEDIATE" name="gastos_historia">
+        <mapperTableEntries name="ID" expression="Numeric.sequence(&quot;s1&quot;,1,1) " type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="VIGENCIA" expression="row1.VIGENCIA " type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="RUBRO" expression="row1.CODIGO +&quot; &quot;+TalendString.removeAccents(row1.RUBRO)     " type="id_String" nullable="true"/>
+        <mapperTableEntries name="PRESUPUESTO_INICIAL" expression="row1.PRESUPUESTO_INICIAL " type="id_Double" nullable="true"/>
+        <mapperTableEntries name="MODIFICACIONES_MES" expression="row1.MODIFICACIONES_MES " type="id_Double" nullable="true"/>
+        <mapperTableEntries name="MODIFICACIONES_ACUMULADO" expression="row1.MODIFICACIONES_ACUMULADO " type="id_Double" nullable="true"/>
+        <mapperTableEntries name="PRESUPUESTO_DEFINITIVO" expression="row1.PRESUPUESTO_DEFINITIVO " type="id_Double" nullable="true"/>
+        <mapperTableEntries name="DISPONIBILIDAD_ACUMULADA" expression="row1.DISPONIBILIDAD_ACUMULADA " type="id_Double" nullable="true"/>
+        <mapperTableEntries name="COMPROMISOS_MES" expression="row1.COMPROMISOS_MES " type="id_Double" nullable="true"/>
+        <mapperTableEntries name="COMPROMISOS_ACUMULADO" expression="row1.COMPROMISOS_ACUMULADO " type="id_Double" nullable="true"/>
+        <mapperTableEntries name="GIROS_MES" expression="row1.GIROS_MES " type="id_Double" nullable="true"/>
+        <mapperTableEntries name="GIROS_ACUMULADO" expression="row1.GIROS_ACUMULADO " type="id_Double" nullable="true"/>
+        <mapperTableEntries name="PROCENTAJE_EJECUCION" expression="row1.PROCENTAJE_EJECUCION " type="id_Double" nullable="true"/>
+        <mapperTableEntries name="SALDO_LIBRE_AFECTACION" expression="row1.SALDO_LIBRE_AFECTACION " type="id_Double" nullable="true"/>
+      </outputTables>
+      <inputTables sizeState="INTERMEDIATE" name="row1" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
+        <mapperTableEntries name="VIGENCIA" type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="CODIGO" type="id_String" nullable="true"/>
+        <mapperTableEntries name="RUBRO" type="id_String" nullable="true"/>
+        <mapperTableEntries name="PRESUPUESTO_INICIAL" type="id_Double" nullable="true"/>
+        <mapperTableEntries name="MODIFICACIONES_MES" type="id_Double" nullable="true"/>
+        <mapperTableEntries name="MODIFICACIONES_ACUMULADO" type="id_Double" nullable="true"/>
+        <mapperTableEntries name="PRESUPUESTO_DEFINITIVO" type="id_Double" nullable="true"/>
+        <mapperTableEntries name="DISPONIBILIDAD_ACUMULADA" type="id_Double" nullable="true"/>
+        <mapperTableEntries name="COMPROMISOS_MES" type="id_Double" nullable="true"/>
+        <mapperTableEntries name="COMPROMISOS_ACUMULADO" type="id_Double" nullable="true"/>
+        <mapperTableEntries name="GIROS_MES" type="id_Double" nullable="true"/>
+        <mapperTableEntries name="GIROS_ACUMULADO" type="id_Double" nullable="true"/>
+        <mapperTableEntries name="PROCENTAJE_EJECUCION" type="id_Double" nullable="true"/>
+        <mapperTableEntries name="SALDO_LIBRE_AFECTACION" type="id_Double" nullable="true"/>
+      </inputTables>
+    </nodeData>
+  </node>
+  <node componentName="tPostgresqlOutput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="288" posY="64">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tPostgresqlOutput_1"/>
+    <elementParameter field="CHECK" name="END_OF_FLOW" value="true"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_0BQUcLR_EeO1O9EGlcYshg"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value=""/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="PRIOR_TO_V9"/>
+    <elementParameter field="TEXT" name="HOST" value="&quot;10.20.0.88&quot;"/>
+    <elementParameter field="TEXT" name="PORT" value="&quot;5432&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME" value="&quot;DMINDICADORES&quot;"/>
+    <elementParameter field="TEXT" name="TYPE" value="POSTGRESQL"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;public&quot;"/>
+    <elementParameter field="TEXT" name="USER" value="&quot;postgres&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS" value="NrE2x5vAkVTo4I4wi1Afkw=="/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;gastos_historia&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="DROP_IF_EXISTS_AND_CREATE"/>
+    <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="INSERT"/>
+    <elementParameter field="CHECK" name="USE_SPATIAL_OPTIONS" value="false"/>
+    <elementParameter field="CHECK" name="SPATIAL_INDEX" value="false"/>
+    <elementParameter field="CHECK" name="GEOMETRY_COLUMNS" value="false"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true"/>
+    <elementParameter field="MAPPING_TYPE" name="MAPPING" value="postgres_id"/>
+    <elementParameter field="CHECK" name="SAVE_POINT" value="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="TEXT" name="COMMIT_EVERY" value="10000"/>
+    <elementParameter field="TABLE" name="ADD_COLS"/>
+    <elementParameter field="CHECK" name="USE_FIELD_OPTIONS" value="false"/>
+    <elementParameter field="TABLE" name="FIELD_OPTIONS">
+      <elementValue elementRef="SCHEMA_COLUMN" value="ID"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="VIGENCIA"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="RUBRO"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PRESUPUESTO_INICIAL"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="MODIFICACIONES_MES"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="MODIFICACIONES_ACUMULADO"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PRESUPUESTO_DEFINITIVO"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="DISPONIBILIDAD_ACUMULADA"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="COMPROMISOS_MES"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="COMPROMISOS_ACUMULADO"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="GIROS_MES"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="GIROS_ACUMULADO"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PROCENTAJE_EJECUCION"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SALDO_LIBRE_AFECTACION"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="ENABLE_DEBUG_MODE" value="false"/>
+    <elementParameter field="CHECK" name="SUPPORT_NULL_WHERE" value="false"/>
+    <elementParameter field="CHECK" name="USE_BATCH_SIZE" value="false"/>
+    <elementParameter field="TEXT" name="BATCH_SIZE" value="10000"/>
+    <elementParameter field="TEXT" name="LABEL" value="Dmindicadores88"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter field="CHECK" name="INFORMATION" value="false"/>
+    <elementParameter field="MEMO" name="COMMENT" value=""/>
+    <elementParameter field="CHECK" name="VALIDATION_RULES" value="false"/>
+    <metadata connector="FLOW" label="metadata" name="tPostgresqlOutput_1">
+      <column comment="" key="true" name="ID" nullable="true" pattern="" sourceType="INT4" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="4" name="VIGENCIA" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT4" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="250" name="RUBRO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="18" name="PRESUPUESTO_INICIAL" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="2" sourceType="FLOAT8" type="id_Double" usefulColumn="true"/>
+      <column comment="" key="false" length="16" name="MODIFICACIONES_MES" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="2" sourceType="FLOAT8" type="id_Double" usefulColumn="true"/>
+      <column comment="" key="false" length="17" name="MODIFICACIONES_ACUMULADO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="2" sourceType="FLOAT8" type="id_Double" usefulColumn="true"/>
+      <column comment="" key="false" length="18" name="PRESUPUESTO_DEFINITIVO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="2" sourceType="FLOAT8" type="id_Double" usefulColumn="true"/>
+      <column comment="" key="false" length="18" name="DISPONIBILIDAD_ACUMULADA" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="2" sourceType="FLOAT8" type="id_Double" usefulColumn="true"/>
+      <column comment="" key="false" length="17" name="COMPROMISOS_MES" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="2" sourceType="FLOAT8" type="id_Double" usefulColumn="true"/>
+      <column comment="" key="false" length="18" name="COMPROMISOS_ACUMULADO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="2" sourceType="FLOAT8" type="id_Double" usefulColumn="true"/>
+      <column comment="" key="false" length="17" name="GIROS_MES" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="2" sourceType="FLOAT8" type="id_Double" usefulColumn="true"/>
+      <column comment="" key="false" length="18" name="GIROS_ACUMULADO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="2" sourceType="FLOAT8" type="id_Double" usefulColumn="true"/>
+      <column comment="" key="false" length="4" name="PROCENTAJE_EJECUCION" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="2" sourceType="FLOAT8" type="id_Double" usefulColumn="true"/>
+      <column comment="" key="false" length="17" name="SALDO_LIBRE_AFECTACION" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="2" sourceType="FLOAT8" type="id_Double" usefulColumn="true"/>
+    </metadata>
+    <metadata connector="REJECT" label="metadata" name="REJECT">
+      <column comment="" key="true" name="ID" nullable="true" pattern="" sourceType="INT4" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="4" name="VIGENCIA" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="INT4" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="250" name="RUBRO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="18" name="PRESUPUESTO_INICIAL" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="2" sourceType="FLOAT8" type="id_Double" usefulColumn="true"/>
+      <column comment="" key="false" length="16" name="MODIFICACIONES_MES" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="2" sourceType="FLOAT8" type="id_Double" usefulColumn="true"/>
+      <column comment="" key="false" length="17" name="MODIFICACIONES_ACUMULADO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="2" sourceType="FLOAT8" type="id_Double" usefulColumn="true"/>
+      <column comment="" key="false" length="18" name="PRESUPUESTO_DEFINITIVO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="2" sourceType="FLOAT8" type="id_Double" usefulColumn="true"/>
+      <column comment="" key="false" length="18" name="DISPONIBILIDAD_ACUMULADA" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="2" sourceType="FLOAT8" type="id_Double" usefulColumn="true"/>
+      <column comment="" key="false" length="17" name="COMPROMISOS_MES" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="2" sourceType="FLOAT8" type="id_Double" usefulColumn="true"/>
+      <column comment="" key="false" length="18" name="COMPROMISOS_ACUMULADO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="2" sourceType="FLOAT8" type="id_Double" usefulColumn="true"/>
+      <column comment="" key="false" length="17" name="GIROS_MES" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="2" sourceType="FLOAT8" type="id_Double" usefulColumn="true"/>
+      <column comment="" key="false" length="18" name="GIROS_ACUMULADO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="2" sourceType="FLOAT8" type="id_Double" usefulColumn="true"/>
+      <column comment="" key="false" length="4" name="PROCENTAJE_EJECUCION" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="2" sourceType="FLOAT8" type="id_Double" usefulColumn="true"/>
+      <column comment="" key="false" length="17" name="SALDO_LIBRE_AFECTACION" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="2" sourceType="FLOAT8" type="id_Double" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <connection connectorName="FLOW" label="row1" lineStyle="0" metaname="tFileInputDelimited_1" offsetLabelX="0" offsetLabelY="0" source="tFileInputDelimited_1" target="tMap_1">
+    <elementParameter field="CHECK" name="TRACES_CONNECTION_ENABLE" value="true"/>
+    <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER">
+      <elementValue elementRef="TRACE_COLUMN" value="VIGENCIA"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="CODIGO"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="RUBRO"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="PRESUPUESTO_INICIAL"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="MODIFICACIONES_MES"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="MODIFICACIONES_ACUMULADO"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="PRESUPUESTO_DEFINITIVO"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="DISPONIBILIDAD_ACUMULADA"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="COMPROMISOS_MES"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="COMPROMISOS_ACUMULADO"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="GIROS_MES"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="GIROS_ACUMULADO"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="PROCENTAJE_EJECUCION"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="SALDO_LIBRE_AFECTACION"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="CHECK" name="USEROWLABEL" value="true"/>
+    <elementParameter field="TEXT" name="METTERLABEL" value="&quot;MyLabel&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="ABSOLUTE" value="Absolute"/>
+    <elementParameter field="CONNECTION_LIST" name="CONNECTIONS" value=""/>
+    <elementParameter field="TABLE" name="THRESHLODS"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="true"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="row1"/>
+  </connection>
+  <connection connectorName="FLOW" label="gastos_historia" lineStyle="0" metaname="gastos_historia" offsetLabelX="0" offsetLabelY="0" source="tMap_1" target="tPostgresqlOutput_1">
+    <elementParameter field="CHECK" name="TRACES_CONNECTION_ENABLE" value="true"/>
+    <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER">
+      <elementValue elementRef="TRACE_COLUMN" value="VIGENCIA"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="CODIGO"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="RUBRO"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="PRESUPUESTO_INICIAL"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="MODIFICACIONES_MES"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="MODIFICACIONES_ACUMULADO"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="PRESUPUESTO_DEFINITIVO"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="DISPONIBILIDAD_ACUMULADA"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="COMPROMISOS_MES"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="COMPROMISOS_ACUMULADO"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="GIROS_MES"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="GIROS_ACUMULADO"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="PROCENTAJE_EJECUCION"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="SALDO_LIBRE_AFECTACION"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="ID"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="CHECK" name="USEROWLABEL" value="true"/>
+    <elementParameter field="TEXT" name="METTERLABEL" value="&quot;MyLabel&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="ABSOLUTE" value="Absolute"/>
+    <elementParameter field="CONNECTION_LIST" name="CONNECTIONS" value=""/>
+    <elementParameter field="TABLE" name="THRESHLODS"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="true"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="gastos_historia"/>
+  </connection>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileInputDelimited_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="160;190;240"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
+  </subjob>
+</talendfile:ProcessType>

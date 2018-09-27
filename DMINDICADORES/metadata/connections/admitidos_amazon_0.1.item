@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
+  <TalendMetadata:DatabaseConnection xmi:id="_Zd_wsKX-EeaMNOMF9UgGyg" name="admitidos_amazon" id="_Zdy8YKX-EeaMNOMF9UgGyg" label="admitidos_amazon" dataPackage="_FERecLgyEee_9I7BJkpJ0A" DatabaseType="PostgreSQL" DriverClass="org.postgresql.Driver" URL="jdbc:postgresql://postgresproduccion.c8an9arwoaua.us-east-1.rds.amazonaws.com:5432/saraadmisiones" dbVersionString="PRIOR_TO_V9" Port="5432" Username="consultaevaldocente" Password="5uOe3sigi2MwCmGAmNbyNGDoCVv/+94a" ServerName="postgresproduccion.c8an9arwoaua.us-east-1.rds.amazonaws.com" DatasourceName="" FileFieldName="" SID="saraadmisiones" SqlSynthax="Sintaxis SQL" DbmsId="postgres_id" ProductId="POSTGRESQL" AdditionalParams="" StandardSQL="true" SQLMode="false" UiSchema="admisiones">
+    <taggedValue xmi:id="_oqmY4Vj-EeaAS5TwIydAdQ" tag="Is Conn Need Reload" value="true"/>
+    <taggedValue xmi:id="_ovUg0Fj-EeaAS5TwIydAdQ" tag="package filter" value=""/>
+    <taggedValue xmi:id="_ovUg0Vj-EeaAS5TwIydAdQ" tag="Status" value=""/>
+    <taggedValue xmi:id="_ovUg0lj-EeaAS5TwIydAdQ" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_ovUg01j-EeaAS5TwIydAdQ" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_ovUg1Fj-EeaAS5TwIydAdQ" tag="Description" value=""/>
+    <taggedValue xmi:id="_ovUg1Vj-EeaAS5TwIydAdQ" tag="Author" value=""/>
+    <taggedValue xmi:id="_ovVH4Fj-EeaAS5TwIydAdQ" tag="otherParameter"/>
+    <taggedValue xmi:id="_oxz0IFj-EeaAS5TwIydAdQ" tag="DB ProductName" value="PostgreSQL"/>
+    <taggedValue xmi:id="_ox0bMFj-EeaAS5TwIydAdQ" tag="DB ProductVersion" value="9.5.2"/>
+    <taggedValue xmi:id="_ox0bMVj-EeaAS5TwIydAdQ" tag="DB IdentifierQuoteString" value="&quot;"/>
+    <parameters xmi:id="_oqmY4lj-EeaAS5TwIydAdQ" key="CONN_PARA_KEY_USERNAME" value="consultaevaldocente"/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_FERecLgyEee_9I7BJkpJ0A" name="saraadmisiones" dataManager="_Zd_wsKX-EeaMNOMF9UgGyg">
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_FERecbgyEee_9I7BJkpJ0A" name="admisiones"/>
+  </orgomg.cwm.resource.relational:Catalog>
+</xmi:XMI>

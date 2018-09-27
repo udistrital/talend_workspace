@@ -1,0 +1,14 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<expression:EMFExpression xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:expression="http:///expression.ecore" id="tMap_7=>" expression="Relational.ISNULL(PC2.facultad) ?&quot;SIN INFORMACIÓN&quot;:PC2.facultad">
+  <variables name="PGSF2.semestre" value="null" talendType="id_String" nullable="true"/>
+  <variables name="PGSF2.grupocodigo" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="PGSF2.gruponombre" value="null" talendType="id_String" nullable="true"/>
+  <variables name="PGSF2.grupoestado" value="null" talendType="id_String" nullable="true"/>
+  <variables name="PGSF2.idfacultad" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="PGSF2.facultad" value="null" talendType="id_String" nullable="true"/>
+  <variables name="PGSF2.tipo" value="null" talendType="id_String" nullable="true"/>
+  <variables name="PGSF2.Proyectos" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="PGSF2.idfacultad_Codigo" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="PC2.codigo_facultad" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="PC2.facultad" value="null" talendType="id_String" nullable="true"/>
+</expression:EMFExpression>

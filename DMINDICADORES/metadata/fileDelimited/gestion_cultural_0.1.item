@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_bxYVADULEee_L_Nn6y3c_g" name="gestion_cultural" dataPackage="_bxYVATULEee_L_Nn6y3c_g" Server="Localhost 127.0.0.1" FilePath="/home/devmachine/Documentos/maestria/gestion_cultural.csv" Encoding="UTF-8" FieldSeparatorValue="&quot;;&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_bxYVATULEee_L_Nn6y3c_g" name="default" dataManager="_bxYVADULEee_L_Nn6y3c_g">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_bxYVAjULEee_L_Nn6y3c_g" id="_WZS2ADULEee_L_Nn6y3c_g" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_bxYVAzULEee_L_Nn6y3c_g" label="Periodo_Academico" length="6" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_bxYVBDULEee_L_Nn6y3c_g" label="ESTAMENTO__Estudiante__Profesor__administrativo_" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_bxYVBTULEee_L_Nn6y3c_g" label="NUMERO_DE_IDENTIFICACION" length="11" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_bxYVBjULEee_L_Nn6y3c_g" label="Codigo" length="11" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_bxYVBzULEee_L_Nn6y3c_g" label="Tipo_de_Programa" length="16" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_bxYVCDULEee_L_Nn6y3c_g" label="ACTIVIDAD_REALIZADA__Y_O_NOMBRE_DE_TALLER__ENVENTO_O_JORNADA" length="28" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

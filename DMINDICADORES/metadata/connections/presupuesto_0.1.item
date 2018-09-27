@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
+  <TalendMetadata:DatabaseConnection xmi:id="_-tbCUN8AEeSJS_8i3_MYmw" name="presupuesto" id="_fx4-QN8AEeSJS_8i3_MYmw" label="presupuesto" dataPackage="_faOsMNhfEea6ZZ7ct7ofIw" DatabaseType="Oracle with SID" DriverClass="oracle.jdbc.OracleDriver" URL="jdbc:oracle:thin:@10.20.0.7:1521:UD" dbVersionString="ORACLE_11" Port="1521" Username="QRY_SPAGOBI" Password="ZN9M6cviiN/5+ddr1D8D4A==" ServerName="10.20.0.7" DatasourceName="" FileFieldName="" SID="UD" SqlSynthax="Sintaxis SQL" DbmsId="oracle_id" ProductId="ORACLE" AdditionalParams="" SystemSQL="true" SQLMode="false" UiSchema="QRY_SPAGOBI">
+    <taggedValue xmi:id="_-tbCUd8AEeSJS_8i3_MYmw" tag="Is Conn Need Reload" value="true"/>
+    <taggedValue xmi:id="_-zXSQN8AEeSJS_8i3_MYmw" tag="package filter" value=""/>
+    <taggedValue xmi:id="_-0LxoN8AEeSJS_8i3_MYmw" tag="Status" value=""/>
+    <taggedValue xmi:id="_-0Lxod8AEeSJS_8i3_MYmw" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_-0Lxot8AEeSJS_8i3_MYmw" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_-0Lxo98AEeSJS_8i3_MYmw" tag="Description" value=""/>
+    <taggedValue xmi:id="_-0LxpN8AEeSJS_8i3_MYmw" tag="Author" value=""/>
+    <taggedValue xmi:id="_-0Lxpd8AEeSJS_8i3_MYmw" tag="otherParameter"/>
+    <taggedValue xmi:id="_-0M_wN8AEeSJS_8i3_MYmw" tag="DB ProductName" value="Oracle"/>
+    <taggedValue xmi:id="_-0M_wd8AEeSJS_8i3_MYmw" tag="DB ProductVersion" value="Oracle Database 10g Release 10.1.0.2.0 - 64bit Production"/>
+    <taggedValue xmi:id="_-0M_wt8AEeSJS_8i3_MYmw" tag="DB IdentifierQuoteString" value="&quot;"/>
+    <parameters xmi:id="_-tbCUt8AEeSJS_8i3_MYmw" key="CONN_PARA_KEY_USERNAME" value="QRY_SPAGOBI"/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_faOsMNhfEea6ZZ7ct7ofIw" name="QRY_SPAGOBI" dataManager="_-tbCUN8AEeSJS_8i3_MYmw"/>
+</xmi:XMI>

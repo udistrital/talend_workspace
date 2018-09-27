@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_K781YGU6EeiTu6sj2r9rAw" comment="connectionComment" label="connectionLabel" dataPackage="_K781YWU6EeiTu6sj2r9rAw" mappingTypeUsed="true" mappingTypeId="postgres_id"/>
+  <TalendMetadata:GenericPackage xmi:id="_K781YWU6EeiTu6sj2r9rAw" dataManager="_K781YGU6EeiTu6sj2r9rAw">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_K781YmU6EeiTu6sj2r9rAw" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_K781Y2U6EeiTu6sj2r9rAw" name="periodo" id="46759" label="periodo" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_K781ZGU6EeiTu6sj2r9rAw"/>
+      </feature>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>

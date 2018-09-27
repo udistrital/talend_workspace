@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" confirmationNeeded="false" name="Default">
+  <contextParameter comment="" name="hvi_sigud_Encoding" prompt="hvi_sigud_Encoding?" promptNeeded="false" type="id_String" value="UTF-8"/>
+  <contextParameter comment="" name="hvi_sigud_Header" prompt="hvi_sigud_Header?" promptNeeded="false" type="id_Integer" value="19"/>
+  <contextParameter comment="" name="hvi_sigud_FirstColumn" prompt="hvi_sigud_FirstColumn?" promptNeeded="false" type="id_Integer" value="2"/>
+  <contextParameter comment="" name="hvi_sigud_DecimalSeparator" prompt="hvi_sigud_DecimalSeparator?" promptNeeded="false" type="id_String" value="'.'"/>
+  <contextParameter comment="" name="hvi_sigud_LastColumn" prompt="hvi_sigud_LastColumn?" promptNeeded="false" type="id_Integer" value=""/>
+  <contextParameter comment="" name="hvi_sigud_ThousandSeparator" prompt="hvi_sigud_ThousandSeparator?" promptNeeded="false" type="id_String" value="','"/>
+  <contextParameter comment="" name="hvi_sigud_Limit" prompt="hvi_sigud_Limit?" promptNeeded="false" type="id_Integer" value="2"/>
+  <contextParameter comment="" name="hvi_sigud_File" prompt="hvi_sigud_File?" promptNeeded="false" type="id_File" value="/home/devmachine/Documentos/planeacion/adjuntos/FTIADMISIONESREGISTROYCONTROL.xlsx"/>
+</talendfile:ContextType>

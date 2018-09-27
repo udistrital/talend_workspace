@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_Vd8M8PUfEeSt_N4hFOJQRA" name="gastos_historia_tres" dataPackage="_Vd8M8fUfEeSt_N4hFOJQRA" Server="Localhost 127.0.0.1" FilePath="/home/devmachine/Documentos/presupuesto/gastos_historia.csv" Encoding="UTF-8" FieldSeparatorValue="&quot;;&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FooterValue="0" LimitValue="" FirstLineCaption="true" EscapeChar="&quot;&quot;&quot;" TextEnclosure="&quot;&quot;&quot;"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_Vd8M8fUfEeSt_N4hFOJQRA" name="default" dataManager="_Vd8M8PUfEeSt_N4hFOJQRA">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_Vd8M8vUfEeSt_N4hFOJQRA" id="_BZm78PUfEeSt_N4hFOJQRA" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Vd8M8_UfEeSt_N4hFOJQRA" label="VIGENCIA" length="4" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Vd8M9PUfEeSt_N4hFOJQRA" label="CODIGO" length="22" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Vd8M9fUfEeSt_N4hFOJQRA" label="RUBRO" length="49" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Vd8M9vUfEeSt_N4hFOJQRA" label="PRESUPUESTO_INICIAL" length="18" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Vd8M9_UfEeSt_N4hFOJQRA" label="MODIFICACIONES_MES" length="16" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Vd8M-PUfEeSt_N4hFOJQRA" label="MODIFICACIONES_ACUMULADO" length="17" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Vd8M-fUfEeSt_N4hFOJQRA" label="PRESUPUESTO_DEFINITIVO" length="18" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Vd8M-vUfEeSt_N4hFOJQRA" label="DISPONIBILIDAD_ACUMULADA" length="18" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Vd8M-_UfEeSt_N4hFOJQRA" label="COMPROMISOS_MES" length="17" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Vd8M_PUfEeSt_N4hFOJQRA" label="COMPROMISOS_ACUMULADO" length="18" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Vd8M_fUfEeSt_N4hFOJQRA" label="GIROS_MES" length="17" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Vd8M_vUfEeSt_N4hFOJQRA" label="GIROS_ACUMULADO" length="18" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Vd8M__UfEeSt_N4hFOJQRA" label="PROCENTAJE_EJECUCION" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Vd8NAPUfEeSt_N4hFOJQRA" label="SALDO_LIBRE_AFECTACION" length="17" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

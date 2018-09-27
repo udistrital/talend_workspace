@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TalendMetadata:DatabaseConnection xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmi:id="_3LwZAAOTEeef1KLV-L2NMg" name="test_access" id="_dcu2EAOTEeef1KLV-L2NMg" label="test_access" DatabaseType="Access" DriverClass="net.ucanaccess.jdbc.UcanaccessDriver" URL="jdbc:ucanaccess:///home/devmachine/Documentos/docentes/Docencia.mdb" Port="" Username="" Password="" ServerName="" DatasourceName="" FileFieldName="/home/devmachine/Documentos/docentes/docencia.mdb" SID="" SqlSynthax="Sintaxis SQL" DbmsId="access_id" ProductId="ACCESS" AdditionalParams="" StandardSQL="true" SQLMode="false" UiSchema="">
+  <taggedValue xmi:id="_3LwZAQOTEeef1KLV-L2NMg" tag="Is Conn Need Reload" value="false"/>
+  <taggedValue xmi:id="_3R8gkAOTEeef1KLV-L2NMg" tag="package filter" value=""/>
+  <taggedValue xmi:id="_3SD1UAOTEeef1KLV-L2NMg" tag="Status" value=""/>
+  <taggedValue xmi:id="_3SD1UQOTEeef1KLV-L2NMg" tag="Version" value="0.1"/>
+  <taggedValue xmi:id="_3SD1UgOTEeef1KLV-L2NMg" tag="Purpose" value=""/>
+  <taggedValue xmi:id="_3SD1UwOTEeef1KLV-L2NMg" tag="Description" value=""/>
+  <taggedValue xmi:id="_3SD1VAOTEeef1KLV-L2NMg" tag="Author" value=""/>
+  <taggedValue xmi:id="_3SD1VQOTEeef1KLV-L2NMg" tag="otherParameter"/>
+  <taggedValue xmi:id="_4Y8k4AOTEeef1KLV-L2NMg" tag="DB ProductName" value="Ucanaccess for access db(Jet) using hasqldb"/>
+  <taggedValue xmi:id="_4Y8k4QOTEeef1KLV-L2NMg" tag="DB ProductVersion" value="V2000 [VERSION_4]"/>
+  <taggedValue xmi:id="_4Y8k4gOTEeef1KLV-L2NMg" tag="DB IdentifierQuoteString" value="`"/>
+  <parameters xmi:id="_3LwZAgOTEeef1KLV-L2NMg" key="CONN_PARA_KEY_USERNAME" value=""/>
+</TalendMetadata:DatabaseConnection>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:FileExcelConnection xmi:id="_qt5jMEKcEeSjCuPFO3fGCQ" name="cupos" dataPackage="_qt5jMUKcEeSjCuPFO3fGCQ" Server="Localhost 127.0.0.1" FilePath="/home/adbius/Documentos/planeacion/DATOS BOLETIN CUPOS.xlsx" Encoding="UTF-8" UseHeader="true" HeaderValue="1" FirstLineCaption="true" SheetName="Hoja1" firstColumn="1" thousandSeparator="','" decimalSeparator="'.'" sheetList="Hoja1:w&#xA;">
+    <sheetColumns>A</sheetColumns>
+    <sheetColumns>B</sheetColumns>
+    <sheetColumns>C</sheetColumns>
+    <sheetColumns>D</sheetColumns>
+    <sheetColumns>E</sheetColumns>
+    <sheetColumns>F</sheetColumns>
+    <sheetColumns>G</sheetColumns>
+    <sheetColumns>H</sheetColumns>
+  </TalendMetadata:FileExcelConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_qt5jMUKcEeSjCuPFO3fGCQ" name="default" dataManager="_qt5jMEKcEeSjCuPFO3fGCQ">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_qt5jMkKcEeSjCuPFO3fGCQ" id="_Z-K2gEKcEeSjCuPFO3fGCQ" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_qt5jM0KcEeSjCuPFO3fGCQ" label="FACULTAD" length="34" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_qt5jNEKcEeSjCuPFO3fGCQ" label="cod_fac" length="3" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_qt5jNUKcEeSjCuPFO3fGCQ" label="PROYECTO_CURRICULAR" length="79" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_qt5jNkKcEeSjCuPFO3fGCQ" label="cod_pro" length="6" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_qt5jN0KcEeSjCuPFO3fGCQ" label="Ano" length="4" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_qt5jOEKcEeSjCuPFO3fGCQ" label="SEMESTRE" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_qt5jOUKcEeSjCuPFO3fGCQ" label="CUPOS" length="3" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

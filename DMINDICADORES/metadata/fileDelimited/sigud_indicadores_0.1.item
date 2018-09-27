@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_3kBc0OodEead-vTPa9D76w" name="sigud_indicadores" dataPackage="_3kBc0eodEead-vTPa9D76w" Server="Localhost 127.0.0.1" FilePath="/home/devmachine/Documentos/planeacion/sigud_indicadores.csv" Encoding="UTF-8" FieldSeparatorValue="&quot;;&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_3kBc0eodEead-vTPa9D76w" name="default" dataManager="_3kBc0OodEead-vTPa9D76w">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_3kBc0uodEead-vTPa9D76w" id="_vDY4gOodEead-vTPa9D76w" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_3kBc0-odEead-vTPa9D76w" label="id_indicador" length="6" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_3kBc1OodEead-vTPa9D76w" label="valor_numerador" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_3kBc1eodEead-vTPa9D76w" label="valor_denominador" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_3kBc1uodEead-vTPa9D76w" label="mes" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_3kBc1-odEead-vTPa9D76w" label="ano" length="4" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

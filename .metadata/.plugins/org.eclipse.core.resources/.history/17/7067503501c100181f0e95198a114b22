@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
+  <TalendProperties:Property xmi:id="_6VlLIMFwEeaI2sWvxupbUg" id="_6Viu4MFwEeaI2sWvxupbUg" label="migracion_wso2" version="0.1" statusCode="" item="_6VlLIsFwEeaI2sWvxupbUg" displayName="migracion_wso2">
+    <author href="../../talend.project#_IVQlkINgEeWQnZvn-Dmq4g"/>
+    <additionalProperties xmi:id="_DMs3cLq9Eei7XeacPSgcPg" key="import_product_fullname" value="Talend Open Studio for Data Integration"/>
+    <additionalProperties xmi:id="_DMs3cbq9Eei7XeacPSgcPg" key="import_product_version" value="6.1.0.20151029_1337"/>
+    <additionalProperties xmi:id="_DMs3crq9Eei7XeacPSgcPg" key="import_date" value="2018-09-17T16:02:54.338-0500"/>
+    <additionalProperties xmi:id="_DMs3c7q9Eei7XeacPSgcPg" key="created_product_fullname" value="Talend Open Studio for Data Integration"/>
+    <additionalProperties xmi:id="_DMs3dLq9Eei7XeacPSgcPg" key="created_product_version" value="6.1.0.20151029_1337"/>
+    <additionalProperties xmi:id="_DMs3dbq9Eei7XeacPSgcPg" key="created_date" value="2016-12-13T15:15:37.681-0500"/>
+    <additionalProperties xmi:id="_DMs3drq9Eei7XeacPSgcPg" key="modified_product_fullname" value="Talend Open Studio for Data Integration"/>
+    <additionalProperties xmi:id="_DMs3d7q9Eei7XeacPSgcPg" key="modified_product_version" value="7.1.1.20180829_1603-M3"/>
+    <additionalProperties xmi:id="_DMs3eLq9Eei7XeacPSgcPg" key="modified_date" value="2018-09-25T15:25:51.232-0500"/>
+  </TalendProperties:Property>
+  <TalendProperties:ItemState xmi:id="_6VlLIcFwEeaI2sWvxupbUg" path="oas" locked="true" lockDate="2018-06-22T16:46:48.705-0500">
+    <locker href="../../talend.project#_IVQlkINgEeWQnZvn-Dmq4g"/>
+  </TalendProperties:ItemState>
+  <TalendProperties:ProcessItem xmi:id="_6VlLIsFwEeaI2sWvxupbUg" property="_6VlLIMFwEeaI2sWvxupbUg" state="_6VlLIcFwEeaI2sWvxupbUg">
+    <process href="migracion_wso2_0.1.item#/"/>
+  </TalendProperties:ProcessItem>
+</xmi:XMI>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:FileExcelConnection xmi:id="_RkdX4U_1EeSnau-YuCEeKg" name="Ventaneria" dataPackage="_RkdX4k_1EeSnau-YuCEeKg" Server="Localhost 127.0.0.1" FilePath="/home/aarismendi/Documentos/FuentesExternas/FAASv2.xlsx" Encoding="UTF-8" UseHeader="true" HeaderValue="1" FirstLineCaption="true" SheetName="Lote" firstColumn="1" thousandSeparator="','" decimalSeparator="'.'" sheetList="Ventaneria:w&#xA;">
+    <sheetColumns>A</sheetColumns>
+    <sheetColumns>B</sheetColumns>
+    <sheetColumns>C</sheetColumns>
+    <sheetColumns>D</sheetColumns>
+    <sheetColumns>E</sheetColumns>
+    <sheetColumns>F</sheetColumns>
+    <sheetColumns>G</sheetColumns>
+    <sheetColumns>H</sheetColumns>
+    <sheetColumns>I</sheetColumns>
+    <sheetColumns>J</sheetColumns>
+    <sheetColumns>K</sheetColumns>
+    <sheetColumns>L</sheetColumns>
+    <sheetColumns>M</sheetColumns>
+    <sheetColumns>N</sheetColumns>
+    <sheetColumns>O</sheetColumns>
+    <sheetColumns>P</sheetColumns>
+  </TalendMetadata:FileExcelConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_RkdX4k_1EeSnau-YuCEeKg" name="default" dataManager="_RkdX4U_1EeSnau-YuCEeKg">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_RkdX40_1EeSnau-YuCEeKg" id="_HVNLEE_0EeSnau-YuCEeKg" label="Ventaneria">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RkdX5E_1EeSnau-YuCEeKg" label="VentCodigo" length="14" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RkdX5U_1EeSnau-YuCEeKg" label="VentMat" length="17" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RkdX5k_1EeSnau-YuCEeKg" label="MVentMat" length="15" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RkdX50_1EeSnau-YuCEeKg" label="VentFechaIni" length="28" talendType="id_Date" pattern="&quot;dd/MM/yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RkdX6E_1EeSnau-YuCEeKg" label="VentFechaFin" talendType="id_Date" pattern="&quot;dd/MM/yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RkdX6U_1EeSnau-YuCEeKg" label="EspCodigo_EspacioFisico__FK_" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
+  <TalendMetadata:DatabaseConnection xmi:id="_JSFcUBEbEeSM1tHaCXTQ4g" name="DMINDICADORES_DOCENTES" id="_2GOEYBEaEeSM1tHaCXTQ4g" label="DMINDICADORES_DOCENTES" dataPackage="_EXEhkBEgEeSM1tHaCXTQ4g" DatabaseType="PostgreSQL" DriverClass="org.postgresql.Driver" URL="jdbc:postgresql://10.20.0.14:5432/DMINDICADORES" dbVersionString="PRIOR_TO_V9" Port="5432" Username="postgres" Password="CNlsM2hQx/yKsFREJf9l+Q==" ServerName="10.20.0.88" DatasourceName="" FileFieldName="" SID="DMINDICADORES" SqlSynthax="Sintaxis SQL" DbmsId="postgres_id" ProductId="POSTGRESQL" AdditionalParams="" SystemSQL="true" SQLMode="false" UiSchema="public">
+    <taggedValue xmi:id="_JSFcUREbEeSM1tHaCXTQ4g" tag="Is Conn Need Reload" value="false"/>
+    <taggedValue xmi:id="_JUM8MBEbEeSM1tHaCXTQ4g" tag="package filter" value=""/>
+    <taggedValue xmi:id="_JU11YBEbEeSM1tHaCXTQ4g" tag="Status" value=""/>
+    <taggedValue xmi:id="_JU11YREbEeSM1tHaCXTQ4g" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_JU11YhEbEeSM1tHaCXTQ4g" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_JU11YxEbEeSM1tHaCXTQ4g" tag="Description" value=""/>
+    <taggedValue xmi:id="_JU11ZBEbEeSM1tHaCXTQ4g" tag="Author" value=""/>
+    <taggedValue xmi:id="_JU11ZREbEeSM1tHaCXTQ4g" tag="otherParameter"/>
+    <taggedValue xmi:id="_JU3qkBEbEeSM1tHaCXTQ4g" tag="DB ProductName" value="PostgreSQL"/>
+    <taggedValue xmi:id="_JU3qkREbEeSM1tHaCXTQ4g" tag="DB ProductVersion" value="9.2.6"/>
+    <taggedValue xmi:id="_JU3qkhEbEeSM1tHaCXTQ4g" tag="DB IdentifierQuoteString" value="&quot;"/>
+    <parameters xmi:id="_JSFcUhEbEeSM1tHaCXTQ4g" key="CONN_PARA_KEY_USERNAME" value="postgres"/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_EXEhkBEgEeSM1tHaCXTQ4g" name="DMINDICADORES" dataManager="_JSFcUBEbEeSM1tHaCXTQ4g">
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_EXEhkREgEeSM1tHaCXTQ4g" name="public">
+      <ownedElement xsi:type="relational:TdView" xmi:id="_EXEhkhEgEeSM1tHaCXTQ4g" name="evaluacion_docente_noevaluado" id="_DIwUUBEgEeSM1tHaCXTQ4g" label="evaluacion_docente_noevaluado" tableType="VIEW">
+        <taggedValue xmi:id="_EXEhkxEgEeSM1tHaCXTQ4g" tag="Comment" value=""/>
+        <feature xsi:type="relational:TdColumn" xmi:id="_EXEhlBEgEeSM1tHaCXTQ4g" name="FACULTAD" label="FACULTAD" length="64" sourceType="VARCHAR" talendType="id_String">
+          <taggedValue xmi:id="_EXEhlREgEeSM1tHaCXTQ4g" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_EXEhlhEgEeSM1tHaCXTQ4g" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_EXEhlxEgEeSM1tHaCXTQ4g" name="VARCHAR" numericPrecisionRadix="10" javaDataType="12" nullable="columnNullable"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_EXEhmBEgEeSM1tHaCXTQ4g" name="PROYECTO" label="PROYECTO" length="70" sourceType="VARCHAR" talendType="id_String">
+          <taggedValue xmi:id="_EXFIoBEgEeSM1tHaCXTQ4g" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_EXFIoREgEeSM1tHaCXTQ4g" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_EXFIohEgEeSM1tHaCXTQ4g" name="VARCHAR" numericPrecisionRadix="10" javaDataType="12" nullable="columnNullable"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_EXFIoxEgEeSM1tHaCXTQ4g" name="DOCENTE" label="DOCENTE" length="52" sourceType="VARCHAR" talendType="id_String">
+          <taggedValue xmi:id="_EXFIpBEgEeSM1tHaCXTQ4g" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_EXFIpREgEeSM1tHaCXTQ4g" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_EXFIphEgEeSM1tHaCXTQ4g" name="VARCHAR" numericPrecisionRadix="10" javaDataType="12" nullable="columnNullable"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_EXFIpxEgEeSM1tHaCXTQ4g" name="CODIGO_DOCENTE" label="CODIGO_DOCENTE" length="19" sourceType="INT8" talendType="id_Long">
+          <taggedValue xmi:id="_EXFIqBEgEeSM1tHaCXTQ4g" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_EXFIqREgEeSM1tHaCXTQ4g" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_EXFIqhEgEeSM1tHaCXTQ4g" name="INT8" numericPrecisionRadix="10" javaDataType="-5" nullable="columnNullable"/>
+        </feature>
+      </ownedElement>
+    </ownedElement>
+  </orgomg.cwm.resource.relational:Catalog>
+</xmi:XMI>

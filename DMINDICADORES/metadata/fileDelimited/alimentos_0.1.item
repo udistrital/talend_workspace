@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_DDqTgDUKEee_L_Nn6y3c_g" name="alimentos" dataPackage="_DDqTgTUKEee_L_Nn6y3c_g" Server="Localhost 127.0.0.1" FilePath="/home/devmachine/Documentos/maestria/apoyo_alimentario.csv" Encoding="UTF-8" FieldSeparatorValue="&quot;;&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_DDqTgTUKEee_L_Nn6y3c_g" name="default" dataManager="_DDqTgDUKEee_L_Nn6y3c_g">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_DDqTgjUKEee_L_Nn6y3c_g" id="_8op-8DUJEee_L_Nn6y3c_g" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_DDqTgzUKEee_L_Nn6y3c_g" label="periodo" length="6" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_DDqThDUKEee_L_Nn6y3c_g" label="CODIGO" length="11" talendType="id_Long" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_DDqThTUKEee_L_Nn6y3c_g" label="DOCUMENTO_IDENTIDAD" length="11" talendType="id_Long" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_DDqThjUKEee_L_Nn6y3c_g" label="VULNERABILIDAD_ECONOMICA__ESTRATO_1_y2__" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_DDqThzUKEee_L_Nn6y3c_g" label="TIPO_DE_SUBSIDIO" length="14" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
+  <TalendMetadata:DatabaseConnection xmi:id="_YdssgKgZEeSYDor_NF8fgw" name="CO_UDISTRITAL_ENCUENSTA_ESTUDIANTES" id="_KSi1YKgZEeSYDor_NF8fgw" label="CO_UDISTRITAL_ENCUENSTA_ESTUDIANTES" dataPackage="_Yjjc4KgZEeSYDor_NF8fgw" DatabaseType="MySQL" DriverClass="org.gjt.mm.mysql.Driver" URL="jdbc:mysql://10.20.0.6:3306/pro_encuesta?noDatetimeStringSync=true" dbVersionString="MYSQL_5" Port="3306" Username="consultaBI" Password="OQZDWoswAdc=" ServerName="10.20.0.6" DatasourceName="" FileFieldName="" SID="pro_encuesta" SqlSynthax="Sintaxis SQL" DbmsId="mysql_id" ProductId="MYSQL" AdditionalParams="noDatetimeStringSync=true" SystemSQL="true" SQLMode="false" UiSchema="">
+    <taggedValue xmi:id="_YdssgagZEeSYDor_NF8fgw" tag="Is Conn Need Reload" value="false"/>
+    <taggedValue xmi:id="_YishQKgZEeSYDor_NF8fgw" tag="package filter" value=""/>
+    <taggedValue xmi:id="_YjRwEKgZEeSYDor_NF8fgw" tag="Status" value=""/>
+    <taggedValue xmi:id="_YjRwEagZEeSYDor_NF8fgw" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_YjSXIKgZEeSYDor_NF8fgw" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_YjSXIagZEeSYDor_NF8fgw" tag="Description" value=""/>
+    <taggedValue xmi:id="_YjSXIqgZEeSYDor_NF8fgw" tag="Author" value=""/>
+    <taggedValue xmi:id="_YjSXI6gZEeSYDor_NF8fgw" tag="otherParameter"/>
+    <taggedValue xmi:id="_YjS-MKgZEeSYDor_NF8fgw" tag="DB ProductName" value="MySQL"/>
+    <taggedValue xmi:id="_YjS-MagZEeSYDor_NF8fgw" tag="DB ProductVersion" value="5.5.5-10.0.16-MariaDB"/>
+    <taggedValue xmi:id="_YjS-MqgZEeSYDor_NF8fgw" tag="DB IdentifierQuoteString" value="`"/>
+    <parameters xmi:id="_YdssgqgZEeSYDor_NF8fgw" key="CONN_PARA_KEY_USERNAME" value="consultaBI"/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_Yjjc4KgZEeSYDor_NF8fgw" name="pro_encuesta" dataManager="_YdssgKgZEeSYDor_NF8fgw"/>
+</xmi:XMI>

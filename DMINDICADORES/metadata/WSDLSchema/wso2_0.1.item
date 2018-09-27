@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:WSDLSchemaConnection xmi:id="_t78isHZ4EeiUXdyBDhVfjg" name="repository.metadataWSDLSchema" dataPackage="_t78ivnZ4EeiUXdyBDhVfjg" WSDL="&quot;https://autenticacion.udistrital.edu.co//services/RemoteUserStoreManagerService?wsdl&quot;" needAuth="true" methodName="addUser(parameters):" parameters="" UserName="admin" Password="rWavoA9a+fZjabBYQEF8hQ8gEJKDqMmQ" proxyHost="61.163.92.4" proxyPort="8080" proxyUser="" proxyPassword="" timeOut="20" isInputModel="false" serverNameSpace="http://service.ws.um.carbon.wso2.org" serverName="RemoteUserStoreManagerService" portNameSpace="http://service.ws.um.carbon.wso2.org" portName="RemoteUserStoreManagerServiceHttpsSoap12Endpoint">
+    <parameterValue xmi:id="_XQRxIHZ6EeiUXdyBDhVfjg" Element="parameters"/>
+    <parameterValue xmi:id="_XQRxIXZ6EeiUXdyBDhVfjg" Element="parameters.userName" Expression="input.um_user_name"/>
+    <parameterValue xmi:id="_XQRxInZ6EeiUXdyBDhVfjg" Element="parameters.profileName" Expression="input.um_profile"/>
+    <parameterValue xmi:id="_XQRxI3Z6EeiUXdyBDhVfjg" Column="um_user_name"/>
+    <parameterValue xmi:id="_XQRxJHZ6EeiUXdyBDhVfjg" Column="um_profile"/>
+    <parameterValue xmi:id="_XQRxJXZ6EeiUXdyBDhVfjg" source="um_user_name"/>
+    <parameterValue xmi:id="_XQRxJnZ6EeiUXdyBDhVfjg" source="um_profile"/>
+  </TalendMetadata:WSDLSchemaConnection>
+  <TalendMetadata:GenericPackage xmi:id="_t78ivnZ4EeiUXdyBDhVfjg" name="repository.metadataWSDLSchema" dataManager="_t78isHZ4EeiUXdyBDhVfjg">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_t78iv3Z4EeiUXdyBDhVfjg" id="_2HocoHZ2EeiUXdyBDhVfjg" label="Output"/>
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_t78iwHZ4EeiUXdyBDhVfjg" id="_SWxL4HZ3EeiUXdyBDhVfjg" label="Input">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_t78iwXZ4EeiUXdyBDhVfjg" name="um_user_name" label="um_user_name" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Szy-wHZ6EeiUXdyBDhVfjg" name="um_profile" label="um_profile" talendType="id_String"/>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>

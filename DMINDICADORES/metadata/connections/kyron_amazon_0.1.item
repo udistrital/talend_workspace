@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
+  <TalendMetadata:DatabaseConnection xmi:id="_qfCHkORXEeefF8CSR7afxw" name="kyron_amazon" id="_TLaQEORXEeefF8CSR7afxw" label="kyron_amazon" dataPackage="_qrbk0ORXEeefF8CSR7afxw" DatabaseType="PostgreSQL" DriverClass="org.postgresql.Driver" URL="jdbc:postgresql://postgresproduccion.c8an9arwoaua.us-east-1.rds.amazonaws.com:5432/kyron" dbVersionString="PRIOR_TO_V9" Port="5432" Username="dwhpostgres" Password="f12Qm4fPFIHoEJjbGp7Tow==" ServerName="postgresproduccion.c8an9arwoaua.us-east-1.rds.amazonaws.com" DatasourceName="" FileFieldName="" SID="kyron" SqlSynthax="Sintaxis SQL" DbmsId="postgres_id" ProductId="POSTGRESQL" AdditionalParams="" StandardSQL="true" SQLMode="false" UiSchema="">
+    <taggedValue xmi:id="_qfCHkeRXEeefF8CSR7afxw" tag="Is Conn Need Reload" value="false"/>
+    <taggedValue xmi:id="_qmNGkORXEeefF8CSR7afxw" tag="package filter" value=""/>
+    <taggedValue xmi:id="_qmVCYORXEeefF8CSR7afxw" tag="Status" value=""/>
+    <taggedValue xmi:id="_qmVCYeRXEeefF8CSR7afxw" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_qmVCYuRXEeefF8CSR7afxw" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_qmVCY-RXEeefF8CSR7afxw" tag="Description" value=""/>
+    <taggedValue xmi:id="_qmVCZORXEeefF8CSR7afxw" tag="Author" value=""/>
+    <taggedValue xmi:id="_qmVCZeRXEeefF8CSR7afxw" tag="otherParameter"/>
+    <taggedValue xmi:id="_qobUIORXEeefF8CSR7afxw" tag="DB ProductName" value="PostgreSQL"/>
+    <taggedValue xmi:id="_qobUIeRXEeefF8CSR7afxw" tag="DB ProductVersion" value="9.5.2"/>
+    <taggedValue xmi:id="_qobUIuRXEeefF8CSR7afxw" tag="DB IdentifierQuoteString" value="&quot;"/>
+    <parameters xmi:id="_qfCHkuRXEeefF8CSR7afxw" key="CONN_PARA_KEY_USERNAME" value="dwhpostgres"/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_qrbk0ORXEeefF8CSR7afxw" name="kyron" dataManager="_qfCHkORXEeefF8CSR7afxw">
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_qrbk0eRXEeefF8CSR7afxw" name="docencia"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_qrbk0uRXEeefF8CSR7afxw" name="information_schema"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_qrbk0-RXEeefF8CSR7afxw" name="kyron"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_qrbk1ORXEeefF8CSR7afxw" name="pg_catalog"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_qrbk1eRXEeefF8CSR7afxw" name="pg_toast_temp_1"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_qrbk1uRXEeefF8CSR7afxw" name="public"/>
+  </orgomg.cwm.resource.relational:Catalog>
+</xmi:XMI>

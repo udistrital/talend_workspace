@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
+  <TalendMetadata:DatabaseConnection xmi:id="_2NvTcFLMEeaY___Cj4WqdQ" name="academica_amazon" id="_Mpav8FLFEeaY___Cj4WqdQ" label="academica_amazon" dataPackage="_7xnLsFLMEeaY___Cj4WqdQ" DatabaseType="Oracle with SID" DriverClass="oracle.jdbc.OracleDriver" URL="jdbc:oracle:thin:@academicaproduccion.c8an9arwoaua.us-east-1.rds.amazonaws.com:1521:SUDD" dbVersionString="ORACLE_12" Port="1521" Username="datawarefnl2" Password="039XuOn8I5xsgJM/pgeW6w==" ServerName="academicaproduccion.c8an9arwoaua.us-east-1.rds.amazonaws.com" DatasourceName="" FileFieldName="" SID="SUDD" SqlSynthax="Sintaxis SQL" DbmsId="oracle_id" ProductId="ORACLE" AdditionalParams="" StandardSQL="true" SQLMode="false" UiSchema="MNTAC">
+    <taggedValue xmi:id="_2NvTcVLMEeaY___Cj4WqdQ" tag="Is Conn Need Reload" value="false"/>
+    <taggedValue xmi:id="_2RJMwFLMEeaY___Cj4WqdQ" tag="package filter" value=""/>
+    <taggedValue xmi:id="_2RPTYFLMEeaY___Cj4WqdQ" tag="Status" value=""/>
+    <taggedValue xmi:id="_2RPTYVLMEeaY___Cj4WqdQ" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_2RPTYlLMEeaY___Cj4WqdQ" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_2RPTY1LMEeaY___Cj4WqdQ" tag="Description" value=""/>
+    <taggedValue xmi:id="_2RPTZFLMEeaY___Cj4WqdQ" tag="Author" value=""/>
+    <taggedValue xmi:id="_2RPTZVLMEeaY___Cj4WqdQ" tag="otherParameter"/>
+    <taggedValue xmi:id="_4nxF4FLMEeaY___Cj4WqdQ" tag="DB ProductName" value="Oracle"/>
+    <taggedValue xmi:id="_4nxF4VLMEeaY___Cj4WqdQ" tag="DB ProductVersion" value="Oracle Database 11g Release 11.2.0.4.0 - 64bit Production"/>
+    <taggedValue xmi:id="_4nxF4lLMEeaY___Cj4WqdQ" tag="DB IdentifierQuoteString" value="&quot;"/>
+    <parameters xmi:id="_2NvTclLMEeaY___Cj4WqdQ" key="CONN_PARA_KEY_USERNAME" value="datawarefnl2"/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_7xnLsFLMEeaY___Cj4WqdQ" name="MNTAC" dataManager="_2NvTcFLMEeaY___Cj4WqdQ"/>
+</xmi:XMI>

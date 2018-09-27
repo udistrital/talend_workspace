@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_bzQ00cWZEeeRk97VUvK1hA" name="fodesed_colegios" dataPackage="_bzQ00sWZEeeRk97VUvK1hA" Server="Localhost 127.0.0.1" FilePath="/home/devmachine/Documentos/admisiones/icfes_total.csv" Encoding="UTF-8" FieldSeparatorValue="&quot;,&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" FieldSeparatorType="Comma"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_bzQ00sWZEeeRk97VUvK1hA" name="default" dataManager="_bzQ00cWZEeeRk97VUvK1hA">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_bzRb4MWZEeeRk97VUvK1hA" id="_N9Cr4MWZEeeRk97VUvK1hA" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_bzRb4cWZEeeRk97VUvK1hA" label="CODREGSNP" length="14" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_bzRb4sWZEeeRk97VUvK1hA" label="NOMBRE" length="35" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_bzRb48WZEeeRk97VUvK1hA" label="TIPODOCIDE" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_bzRb5MWZEeeRk97VUvK1hA" label="NODOCIDENT" length="11" talendType="id_Long" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_bzRb5cWZEeeRk97VUvK1hA" label="CODCOLEGIO" length="6" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

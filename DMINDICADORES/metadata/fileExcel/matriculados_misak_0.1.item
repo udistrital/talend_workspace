@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:FileExcelConnection xmi:id="_zOCWELouEeSyUNDEteGPlA" name="matriculados_misak" dataPackage="_zOCWEbouEeSyUNDEteGPlA" Server="Localhost 127.0.0.1" FilePath="/home/adbius/Documentos/admisiones/identificacion_Guambia.xlsx" Encoding="UTF-8" UseHeader="true" HeaderValue="1" LimitValue="0" FirstLineCaption="true" SheetName="Hoja2" firstColumn="1" thousandSeparator="','" decimalSeparator="'.'" sheetList="Hoja2:w&#xA;">
+    <sheetColumns>A</sheetColumns>
+  </TalendMetadata:FileExcelConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_zOCWEbouEeSyUNDEteGPlA" name="default" dataManager="_zOCWELouEeSyUNDEteGPlA">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_zOC9ILouEeSyUNDEteGPlA" id="_eaOI4LouEeSyUNDEteGPlA" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_zOC9IbouEeSyUNDEteGPlA" label="DOCUMENTO" length="15" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;" originalLength="15"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

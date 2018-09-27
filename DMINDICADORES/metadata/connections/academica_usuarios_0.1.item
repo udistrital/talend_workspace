@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
+  <TalendMetadata:DatabaseConnection xmi:id="_FmtAgNkfEea6ZZ7ct7ofIw" name="academica_usuarios" id="_uIBIgNkeEea6ZZ7ct7ofIw" label="academica_usuarios" dataPackage="_F62EgNkfEea6ZZ7ct7ofIw" DatabaseType="MySQL" DriverClass="org.gjt.mm.mysql.Driver" URL="jdbc:mysql://condorestudiantes.c8an9arwoaua.us-east-1.rds.amazonaws.com:3306/dbms?noDatetimeStringSync=true" dbVersionString="MYSQL_5" Port="3306" Username="estudiantesdwh" Password="+i8G7HAw9/4=" ServerName="condorestudiantes.c8an9arwoaua.us-east-1.rds.amazonaws.com" DatasourceName="" FileFieldName="" SID="dbms" SqlSynthax="Sintaxis SQL" DbmsId="mysql_id" ProductId="MYSQL" AdditionalParams="noDatetimeStringSync=true" StandardSQL="true" SQLMode="false" UiSchema="">
+    <taggedValue xmi:id="_FmtAgdkfEea6ZZ7ct7ofIw" tag="Is Conn Need Reload" value="false"/>
+    <taggedValue xmi:id="_Frey0NkfEea6ZZ7ct7ofIw" tag="package filter" value=""/>
+    <taggedValue xmi:id="_FrfZ4NkfEea6ZZ7ct7ofIw" tag="Status" value=""/>
+    <taggedValue xmi:id="_FrfZ4dkfEea6ZZ7ct7ofIw" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_FrfZ4tkfEea6ZZ7ct7ofIw" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_FrfZ49kfEea6ZZ7ct7ofIw" tag="Description" value=""/>
+    <taggedValue xmi:id="_FrfZ5NkfEea6ZZ7ct7ofIw" tag="Author" value=""/>
+    <taggedValue xmi:id="_FrfZ5dkfEea6ZZ7ct7ofIw" tag="otherParameter"/>
+    <taggedValue xmi:id="_Fyv4cNkfEea6ZZ7ct7ofIw" tag="DB ProductName" value="MySQL"/>
+    <taggedValue xmi:id="_Fyv4cdkfEea6ZZ7ct7ofIw" tag="DB ProductVersion" value="5.6.27-log"/>
+    <taggedValue xmi:id="_Fyv4ctkfEea6ZZ7ct7ofIw" tag="DB IdentifierQuoteString" value="`"/>
+    <parameters xmi:id="_FmtAgtkfEea6ZZ7ct7ofIw" key="CONN_PARA_KEY_USERNAME" value="estudiantesdwh"/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_F62EgNkfEea6ZZ7ct7ofIw" name="dbms" dataManager="_FmtAgNkfEea6ZZ7ct7ofIw"/>
+</xmi:XMI>

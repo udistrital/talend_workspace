@@ -1,0 +1,4 @@
+{
+  "mvn:org.talend.libraries/sdoapi/6.0.0-SNAPSHOT/jar" : "mvn:org.talend.libraries/sdoapi/6.0.0-SNAPSHOT/jar",
+  "mvn:org.talend.libraries/sdoutil/6.0.0-SNAPSHOT/jar" : "mvn:org.talend.libraries/sdoutil/6.0.0-SNAPSHOT/jar"
+}

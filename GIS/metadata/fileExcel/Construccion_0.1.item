@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:FileExcelConnection xmi:id="_8P4YQU_6EeSnau-YuCEeKg" name="Construccion" dataPackage="_8P4YQk_6EeSnau-YuCEeKg" Server="Localhost 127.0.0.1" FilePath="/home/aarismendi/Documentos/FuentesExternas/FAASv2.xlsx" Encoding="UTF-8" UseHeader="true" HeaderValue="1" FirstLineCaption="true" SheetName="Lote" firstColumn="1" thousandSeparator="','" decimalSeparator="'.'" sheetList="Construcción :w&#xA;">
+    <sheetColumns>A</sheetColumns>
+    <sheetColumns>B</sheetColumns>
+    <sheetColumns>C</sheetColumns>
+    <sheetColumns>D</sheetColumns>
+    <sheetColumns>E</sheetColumns>
+    <sheetColumns>F</sheetColumns>
+    <sheetColumns>G</sheetColumns>
+    <sheetColumns>H</sheetColumns>
+    <sheetColumns>I</sheetColumns>
+    <sheetColumns>J</sheetColumns>
+    <sheetColumns>K</sheetColumns>
+    <sheetColumns>L</sheetColumns>
+    <sheetColumns>M</sheetColumns>
+    <sheetColumns>N</sheetColumns>
+    <sheetColumns>O</sheetColumns>
+    <sheetColumns>P</sheetColumns>
+  </TalendMetadata:FileExcelConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_8P4YQk_6EeSnau-YuCEeKg" name="default" dataManager="_8P4YQU_6EeSnau-YuCEeKg">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_8P4_UE_6EeSnau-YuCEeKg" id="_oP6C0E_6EeSnau-YuCEeKg" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_8P4_UU_6EeSnau-YuCEeKg" label="ConCodigo" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_8P4_Uk_6EeSnau-YuCEeKg" label="ConCodUD" length="6" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_8P4_U0_6EeSnau-YuCEeKg" label="ConAreaUD" length="4" talendType="id_Double" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_8P4_VE_6EeSnau-YuCEeKg" label="ConAreaUtil" talendType="id_Double" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_8P4_VU_6EeSnau-YuCEeKg" label="ConAreaEst" talendType="id_Double" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_8P4_Vk_6EeSnau-YuCEeKg" label="ConNombre" length="16" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_8P4_V0_6EeSnau-YuCEeKg" label="ConAno" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_8P4_WE_6EeSnau-YuCEeKg" label="ConFechaIni" length="28" talendType="id_Date" pattern="&quot;dd/MM/yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_8P4_WU_6EeSnau-YuCEeKg" label="ConFechaFin" talendType="id_Date" pattern="&quot;dd/MM/yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_8P4_Wk_6EeSnau-YuCEeKg" label="ConNPisos" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_8P4_W0_6EeSnau-YuCEeKg" label="ConTSemis" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_8P4_XE_6EeSnau-YuCEeKg" label="ConNSotano" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_8P4_XU_6EeSnau-YuCEeKg" label="ConHO" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_8P4_Xk_6EeSnau-YuCEeKg" label="ConCapIns" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_8P4_X0_6EeSnau-YuCEeKg" label="LotCodigo_Lote" length="10" talendType="id_Long" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_8P4_YE_6EeSnau-YuCEeKg" label="SedeCodigo_Sede" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

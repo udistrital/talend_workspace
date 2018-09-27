@@ -1,0 +1,1 @@
+INDEX VERSION 1.127+/home/sistemasoas/Documentos/developer/TOS_DI-20180829_1603-V7.1.1M3/workspace/.metadata/.plugins/org.eclipse.jdt.core

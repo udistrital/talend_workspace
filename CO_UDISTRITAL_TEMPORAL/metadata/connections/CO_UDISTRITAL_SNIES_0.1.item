@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
+  <TalendMetadata:DatabaseConnection xmi:id="_PeHTED61EeS9-fT5rE34tg" name="CO_UDISTRITAL_SNIES" id="_z8IkwD60EeS9-fT5rE34tg" label="CO_UDISTRITAL_SNIES" dataPackage="_PhBdID61EeS9-fT5rE34tg" DatabaseType="PostgreSQL" DriverClass="org.postgresql.Driver" URL="jdbc:postgresql://10.20.0.15:5432/ods" dbVersionString="PRIOR_TO_V9" Port="5432" Username="postgres" Password="CNlsM2hQx/yKsFREJf9l+Q==" ServerName="10.20.0.15" DatasourceName="" FileFieldName="" SID="ods" SqlSynthax="Sintaxis SQL" DbmsId="postgres_id" ProductId="POSTGRESQL" AdditionalParams="" SystemSQL="true" SQLMode="false" UiSchema="public">
+    <taggedValue xmi:id="_PeHTET61EeS9-fT5rE34tg" tag="Is Conn Need Reload" value="false"/>
+    <taggedValue xmi:id="_PgAJcD61EeS9-fT5rE34tg" tag="package filter" value=""/>
+    <taggedValue xmi:id="_Pg0BwD61EeS9-fT5rE34tg" tag="Status" value=""/>
+    <taggedValue xmi:id="_Pg0BwT61EeS9-fT5rE34tg" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_Pg0Bwj61EeS9-fT5rE34tg" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_Pg0Bwz61EeS9-fT5rE34tg" tag="Description" value=""/>
+    <taggedValue xmi:id="_Pg0BxD61EeS9-fT5rE34tg" tag="Author" value=""/>
+    <taggedValue xmi:id="_Pg0BxT61EeS9-fT5rE34tg" tag="otherParameter"/>
+    <taggedValue xmi:id="_Pg0o0D61EeS9-fT5rE34tg" tag="DB ProductName" value="PostgreSQL"/>
+    <taggedValue xmi:id="_Pg0o0T61EeS9-fT5rE34tg" tag="DB ProductVersion" value="8.2.23"/>
+    <taggedValue xmi:id="_Pg0o0j61EeS9-fT5rE34tg" tag="DB IdentifierQuoteString" value="&quot;"/>
+    <parameters xmi:id="_PeHTEj61EeS9-fT5rE34tg" key="CONN_PARA_KEY_USERNAME" value="postgres"/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_PhBdID61EeS9-fT5rE34tg" name="ods" dataManager="_PeHTED61EeS9-fT5rE34tg">
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_PhBdIT61EeS9-fT5rE34tg" name="public"/>
+  </orgomg.cwm.resource.relational:Catalog>
+</xmi:XMI>

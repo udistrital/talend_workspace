@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:FileExcelConnection xmi:id="_s-DdwPUeEeSt_N4hFOJQRA" name="gastos_historia_dos" dataPackage="_s-DdwfUeEeSt_N4hFOJQRA" Server="Localhost 127.0.0.1" FilePath="/home/devmachine/Documentos/presupuesto/gastos_historia.xlsx" Encoding="UTF-8" UseHeader="true" HeaderValue="1" FirstLineCaption="true" SheetName="Hoja1" firstColumn="1" thousandSeparator="'.'" decimalSeparator="','" advancedSpearator="true" selectAllSheets="true" sheetList="Hoja1:w&#xA;">
+    <sheetColumns>A</sheetColumns>
+    <sheetColumns>B</sheetColumns>
+    <sheetColumns>C</sheetColumns>
+    <sheetColumns>D</sheetColumns>
+    <sheetColumns>E</sheetColumns>
+    <sheetColumns>F</sheetColumns>
+    <sheetColumns>G</sheetColumns>
+    <sheetColumns>H</sheetColumns>
+    <sheetColumns>I</sheetColumns>
+    <sheetColumns>J</sheetColumns>
+    <sheetColumns>K</sheetColumns>
+    <sheetColumns>L</sheetColumns>
+    <sheetColumns>M</sheetColumns>
+    <sheetColumns>N</sheetColumns>
+  </TalendMetadata:FileExcelConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_s-DdwfUeEeSt_N4hFOJQRA" name="default" dataManager="_s-DdwPUeEeSt_N4hFOJQRA">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_s-DdwvUeEeSt_N4hFOJQRA" id="_YLyvwPUeEeSt_N4hFOJQRA" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_s-Ddw_UeEeSt_N4hFOJQRA" label="VIGENCIA" length="4" talendType="id_Integer" key="true" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_s-DdxPUeEeSt_N4hFOJQRA" label="CODIGO" length="22" talendType="id_String" key="true" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_s-DdxfUeEeSt_N4hFOJQRA" label="RUBRO" length="49" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_s-DdxvUeEeSt_N4hFOJQRA" label="PRESUPUESTO_INICIAL" length="19" precision="2" talendType="id_Long" pattern="&quot;dd-MM-yyyy&quot;" originalLength="19"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_s-Ddx_UeEeSt_N4hFOJQRA" label="MODIFICACIONES_MES" length="19" precision="2" talendType="id_Long" pattern="&quot;dd-MM-yyyy&quot;" originalLength="19"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_s-DdyPUeEeSt_N4hFOJQRA" label="MODIFICACIONES_ACUMULADO" length="19" precision="2" talendType="id_Long" pattern="&quot;dd-MM-yyyy&quot;" originalLength="19"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_s-DdyfUeEeSt_N4hFOJQRA" label="PRESUPUESTO_DEFINITIVO" length="19" precision="2" talendType="id_Long" pattern="&quot;dd-MM-yyyy&quot;" originalLength="19"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_s-DdyvUeEeSt_N4hFOJQRA" label="DISPONIBILIDAD_ACUMULADA" length="19" precision="2" talendType="id_Long" pattern="&quot;dd-MM-yyyy&quot;" originalLength="19"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_s-Ddy_UeEeSt_N4hFOJQRA" label="COMPROMISOS_MES" length="19" precision="2" talendType="id_Long" pattern="&quot;dd-MM-yyyy&quot;" originalLength="19"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_s-DdzPUeEeSt_N4hFOJQRA" label="COMPROMISOS_ACUMULADO" length="19" precision="2" talendType="id_Long" pattern="&quot;dd-MM-yyyy&quot;" originalLength="19"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_s-EE0PUeEeSt_N4hFOJQRA" label="GIROS_MES" length="19" precision="2" talendType="id_Long" pattern="&quot;dd-MM-yyyy&quot;" originalLength="19"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_s-EE0fUeEeSt_N4hFOJQRA" label="GIROS_ACUMULADO" length="19" precision="2" talendType="id_Long" pattern="&quot;dd-MM-yyyy&quot;" originalLength="19"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_s-EE0vUeEeSt_N4hFOJQRA" label="PROCENTAJE_EJECUCION" length="19" precision="2" talendType="id_Long" pattern="&quot;dd-MM-yyyy&quot;" originalLength="19"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_s-EE0_UeEeSt_N4hFOJQRA" label="SALDO_LIBRE_AFECTACION" length="19" precision="2" talendType="id_Long" pattern="&quot;dd-MM-yyyy&quot;" originalLength="19"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

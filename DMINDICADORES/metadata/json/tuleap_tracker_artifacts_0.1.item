@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendJSON="http://www.talend.org/json" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendJSON:JSONFileConnection xmi:id="_HuSfQEmeEeiWHNKOIBn3eQ" name="tuleap_tracker_artifacts" dataPackage="_HuSfcEmeEeiWHNKOIBn3eQ" JSONFilePath="/home/devmachine/Documentos/BI/tuleap.json" Encoding="UTF-8" inputModel="false" outputFilePath="">
+    <root xmi:id="_HuSfQUmeEeiWHNKOIBn3eQ" JSONPath="/root" RelatedColumn="" Attribute="main" Order="189" Type="id_String"/>
+    <loop xmi:id="_HuSfQkmeEeiWHNKOIBn3eQ" JSONPath="/root/object" RelatedColumn="" Attribute="main" Order="190" Type="id_String"/>
+    <loop xmi:id="_HuSfQ0meEeiWHNKOIBn3eQ" JSONPath="/root/object/id" RelatedColumn="id" Attribute="branch" Order="191" Type="id_Integer"/>
+    <loop xmi:id="_HuSfREmeEeiWHNKOIBn3eQ" JSONPath="/root/object/uri" RelatedColumn="uri" Attribute="branch" Order="192" Type="id_String"/>
+    <loop xmi:id="_HuSfRUmeEeiWHNKOIBn3eQ" JSONPath="/root/object/xref" RelatedColumn="xref" Attribute="branch" Order="193" Type="id_String"/>
+    <loop xmi:id="_HuSfRkmeEeiWHNKOIBn3eQ" JSONPath="/root/object/tracker" RelatedColumn="" Attribute="branch" Order="194" Type="id_String"/>
+    <loop xmi:id="_HuSfR0meEeiWHNKOIBn3eQ" JSONPath="/root/object/tracker/id" RelatedColumn="id1" Attribute="branch" Order="195" Type="id_Integer"/>
+    <loop xmi:id="_HuSfSEmeEeiWHNKOIBn3eQ" JSONPath="/root/object/tracker/uri" RelatedColumn="uri1" Attribute="branch" Order="196" Type="id_String"/>
+    <loop xmi:id="_HuSfSUmeEeiWHNKOIBn3eQ" JSONPath="/root/object/tracker/label" RelatedColumn="label" Attribute="branch" Order="197" Type="id_String"/>
+    <loop xmi:id="_HuSfSkmeEeiWHNKOIBn3eQ" JSONPath="/root/object/tracker/color_name" RelatedColumn="color_name" Attribute="branch" Order="198" Type="id_String"/>
+    <loop xmi:id="_HuSfS0meEeiWHNKOIBn3eQ" JSONPath="/root/object/tracker/project" RelatedColumn="" Attribute="branch" Order="199" Type="id_String"/>
+    <loop xmi:id="_HuSfTEmeEeiWHNKOIBn3eQ" JSONPath="/root/object/tracker/project/id" RelatedColumn="id2" Attribute="branch" Order="200" Type="id_Integer"/>
+    <loop xmi:id="_HuSfTUmeEeiWHNKOIBn3eQ" JSONPath="/root/object/tracker/project/uri" RelatedColumn="uri2" Attribute="branch" Order="201" Type="id_String"/>
+    <loop xmi:id="_HuSfTkmeEeiWHNKOIBn3eQ" JSONPath="/root/object/tracker/project/label" RelatedColumn="label1" Attribute="branch" Order="202" Type="id_String"/>
+    <loop xmi:id="_HuSfT0meEeiWHNKOIBn3eQ" JSONPath="/root/object/project" RelatedColumn="" Attribute="branch" Order="203" Type="id_String"/>
+    <loop xmi:id="_HuSfUEmeEeiWHNKOIBn3eQ" JSONPath="/root/object/project/id" RelatedColumn="id3" Attribute="branch" Order="204" Type="id_Integer"/>
+    <loop xmi:id="_HuSfUUmeEeiWHNKOIBn3eQ" JSONPath="/root/object/project/uri" RelatedColumn="uri3" Attribute="branch" Order="205" Type="id_String"/>
+    <loop xmi:id="_HuSfUkmeEeiWHNKOIBn3eQ" JSONPath="/root/object/project/label" RelatedColumn="label2" Attribute="branch" Order="206" Type="id_String"/>
+    <loop xmi:id="_HuSfU0meEeiWHNKOIBn3eQ" JSONPath="/root/object/submitted_by" RelatedColumn="submitted_by" Attribute="branch" Order="207" Type="id_Integer"/>
+    <loop xmi:id="_HuSfVEmeEeiWHNKOIBn3eQ" JSONPath="/root/object/submitted_by_user" RelatedColumn="" Attribute="branch" Order="208" Type="id_String"/>
+    <loop xmi:id="_HuSfVUmeEeiWHNKOIBn3eQ" JSONPath="/root/object/submitted_by_user/id" RelatedColumn="id4" Attribute="branch" Order="209" Type="id_Integer"/>
+    <loop xmi:id="_HuSfVkmeEeiWHNKOIBn3eQ" JSONPath="/root/object/submitted_by_user/uri" RelatedColumn="uri4" Attribute="branch" Order="210" Type="id_String"/>
+    <loop xmi:id="_HuSfV0meEeiWHNKOIBn3eQ" JSONPath="/root/object/submitted_by_user/user_url" RelatedColumn="user_url" Attribute="branch" Order="211" Type="id_String"/>
+    <loop xmi:id="_HuSfWEmeEeiWHNKOIBn3eQ" JSONPath="/root/object/submitted_by_user/real_name" RelatedColumn="real_name" Attribute="branch" Order="212" Type="id_String"/>
+    <loop xmi:id="_HuSfWUmeEeiWHNKOIBn3eQ" JSONPath="/root/object/submitted_by_user/display_name" RelatedColumn="display_name" Attribute="branch" Order="213" Type="id_String"/>
+    <loop xmi:id="_HuSfWkmeEeiWHNKOIBn3eQ" JSONPath="/root/object/submitted_by_user/username" RelatedColumn="username" Attribute="branch" Order="214" Type="id_String"/>
+    <loop xmi:id="_HuSfW0meEeiWHNKOIBn3eQ" JSONPath="/root/object/submitted_by_user/ldap_id" RelatedColumn="ldap_id" Attribute="branch" Order="215" Type="id_String"/>
+    <loop xmi:id="_HuSfXEmeEeiWHNKOIBn3eQ" JSONPath="/root/object/submitted_by_user/avatar_url" RelatedColumn="avatar_url" Attribute="branch" Order="216" Type="id_String"/>
+    <loop xmi:id="_HuSfXUmeEeiWHNKOIBn3eQ" JSONPath="/root/object/submitted_by_user/is_anonymous" RelatedColumn="is_anonymous" Attribute="branch" Order="217" Type="id_Boolean"/>
+    <loop xmi:id="_HuSfXkmeEeiWHNKOIBn3eQ" JSONPath="/root/object/submitted_on" RelatedColumn="submitted_on" Attribute="branch" Order="218" Type="id_Date"/>
+    <loop xmi:id="_HuSfX0meEeiWHNKOIBn3eQ" JSONPath="/root/object/html_url" RelatedColumn="html_url" Attribute="branch" Order="219" Type="id_String"/>
+    <loop xmi:id="_HuSfYEmeEeiWHNKOIBn3eQ" JSONPath="/root/object/changesets_uri" RelatedColumn="changesets_uri" Attribute="branch" Order="220" Type="id_String"/>
+    <loop xmi:id="_HuSfYUmeEeiWHNKOIBn3eQ" JSONPath="/root/object/values" RelatedColumn="values" Attribute="branch" Order="221" Type="id_String"/>
+    <loop xmi:id="_HuSfYkmeEeiWHNKOIBn3eQ" JSONPath="/root/object/values_by_field" RelatedColumn="values_by_field" Attribute="branch" Order="222" Type="id_String"/>
+    <loop xmi:id="_HuSfY0meEeiWHNKOIBn3eQ" JSONPath="/root/object/last_modified_date" RelatedColumn="last_modified_date" Attribute="branch" Order="223" Type="id_Date"/>
+    <loop xmi:id="_HuSfZEmeEeiWHNKOIBn3eQ" JSONPath="/root/object/status" RelatedColumn="status" Attribute="branch" Order="224" Type="id_String"/>
+    <loop xmi:id="_HuSfZUmeEeiWHNKOIBn3eQ" JSONPath="/root/object/title" RelatedColumn="title" Attribute="branch" Order="225" Type="id_String"/>
+    <loop xmi:id="_HuSfZkmeEeiWHNKOIBn3eQ" JSONPath="/root/object/assignees" RelatedColumn="" Attribute="branch" Order="226" Type="id_String"/>
+    <loop xmi:id="_HuSfZ0meEeiWHNKOIBn3eQ" JSONPath="/root/object/assignees/id" RelatedColumn="id5" Attribute="branch" Order="227" Type="id_Integer"/>
+    <loop xmi:id="_HuSfaEmeEeiWHNKOIBn3eQ" JSONPath="/root/object/assignees/uri" RelatedColumn="uri5" Attribute="branch" Order="228" Type="id_String"/>
+    <loop xmi:id="_HuSfaUmeEeiWHNKOIBn3eQ" JSONPath="/root/object/assignees/user_url" RelatedColumn="user_url1" Attribute="branch" Order="229" Type="id_String"/>
+    <loop xmi:id="_HuSfakmeEeiWHNKOIBn3eQ" JSONPath="/root/object/assignees/real_name" RelatedColumn="real_name1" Attribute="branch" Order="230" Type="id_String"/>
+    <loop xmi:id="_HuSfa0meEeiWHNKOIBn3eQ" JSONPath="/root/object/assignees/display_name" RelatedColumn="display_name1" Attribute="branch" Order="231" Type="id_String"/>
+    <loop xmi:id="_HuSfbEmeEeiWHNKOIBn3eQ" JSONPath="/root/object/assignees/username" RelatedColumn="username1" Attribute="branch" Order="232" Type="id_String"/>
+    <loop xmi:id="_HuSfbUmeEeiWHNKOIBn3eQ" JSONPath="/root/object/assignees/ldap_id" RelatedColumn="ldap_id1" Attribute="branch" Order="233" Type="id_String"/>
+    <loop xmi:id="_HuSfbkmeEeiWHNKOIBn3eQ" JSONPath="/root/object/assignees/avatar_url" RelatedColumn="avatar_url1" Attribute="branch" Order="234" Type="id_String"/>
+    <loop xmi:id="_HuSfb0meEeiWHNKOIBn3eQ" JSONPath="/root/object/assignees/is_anonymous" RelatedColumn="is_anonymous1" Attribute="branch" Order="235" Type="id_Boolean"/>
+  </TalendJSON:JSONFileConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_HuSfcEmeEeiWHNKOIBn3eQ" name="default" dataManager="_HuSfQEmeEeiWHNKOIBn3eQ">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_HuSfcUmeEeiWHNKOIBn3eQ" id="_aMt-4EmdEeiWHNKOIBn3eQ" label="tuelap_metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HuSfckmeEeiWHNKOIBn3eQ" name="id" label="id" talendType="id_Integer"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HuSfc0meEeiWHNKOIBn3eQ" name="uri" label="uri" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HuSfdEmeEeiWHNKOIBn3eQ" name="xref" label="xref" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HuSfdUmeEeiWHNKOIBn3eQ" name="id" label="id1" talendType="id_Integer"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HuSfdkmeEeiWHNKOIBn3eQ" name="uri" label="uri1" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HuSfd0meEeiWHNKOIBn3eQ" name="label" label="label" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HuSfeEmeEeiWHNKOIBn3eQ" name="color_name" label="color_name" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HuSfeUmeEeiWHNKOIBn3eQ" name="id" label="id2" talendType="id_Integer"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HuSfekmeEeiWHNKOIBn3eQ" name="uri" label="uri2" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HuSfe0meEeiWHNKOIBn3eQ" name="label" label="label1" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HuSffEmeEeiWHNKOIBn3eQ" name="id" label="id3" talendType="id_Integer"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HuSffUmeEeiWHNKOIBn3eQ" name="uri" label="uri3" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HuSffkmeEeiWHNKOIBn3eQ" name="label" label="label2" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HuSff0meEeiWHNKOIBn3eQ" name="submitted_by" label="submitted_by" talendType="id_Integer"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HuSfgEmeEeiWHNKOIBn3eQ" name="id" label="id4" talendType="id_Integer"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HuSfgUmeEeiWHNKOIBn3eQ" name="uri" label="uri4" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HuSfgkmeEeiWHNKOIBn3eQ" name="user_url" label="user_url" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HuSfg0meEeiWHNKOIBn3eQ" name="real_name" label="real_name" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HuSfhEmeEeiWHNKOIBn3eQ" name="display_name" label="display_name" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HuSfhUmeEeiWHNKOIBn3eQ" name="username" label="username" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HuSfhkmeEeiWHNKOIBn3eQ" name="ldap_id" label="ldap_id" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HuSfh0meEeiWHNKOIBn3eQ" name="avatar_url" label="avatar_url" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HuSfiEmeEeiWHNKOIBn3eQ" name="is_anonymous" label="is_anonymous" talendType="id_Boolean"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HuSfiUmeEeiWHNKOIBn3eQ" name="submitted_on" label="submitted_on" talendType="id_Date" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HuSfikmeEeiWHNKOIBn3eQ" name="html_url" label="html_url" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HuSfi0meEeiWHNKOIBn3eQ" name="changesets_uri" label="changesets_uri" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HuSfjEmeEeiWHNKOIBn3eQ" name="values" label="values" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HuSfjUmeEeiWHNKOIBn3eQ" name="values_by_field" label="values_by_field" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HuSfjkmeEeiWHNKOIBn3eQ" name="last_modified_date" label="last_modified_date" talendType="id_Date" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HuSfj0meEeiWHNKOIBn3eQ" name="status" label="status" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HuSfkEmeEeiWHNKOIBn3eQ" name="title" label="title" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HuSfkUmeEeiWHNKOIBn3eQ" name="id" label="id5" talendType="id_Integer"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HuSfkkmeEeiWHNKOIBn3eQ" name="uri" label="uri5" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HuSfk0meEeiWHNKOIBn3eQ" name="user_url" label="user_url1" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HuSflEmeEeiWHNKOIBn3eQ" name="real_name" label="real_name1" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HuSflUmeEeiWHNKOIBn3eQ" name="display_name" label="display_name1" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HuSflkmeEeiWHNKOIBn3eQ" name="username" label="username1" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HuSfl0meEeiWHNKOIBn3eQ" name="ldap_id" label="ldap_id1" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HuSfmEmeEeiWHNKOIBn3eQ" name="avatar_url" label="avatar_url1" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HuSfmUmeEeiWHNKOIBn3eQ" name="is_anonymous" label="is_anonymous1" talendType="id_Boolean"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

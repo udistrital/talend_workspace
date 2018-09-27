@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_lVaGIN5-Eeav-_cK-MdCHg" name="spadies_desercion_periodo" dataPackage="_lVatMN5-Eeav-_cK-MdCHg" Server="Localhost 127.0.0.1" FilePath="/home/devmachine/Documentos/spadies/desercion_por_periodo_20162.csv" Encoding="US-ASCII" FieldSeparatorValue="&quot;;&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_lVatMN5-Eeav-_cK-MdCHg" name="default" dataManager="_lVaGIN5-Eeav-_cK-MdCHg">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_lVatMd5-Eeav-_cK-MdCHg" id="_bJH4UN5-Eeav-_cK-MdCHg" label="metadata_spadies_desercion_semestre">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_lVatMt5-Eeav-_cK-MdCHg" label="Periodo" length="6" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_lVatM95-Eeav-_cK-MdCHg" label="Programa_academico" length="24" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_lVatNN5-Eeav-_cK-MdCHg" label="NO_graduados" length="3" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_lVatNd5-Eeav-_cK-MdCHg" label="Desertores" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_lVatNt5-Eeav-_cK-MdCHg" label="Desercion" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_lVatN95-Eeav-_cK-MdCHg" label="Retencion" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_O7PVYDTREee4ubAB7vpkEg" name="actas" dataPackage="_O7PVYTTREee4ubAB7vpkEg" Server="Localhost 127.0.0.1" FilePath="/home/devmachine/Documentos/docentes/Acta217.csv" Encoding="UTF-8" FieldSeparatorValue="&quot;;&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FooterValue="0" LimitValue="" FirstLineCaption="true" EscapeChar="&quot;\&quot;&quot;" TextEnclosure="&quot;\&quot;&quot;"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_O7PVYTTREee4ubAB7vpkEg" name="default" dataManager="_O7PVYDTREee4ubAB7vpkEg">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_O7PVYjTREee4ubAB7vpkEg" id="_IWLF4DTREee4ubAB7vpkEg" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_O7PVYzTREee4ubAB7vpkEg" label="CODIGO_DOCENTE" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_O7PVZDTREee4ubAB7vpkEg" label="CEDULA" length="8" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_O7PVZTTREee4ubAB7vpkEg" label="DOCENTE" length="31" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_O7PVZjTREee4ubAB7vpkEg" label="FACULTAD" length="35" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_O7PVZzTREee4ubAB7vpkEg" label="ID_CONCEPTO" length="3" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_O7PVaDTREee4ubAB7vpkEg" label="CONCEPTO" length="463" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_O7PVaTTREee4ubAB7vpkEg" label="SESION" length="1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_O7PVajTREee4ubAB7vpkEg" label="FECHA_ACTA" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_O7PVazTREee4ubAB7vpkEg" label="RECTORIA" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_O7PVbDTREee4ubAB7vpkEg" label="PUNTOS_SALARIALES" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

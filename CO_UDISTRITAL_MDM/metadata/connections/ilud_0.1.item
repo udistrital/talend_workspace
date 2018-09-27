@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
+  <TalendMetadata:DatabaseConnection xmi:id="_90QnALFHEeOUWMP8XP5-ow" name="ilud" id="_0ygIELFGEeOUWMP8XP5-ow" label="ilud" dataPackage="_mMHJsHspEeSu1rrtO4r3Hg" DatabaseType="MySQL" DriverClass="org.gjt.mm.mysql.Driver" URL="jdbc:mysql://10.20.1.253:3306/recibos_generados?noDatetimeStringSync=true" dbVersionString="MYSQL_5" Port="3306" Username="sistemasoas" Password="rmOvarI8MzTxieB5M38Vnw==" ServerName="10.20.1.253" DatasourceName="" FileFieldName="" SID="recibos_generados" SqlSynthax="Sintaxis SQL" DbmsId="mysql_id" ProductId="MYSQL" AdditionalParams="noDatetimeStringSync=true" SystemSQL="true" SQLMode="false" UiSchema="">
+    <taggedValue xmi:id="_90QnAbFHEeOUWMP8XP5-ow" tag="Is Conn Need Reload" value="false"/>
+    <taggedValue xmi:id="_91R6sLFHEeOUWMP8XP5-ow" tag="package filter" value=""/>
+    <taggedValue xmi:id="_-gZUQLFHEeOUWMP8XP5-ow" tag="Status" value=""/>
+    <taggedValue xmi:id="_-gZUQbFHEeOUWMP8XP5-ow" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_-gZUQrFHEeOUWMP8XP5-ow" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_-gZUQ7FHEeOUWMP8XP5-ow" tag="Description" value=""/>
+    <taggedValue xmi:id="_-gZURLFHEeOUWMP8XP5-ow" tag="Author" value=""/>
+    <taggedValue xmi:id="_-gZURbFHEeOUWMP8XP5-ow" tag="otherParameter"/>
+    <taggedValue xmi:id="_-gZ7ULFHEeOUWMP8XP5-ow" tag="DB ProductName" value="MySQL"/>
+    <taggedValue xmi:id="_-gZ7UbFHEeOUWMP8XP5-ow" tag="DB ProductVersion" value="5.0.24a-community-nt-log"/>
+    <taggedValue xmi:id="_-gZ7UrFHEeOUWMP8XP5-ow" tag="DB IdentifierQuoteString" value="`"/>
+    <parameters xmi:id="_90QnArFHEeOUWMP8XP5-ow" key="CONN_PARA_KEY_USERNAME" value="sistemasoas"/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_mMHJsHspEeSu1rrtO4r3Hg" name="recibos_generados" dataManager="_90QnALFHEeOUWMP8XP5-ow"/>
+</xmi:XMI>

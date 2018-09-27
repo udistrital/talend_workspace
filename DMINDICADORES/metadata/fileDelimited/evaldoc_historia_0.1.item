@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_kIjPkBSBEeW-oL0SVs_e-w" name="evaldoc_historia" dataPackage="_kIjPkRSBEeW-oL0SVs_e-w" Server="Localhost 127.0.0.1" FilePath="/home/devmachine/Documentos/docentes/consolidado_total.csv" Encoding="UTF-8" FieldSeparatorValue="&quot;\t&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" FieldSeparatorType="Tabulation"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_kIjPkRSBEeW-oL0SVs_e-w" name="default" dataManager="_kIjPkBSBEeW-oL0SVs_e-w">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_kIjPkhSBEeW-oL0SVs_e-w" id="_sykO0BSAEeW-oL0SVs_e-w" label="metadata_evaluacion_docente_historia">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kIjPkxSBEeW-oL0SVs_e-w" label="ANNO" length="4" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kIjPlBSBEeW-oL0SVs_e-w" label="PERIODO" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kIjPlRSBEeW-oL0SVs_e-w" label="CODIGO_FACULTAD" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kIjPlhSBEeW-oL0SVs_e-w" label="FACULTAD" length="47" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kIjPlxSBEeW-oL0SVs_e-w" label="CODIGO" length="3" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;" originalLength="3"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kIjPmBSBEeW-oL0SVs_e-w" label="CARRERA" length="37" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kIjPmRSBEeW-oL0SVs_e-w" label="NOMBRE" length="33" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kIjPmhSBEeW-oL0SVs_e-w" label="IDENTIFICACION" length="15" talendType="id_Long" pattern="&quot;dd-MM-yyyy&quot;" originalLength="15"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kIjPmxSBEeW-oL0SVs_e-w" label="NUMERO_ESTUDIANTES" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kIjPnBSBEeW-oL0SVs_e-w" label="TOTAL_ESTUDIANTES" length="1" precision="3" talendType="id_Double" pattern="&quot;dd-MM-yyyy&quot;" originalLength="1"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kIjPnRSBEeW-oL0SVs_e-w" label="TOTAL_AUTOEVALUACION" length="1" precision="3" talendType="id_Double" pattern="&quot;dd-MM-yyyy&quot;" originalLength="1"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kIjPnhSBEeW-oL0SVs_e-w" label="TOTAL_CONSEJO" length="1" precision="3" talendType="id_Double" pattern="&quot;dd-MM-yyyy&quot;" originalLength="1"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kIjPnxSBEeW-oL0SVs_e-w" label="PROMEDIO" length="1" precision="3" talendType="id_Double" pattern="&quot;dd-MM-yyyy&quot;" originalLength="1"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

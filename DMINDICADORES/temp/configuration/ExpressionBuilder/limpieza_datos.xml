@@ -1,0 +1,36 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<expression:EMFExpression xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:expression="http:///expression.ecore" id="tMap_1=>" expression="TalendString.removeAccents(StringHandling.UPCASE(row1.Nombre_del_Programa));">
+  <variables name="row1.Codigo_Institucion" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="row1.Nombre_Institucion" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row1.Estado_Institucion" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row1.Caracter_Academico" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row1.Sector" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row1._Puede_Recibir_Estudiantes_Nuevos_" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row1.Estado_Programa" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row1.Descripcion_Estado_Programa" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row1.Fecha_de_la_Resolucion" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row1.Numero_de_la_Resolucion" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row1.Justificacion" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row1.Reconocimiento_del_Ministerio" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row1.Resolucion_de_Aprobacion_No_" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row1.Fecha_de_Resolucion" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row1.Vigencia__Anos_" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row1.Fecha_de_Registro_en_SNIES" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row1.Codigo_SNIES_del_Programa" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="row1.Codigo_Anterior__ICFES_" value="null" talendType="id_Double" nullable="true"/>
+  <variables name="row1.Area_de_Conocimiento" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row1.Nucleo_Basico_del_Conocimiento___NBC" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row1.Nombre_del_Programa" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row1.Nivel_Academico" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row1.Nivel_de_Formacion" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row1.Metodologia" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row1.Numero_Creditos" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row1.Numero_Periodos_de_Duracion" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="row1.Periodos_de_Duracion" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row1.Titulo_Otorgado" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row1.Departamento_Oferta_del_Programa" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row1.Municipio_Oferta_del_Programa" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row1.Costo_Matricula_para_Estudiantes_Nuevos" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row1._Se_ofrece_por_ciclos_propedeuticos_" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row1._Cada_cuanto_se_hacen_admisiones_de_estudiantes_nuevos_" value="null" talendType="id_String" nullable="true"/>
+</expression:EMFExpression>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:FileExcelConnection xmi:id="_XohEYM3eEeSPoOhP2Gltkw" name="colegios_icfes" dataPackage="_XohrcM3eEeSPoOhP2Gltkw" Server="Localhost 127.0.0.1" FilePath="/home/adbius/Documentos/icfes/colegios_codigo_dane_icfes_2014.xlsx" Encoding="UTF-8" UseHeader="true" HeaderValue="1" FirstLineCaption="true" SheetName="Icfes_Due" firstColumn="1" thousandSeparator="','" decimalSeparator="'.'" sheetList="Icfes_Due:w&#xA;">
+    <sheetColumns>A</sheetColumns>
+    <sheetColumns>B</sheetColumns>
+    <sheetColumns>C</sheetColumns>
+    <sheetColumns>D</sheetColumns>
+    <sheetColumns>E</sheetColumns>
+    <sheetColumns>F</sheetColumns>
+  </TalendMetadata:FileExcelConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_XohrcM3eEeSPoOhP2Gltkw" name="default" dataManager="_XohEYM3eEeSPoOhP2Gltkw">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_Xohrcc3eEeSPoOhP2Gltkw" id="_ItBVcM3eEeSPoOhP2Gltkw" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Xohrcs3eEeSPoOhP2Gltkw" label="CODIGOICFES" length="6" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Xohrc83eEeSPoOhP2Gltkw" label="JORNADA" length="1" talendType="id_Character" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_XohrdM3eEeSPoOhP2Gltkw" label="CODIGODANE" length="12" talendType="id_Long" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Xohrdc3eEeSPoOhP2Gltkw" label="NOMBRE" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;" originalLength="255"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Xohrds3eEeSPoOhP2Gltkw" label="MUNICIPIO" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;" originalLength="255"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Xohrd83eEeSPoOhP2Gltkw" label="DEPARTAMENTO" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;" originalLength="255"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

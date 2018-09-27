@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_vo1CcGU5EeiTu6sj2r9rAw" comment="connectionComment" label="connectionLabel" dataPackage="_vo1CcWU5EeiTu6sj2r9rAw" mappingTypeUsed="true" mappingTypeId="oracle_id"/>
+  <TalendMetadata:GenericPackage xmi:id="_vo1CcWU5EeiTu6sj2r9rAw" dataManager="_vo1CcGU5EeiTu6sj2r9rAw">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_vo1CcmU5EeiTu6sj2r9rAw" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_vo1Cc2U5EeiTu6sj2r9rAw" name="IES_CODE" id="44048" label="IES_CODE" length="4" precision="-1" sourceType="INT" talendType="id_Integer">
+        <initialValue xmi:id="_vo1CdGU5EeiTu6sj2r9rAw" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_vo1CdWU5EeiTu6sj2r9rAw" name="ANIO" id="44049" label="ANIO" length="4" precision="-1" sourceType="INT" talendType="id_Integer">
+        <initialValue xmi:id="_vo1CdmU5EeiTu6sj2r9rAw" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_vo1Cd2U5EeiTu6sj2r9rAw" name="SEMESTRE" id="44050" label="SEMESTRE" length="1" sourceType="" talendType="id_Integer">
+        <initialValue xmi:id="_vo1CeGU5EeiTu6sj2r9rAw"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_vo1CeWU5EeiTu6sj2r9rAw" name="CODIGO_FACULTAD" id="44051" label="CODIGO_FACULTAD" length="3" sourceType="INT" talendType="id_Integer">
+        <initialValue xmi:id="_vo1CemU5EeiTu6sj2r9rAw" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_vo1Ce2U5EeiTu6sj2r9rAw" name="FACULTAD" id="44052" label="FACULTAD" length="64" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_vo1CfGU5EeiTu6sj2r9rAw"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_vo1CfWU5EeiTu6sj2r9rAw" name="CODIGO_PROYECTO_SNIES" id="44053" label="CODIGO_PROYECTO_SNIES" length="10" sourceType="INT" talendType="id_Integer">
+        <initialValue xmi:id="_vo1CfmU5EeiTu6sj2r9rAw" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_vo1Cf2U5EeiTu6sj2r9rAw" name="PROYECTO_SNIES" id="44054" label="PROYECTO_SNIES" length="100" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_vo1CgGU5EeiTu6sj2r9rAw"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_vo1CgWU5EeiTu6sj2r9rAw" name="CODIGO_PROYECTO" id="44055" label="CODIGO_PROYECTO" length="3" sourceType="INT" talendType="id_Integer">
+        <initialValue xmi:id="_vo1CgmU5EeiTu6sj2r9rAw" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_vo1Cg2U5EeiTu6sj2r9rAw" name="PROYECTO" id="44056" label="PROYECTO" length="100" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_vo1ChGU5EeiTu6sj2r9rAw"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_vo1ChWU5EeiTu6sj2r9rAw" name="MODALIDAD" id="44057" label="MODALIDAD" length="50" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_vo1ChmU5EeiTu6sj2r9rAw"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_vo1Ch2U5EeiTu6sj2r9rAw" name="NIVEL" id="44058" label="NIVEL" length="10" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_vo1CiGU5EeiTu6sj2r9rAw"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_vo1CiWU5EeiTu6sj2r9rAw" name="DPTO_COD" id="44059" label="DPTO_COD" length="2" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_vo1CimU5EeiTu6sj2r9rAw"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_vo1Ci2U5EeiTu6sj2r9rAw" name="DPTO" id="44060" label="DPTO" length="10" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_vo1CjGU5EeiTu6sj2r9rAw"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_vo1CjWU5EeiTu6sj2r9rAw" name="MUN_COD" id="44061" label="MUN_COD" length="4" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_vo1CjmU5EeiTu6sj2r9rAw"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_vo1Cj2U5EeiTu6sj2r9rAw" name="MUN" id="44062" label="MUN" length="10" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_vo1CkGU5EeiTu6sj2r9rAw"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_vo1CkWU5EeiTu6sj2r9rAw" name="GENERO" id="44063" label="GENERO" length="11" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_vo1CkmU5EeiTu6sj2r9rAw"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_vo1Ck2U5EeiTu6sj2r9rAw" name="CODIGO_LOCALIDAD" id="44064" label="CODIGO_LOCALIDAD" length="2" sourceType="" talendType="id_Integer">
+        <initialValue xmi:id="_vo1ClGU5EeiTu6sj2r9rAw"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_vo1ClWU5EeiTu6sj2r9rAw" name="LOCALIDAD_ASPIRANTE" id="44065" label="LOCALIDAD_ASPIRANTE" length="30" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_vo1ClmU5EeiTu6sj2r9rAw"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_vo1Cl2U5EeiTu6sj2r9rAw" name="ESTRATO" id="44066" label="ESTRATO" length="2" sourceType="INT" talendType="id_Integer">
+        <initialValue xmi:id="_vo1CmGU5EeiTu6sj2r9rAw" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_vo1CmWU5EeiTu6sj2r9rAw" name="CODIGO_ESTUDIANTE" id="44067" label="CODIGO_ESTUDIANTE" length="11" sourceType="NUMBER" talendType="id_Long" key="true">
+        <initialValue xmi:id="_vo1CmmU5EeiTu6sj2r9rAw" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_vo1Cm2U5EeiTu6sj2r9rAw" name="DOCUMENTO" id="44068" label="DOCUMENTO" length="14" sourceType="NUMBER" talendType="id_Long">
+        <initialValue xmi:id="_vo1CnGU5EeiTu6sj2r9rAw" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_vo1CnWU5EeiTu6sj2r9rAw" name="NOMBRE" id="44069" label="NOMBRE" length="50" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_vo1CnmU5EeiTu6sj2r9rAw"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_vo1Cn2U5EeiTu6sj2r9rAw" name="TIPO_COLEGIO" id="44070" label="TIPO_COLEGIO" length="10" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_vo1CoGU5EeiTu6sj2r9rAw"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_vo1CoWU5EeiTu6sj2r9rAw" name="CODIGO_LOCALIDAD_COLEGIO" id="44071" label="CODIGO_LOCALIDAD_COLEGIO" length="2" sourceType="" talendType="id_Integer">
+        <initialValue xmi:id="_vo1ComU5EeiTu6sj2r9rAw"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_vo1Co2U5EeiTu6sj2r9rAw" name="LOCALIDAD_COLEGIO" id="44072" label="LOCALIDAD_COLEGIO" length="30" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_vo1CpGU5EeiTu6sj2r9rAw"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_vo1CpWU5EeiTu6sj2r9rAw" name="CODIGO_COLEGIO" id="44073" label="CODIGO_COLEGIO" length="15" sourceType="NUMBER" talendType="id_Long">
+        <initialValue xmi:id="_vo1CpmU5EeiTu6sj2r9rAw" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_vo1Cp2U5EeiTu6sj2r9rAw" name="CALENDARIO_COLEGIO" id="44074" label="CALENDARIO_COLEGIO" length="1" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_vo1CqGU5EeiTu6sj2r9rAw"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_vo1CqWU5EeiTu6sj2r9rAw" name="COLEGIO" id="44075" label="COLEGIO" length="100" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_vo1CqmU5EeiTu6sj2r9rAw"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_vo1Cq2U5EeiTu6sj2r9rAw" name="MUNICIPIO_COLEGIO" id="44076" label="MUNICIPIO_COLEGIO" length="30" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_vo1CrGU5EeiTu6sj2r9rAw"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_vo1CrWU5EeiTu6sj2r9rAw" name="DEPARTAMENTO_COLEGIO" id="44077" label="DEPARTAMENTO_COLEGIO" length="15" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_vo1CrmU5EeiTu6sj2r9rAw"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_vo1Cr2U5EeiTu6sj2r9rAw" name="CODIGO_INSCRIPCION" id="44078" label="CODIGO_INSCRIPCION" length="2" sourceType="INT" talendType="id_Integer">
+        <initialValue xmi:id="_vo1CsGU5EeiTu6sj2r9rAw" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_vo1CsWU5EeiTu6sj2r9rAw" name="INSCRIPCION" id="44079" label="INSCRIPCION" length="50" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_vo1CsmU5EeiTu6sj2r9rAw"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_vo1Cs2U5EeiTu6sj2r9rAw" name="BIOLOGIA" id="44080" label="BIOLOGIA" length="5" precision="2" sourceType="DOUBLE PRECISION" talendType="id_Double">
+        <initialValue xmi:id="_vo1CtGU5EeiTu6sj2r9rAw" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_vo1CtWU5EeiTu6sj2r9rAw" name="QUIMICA" id="44081" label="QUIMICA" length="5" precision="2" sourceType="DOUBLE PRECISION" talendType="id_Double">
+        <initialValue xmi:id="_vo1CtmU5EeiTu6sj2r9rAw" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_vo1Ct2U5EeiTu6sj2r9rAw" name="FISICA" id="44082" label="FISICA" length="5" precision="2" sourceType="DOUBLE PRECISION" talendType="id_Double">
+        <initialValue xmi:id="_vo1CuGU5EeiTu6sj2r9rAw" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_vo1CuWU5EeiTu6sj2r9rAw" name="SOCIALES" id="44083" label="SOCIALES" length="5" precision="2" sourceType="DOUBLE PRECISION" talendType="id_Double">
+        <initialValue xmi:id="_vo1CumU5EeiTu6sj2r9rAw" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_vo1Cu2U5EeiTu6sj2r9rAw" name="APTITUD_VERBAL" id="44084" label="APTITUD_VERBAL" length="5" precision="2" sourceType="DOUBLE PRECISION" talendType="id_Double">
+        <initialValue xmi:id="_vo1CvGU5EeiTu6sj2r9rAw" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_vo1CvWU5EeiTu6sj2r9rAw" name="ESPANOL_LITERATURA" id="44085" label="ESPANOL_LITERATURA" length="5" precision="2" sourceType="DOUBLE PRECISION" talendType="id_Double">
+        <initialValue xmi:id="_vo1CvmU5EeiTu6sj2r9rAw" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_vo1Cv2U5EeiTu6sj2r9rAw" name="APTITUD_MATEMATICA" id="44086" label="APTITUD_MATEMATICA" length="5" precision="2" sourceType="DOUBLE PRECISION" talendType="id_Double">
+        <initialValue xmi:id="_vo1CwGU5EeiTu6sj2r9rAw" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_vo1pgGU5EeiTu6sj2r9rAw" name="CONDICION_MATEMATICA" id="44087" label="CONDICION_MATEMATICA" length="5" precision="2" sourceType="DOUBLE PRECISION" talendType="id_Double">
+        <initialValue xmi:id="_vo1pgWU5EeiTu6sj2r9rAw" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_vo1pgmU5EeiTu6sj2r9rAw" name="FILOSOFIA" id="44088" label="FILOSOFIA" length="5" precision="2" sourceType="DOUBLE PRECISION" talendType="id_Double">
+        <initialValue xmi:id="_vo1pg2U5EeiTu6sj2r9rAw" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_vo1phGU5EeiTu6sj2r9rAw" name="HISTORIA" id="44089" label="HISTORIA" length="5" precision="2" sourceType="DOUBLE PRECISION" talendType="id_Double">
+        <initialValue xmi:id="_vo1phWU5EeiTu6sj2r9rAw" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_vo1phmU5EeiTu6sj2r9rAw" name="GEOGRAFIA" id="44090" label="GEOGRAFIA" length="5" precision="2" sourceType="DOUBLE PRECISION" talendType="id_Double">
+        <initialValue xmi:id="_vo1ph2U5EeiTu6sj2r9rAw" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_vo1piGU5EeiTu6sj2r9rAw" name="IDIOMA" id="44091" label="IDIOMA" length="5" precision="2" sourceType="DOUBLE PRECISION" talendType="id_Double">
+        <initialValue xmi:id="_vo1piWU5EeiTu6sj2r9rAw" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_vo1pimU5EeiTu6sj2r9rAw" name="INTERDICIPLINAR" id="44092" label="INTERDICIPLINAR" length="5" precision="2" sourceType="DOUBLE PRECISION" talendType="id_Double">
+        <initialValue xmi:id="_vo1pi2U5EeiTu6sj2r9rAw" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_vo1pjGU5EeiTu6sj2r9rAw" name="CODIGO_INTERDICIPLINAR" id="44093" label="CODIGO_INTERDICIPLINAR" length="1" sourceType="DOUBLE PRECISION" talendType="id_Integer">
+        <initialValue xmi:id="_vo1pjWU5EeiTu6sj2r9rAw" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_vo1pjmU5EeiTu6sj2r9rAw" name="PUNTOS_ICFES" id="44094" label="PUNTOS_ICFES" length="6" precision="2" sourceType="DOUBLE PRECISION" talendType="id_Double">
+        <initialValue xmi:id="_vo1pj2U5EeiTu6sj2r9rAw" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_vo1pkGU5EeiTu6sj2r9rAw" name="ASP_PTOS_HOM" id="44095" label="ASP_PTOS_HOM" length="6" precision="2" sourceType="DOUBLE PRECISION" talendType="id_Double">
+        <initialValue xmi:id="_vo1pkWU5EeiTu6sj2r9rAw" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_vo1pkmU5EeiTu6sj2r9rAw" name="PROFUNDIZACION" id="44096" label="PROFUNDIZACION" length="1" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_vo1pk2U5EeiTu6sj2r9rAw"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_vo1plGU5EeiTu6sj2r9rAw" name="VALOR_PROFUNDIZACION" id="44097" label="VALOR_PROFUNDIZACION" length="2" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_vo1plWU5EeiTu6sj2r9rAw"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_vo1plmU5EeiTu6sj2r9rAw" name="PROFUNDIZACION_DOS" id="44098" label="PROFUNDIZACION_DOS" length="1" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_vo1pl2U5EeiTu6sj2r9rAw"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_vo1pmGU5EeiTu6sj2r9rAw" name="VALOR_PROFUNDIZACION_DOS" id="44099" label="VALOR_PROFUNDIZACION_DOS" length="2" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_vo1pmWU5EeiTu6sj2r9rAw"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_vo1pmmU5EeiTu6sj2r9rAw" name="PROFUNDIZACION_TRES" id="44100" label="PROFUNDIZACION_TRES" length="1" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_vo1pm2U5EeiTu6sj2r9rAw"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_vo1pnGU5EeiTu6sj2r9rAw" name="VALOR_PROFUNDIZACION_TRES" id="44101" label="VALOR_PROFUNDIZACION_TRES" length="2" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_vo1pnWU5EeiTu6sj2r9rAw"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_vo1pnmU5EeiTu6sj2r9rAw" name="VALOR_MATRICULA" id="44102" label="VALOR_MATRICULA" length="8" sourceType="DOUBLE PRECISION" talendType="id_Double">
+        <initialValue xmi:id="_vo1pn2U5EeiTu6sj2r9rAw" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_vo1poGU5EeiTu6sj2r9rAw" name="CODIGO_ESTADO" id="44103" label="CODIGO_ESTADO" length="1" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_vo1poWU5EeiTu6sj2r9rAw"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_vo1pomU5EeiTu6sj2r9rAw" name="ESTADO" id="44104" label="ESTADO" length="20" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_vo1po2U5EeiTu6sj2r9rAw"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_vo1ppGU5EeiTu6sj2r9rAw" name="EDAD" id="44105" label="EDAD" length="2" precision="-1" sourceType="INT" talendType="id_Integer">
+        <initialValue xmi:id="_vo1ppWU5EeiTu6sj2r9rAw"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_vo1ppmU5EeiTu6sj2r9rAw" name="SEMESTRES" id="44106" label="SEMESTRES" length="2" precision="-1" sourceType="INT" talendType="id_Integer">
+        <initialValue xmi:id="_vo1pp2U5EeiTu6sj2r9rAw"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_vo1pqGU5EeiTu6sj2r9rAw" name="PROMEDIO" id="44107" label="PROMEDIO" length="1" precision="2" sourceType="DOUBLE PRECISION" talendType="id_Double">
+        <initialValue xmi:id="_vo1pqWU5EeiTu6sj2r9rAw"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_vo1pqmU5EeiTu6sj2r9rAw" name="PLAN_ESTUDIO" id="44108" label="PLAN_ESTUDIO" length="4" precision="-1" sourceType="INT" talendType="id_Integer">
+        <initialValue xmi:id="_vo1pq2U5EeiTu6sj2r9rAw"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_vo1prGU5EeiTu6sj2r9rAw" name="EST_ACUERDO" id="44109" label="EST_ACUERDO" length="8" precision="-1" sourceType="INT" talendType="id_Integer">
+        <initialValue xmi:id="_vo1prWU5EeiTu6sj2r9rAw"/>
+      </feature>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>

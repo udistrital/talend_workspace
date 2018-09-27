@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_rzemgJzQEeeyM-x4FKEE2A" name="pma_pae" dataPackage="_rzemgZzQEeeyM-x4FKEE2A" Server="Localhost 127.0.0.1" FilePath="/home/devmachine/Documentos/pma/pma_pae.csv" Encoding="UTF-8" FieldSeparatorValue="&quot;;&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_rzemgZzQEeeyM-x4FKEE2A" name="default" dataManager="_rzemgJzQEeeyM-x4FKEE2A">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_rzemgpzQEeeyM-x4FKEE2A" id="_mvl14JzQEeeyM-x4FKEE2A" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_rzemg5zQEeeyM-x4FKEE2A" label="_CODIGO_DANE_SEDE_" length="12" talendType="id_Long" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_rzemhJzQEeeyM-x4FKEE2A" label="_NOMBRE_DE_LA_SEDE_" length="60" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_rzemhZzQEeeyM-x4FKEE2A" label="_CODIGO_DANE_" length="12" talendType="id_Long" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_rzemhpzQEeeyM-x4FKEE2A" label="_NOMBRE_DEL_ESTABLECIMIENTO_EDUCATIVO_" length="61" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_rzemh5zQEeeyM-x4FKEE2A" label="_URBANA_" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_rzemiJzQEeeyM-x4FKEE2A" label="_RURAL_" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_rzemiZzQEeeyM-x4FKEE2A" label="_ETNICO__RURAL_" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_rzemipzQEeeyM-x4FKEE2A" label="_ETC_" length="12" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_rzemi5zQEeeyM-x4FKEE2A" label="_MUNICIPIO_" length="11" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_rzemjJzQEeeyM-x4FKEE2A" label="_COMPLEMENTO_AM_actualizado_" length="3" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_rzemjZzQEeeyM-x4FKEE2A" label="_COMPLEMENTO_AM_antiguo_" length="3" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_rzemjpzQEeeyM-x4FKEE2A" label="_COMPLEMENTO_PM__Actulizada_" length="3" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_rzemj5zQEeeyM-x4FKEE2A" label="_COMPLEMENTO_PM_Antigua__" length="3" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_rzemkJzQEeeyM-x4FKEE2A" label="_ALMUERZO_Actualizado_" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_rzemkZzQEeeyM-x4FKEE2A" label="_ALMUERZO_Antiguo_" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_rzemkpzQEeeyM-x4FKEE2A" label="_JORNADA_UNICA_Actualizada_" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_rzemk5zQEeeyM-x4FKEE2A" label="_JORNADA_UNICA_Antigua_" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_rzemlJzQEeeyM-x4FKEE2A" label="_TOTAL_DE_RACIONES__DIA_POR_INSTITUCION_Actualizada_" length="4" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_rzemlZzQEeeyM-x4FKEE2A" label="_NUMERO_DE_MANIPULADORAS_COMPLEMENTO_AM_PM_" length="1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_rzemlpzQEeeyM-x4FKEE2A" label="_MODALIADAD_DE_ATENCION_" length="18" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_rzeml5zQEeeyM-x4FKEE2A" label="_FECHA_DE_INICIO_DE_OPERACION___" length="22" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_rzemmJzQEeeyM-x4FKEE2A" label="_OBSERVACIONES__" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_rzemmZzQEeeyM-x4FKEE2A" label="_NOMBRE_DEL_RECTOR_Y_O_DIRECTOR_" length="51" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_rzemmpzQEeeyM-x4FKEE2A" label="_TELEFONO_" length="25" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_rzemm5zQEeeyM-x4FKEE2A" label="_CORREO_ELECTRONICO_" length="55" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_rzemnJzQEeeyM-x4FKEE2A" label="_NOMBRE_COORDINADOR_PMA_A_CARGO__SEDE__" length="18" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_rzemnZzQEeeyM-x4FKEE2A" label="_NOMBRE_COORDINADOR__FUNDALIANZA_A_CARGO_DE_SEDE___" length="18" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_rzemnpzQEeeyM-x4FKEE2A" label="_TIPO_DE_MINUTA__" length="28" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_rzemn5zQEeeyM-x4FKEE2A" label="_FECHA_DE_INICIO_REAL_" length="15" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_rzemoJzQEeeyM-x4FKEE2A" label="_DIAS_DE_ATENCION_EN_A_31_DE_AGOSTO_" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_rzemoZzQEeeyM-x4FKEE2A" label="_DIAS_DE_ATENCION_EN_A_30_DE_SEPTIEMBRE_" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_rzemopzQEeeyM-x4FKEE2A" label="_DIAS_DE_ATENCION_EN_A_31_DE_OCTUBRE_" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_rzemo5zQEeeyM-x4FKEE2A" label="_OBSERVACIONES_" length="53" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_rzempJzQEeeyM-x4FKEE2A" label="_FESTIVOS_" length="12" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

@@ -1,0 +1,552 @@
+[ {
+  "baseItem" : {
+    "id" : "_28Q_QPiBEeaiDrqYx4BXZA",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_zyMXwM3REeSOQtNHHo9L6A",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_P8o7MIW9EealjoTYItyYFw",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_ftjAcPiCEeaiDrqYx4BXZA",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "Numeric",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "TalendString",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "DataOperation",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "StringHandling",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "TalendDataGenerator",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "GeoOperation",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "TalendDate",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "Mathematical",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "Relational",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "OpenStreetMap",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "GeometryUtility",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "GeometryOperation",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "_ftjAcPiCEeaiDrqYx4BXZA - metadata",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "TalendStringUtil",
+    "version" : "Latest",
+    "type" : "routine"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_Mhfm4I5gEeW6evWcOV4dgA",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_zyMXwM3REeSOQtNHHo9L6A",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_P8o7MIW9EealjoTYItyYFw",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_Mpav8FLFEeaY___Cj4WqdQ",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_0BQUcLR_EeO1O9EGlcYshg",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "Numeric",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "TalendString",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "DataOperation",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "StringHandling",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "TalendDataGenerator",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "GeoOperation",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "TalendDate",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "Mathematical",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "Relational",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "OpenStreetMap",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "GeometryUtility",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "GeometryOperation",
+    "version" : "Latest",
+    "type" : "routine"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_rhJeoOTTEeWgFvbeDXau3A",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_P8o7MIW9EealjoTYItyYFw",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_0BQUcLR_EeO1O9EGlcYshg",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_84wDoOTTEeWgFvbeDXau3A",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "Numeric",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "Relational",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "TalendString",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "DataOperation",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "StringHandling",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "TalendDataGenerator",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "TalendDate",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "Mathematical",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "_84wDoOTTEeWgFvbeDXau3A - metodosMeta",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_GCSOAI_wEeW_jJwwiALlvg",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_zyMXwM3REeSOQtNHHo9L6A",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_P8o7MIW9EealjoTYItyYFw",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_LMCVQKL2EeOqbp7w959yow",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_0BQUcLR_EeO1O9EGlcYshg",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "Numeric",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "TalendString",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "DataOperation",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "StringHandling",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "TalendDataGenerator",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "TalendDate",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "Mathematical",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "Relational",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "_LMCVQKL2EeOqbp7w959yow - periodo",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_5NHx4ItEEealjoTYItyYFw",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_P8o7MIW9EealjoTYItyYFw",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_0BQUcLR_EeO1O9EGlcYshg",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "Numeric",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "TalendString",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "DataOperation",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "StringHandling",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "TalendDataGenerator",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "GeoOperation",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "TalendDate",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "Mathematical",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "Relational",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "OpenStreetMap",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "GeometryUtility",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "GeometryOperation",
+    "version" : "Latest",
+    "type" : "routine"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_7bFrYFziEeWAseb6WqhKGw",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_abVmcKL1EeOqbp7w959yow",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_P8o7MIW9EealjoTYItyYFw",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "Numeric",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "Relational",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "TalendString",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "DataOperation",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "StringHandling",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "TalendDataGenerator",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "TalendDate",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "Mathematical",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "_abVmcKL1EeOqbp7w959yow - ACDOCENTE",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_J59v0OTXEeWgFvbeDXau3A",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_zyMXwM3REeSOQtNHHo9L6A",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_P8o7MIW9EealjoTYItyYFw",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_0BQUcLR_EeO1O9EGlcYshg",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "Numeric",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "Relational",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "TalendString",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "DataOperation",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "StringHandling",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "TalendDataGenerator",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "TalendDate",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "Mathematical",
+    "version" : "Latest",
+    "type" : "routine"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_hAyzYOTVEeWgFvbeDXau3A",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_HKmcAOTWEeWgFvbeDXau3A",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_P8o7MIW9EealjoTYItyYFw",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_0BQUcLR_EeO1O9EGlcYshg",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "Numeric",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "Relational",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "TalendString",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "DataOperation",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "StringHandling",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "TalendDataGenerator",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "TalendDate",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "Mathematical",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "_HKmcAOTWEeWgFvbeDXau3A - metadata",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_MtKHcIW9EealjoTYItyYFw",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_P8o7MIW9EealjoTYItyYFw",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "Numeric",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "TalendString",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "DataOperation",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "StringHandling",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "TalendDataGenerator",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "GeoOperation",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "TalendDate",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "Mathematical",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "Relational",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "OpenStreetMap",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "GeometryUtility",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "GeometryOperation",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "_-5hGgIW-EealjoTYItyYFw - metadata",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_IWc7AIW_EealjoTYItyYFw - metadata",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_RKzskIW_EealjoTYItyYFw - metadata",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+} ]

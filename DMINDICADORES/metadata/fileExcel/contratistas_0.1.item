@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:FileExcelConnection xmi:id="_BsD0sHZpEeS2ZbInkJf3qw" name="contratistas" dataPackage="_BsD0sXZpEeS2ZbInkJf3qw" Server="Localhost 127.0.0.1" FilePath="/home/adbius/Documentos/planeacion/contratistasXdependencia.xls" Encoding="ISO-8859-1" UseHeader="true" HeaderValue="1" FirstLineCaption="true" SheetName="Exportar Hoja de Trabajo" firstColumn="1" thousandSeparator="','" decimalSeparator="'.'" selectAllSheets="true" sheetList="Exportar Hoja de Trabajo:w&#xA;">
+    <sheetColumns>A</sheetColumns>
+    <sheetColumns>B</sheetColumns>
+    <sheetColumns>C</sheetColumns>
+    <sheetColumns>D</sheetColumns>
+    <sheetColumns>E</sheetColumns>
+    <sheetColumns>F</sheetColumns>
+  </TalendMetadata:FileExcelConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_BsD0sXZpEeS2ZbInkJf3qw" name="default" dataManager="_BsD0sHZpEeS2ZbInkJf3qw">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_BsD0snZpEeS2ZbInkJf3qw" id="_jD5_oHZoEeS2ZbInkJf3qw" comment="contratistas_2014" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_BsD0s3ZpEeS2ZbInkJf3qw" label="COD" length="5" talendType="id_Integer" key="true" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_BsD0tHZpEeS2ZbInkJf3qw" label="NUM_ID" length="10" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_BsD0tXZpEeS2ZbInkJf3qw" label="NOMBRE" length="34" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_BsD0tnZpEeS2ZbInkJf3qw" label="FECHA" length="8" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_BsD0t3ZpEeS2ZbInkJf3qw" label="TIEMPO" length="34" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_BsD0uHZpEeS2ZbInkJf3qw" label="DEP_DESTINO" length="40" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

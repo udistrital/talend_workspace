@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
+  <TalendMetadata:DatabaseConnection xmi:id="_vSAt0BYiEeW1zaqxgY4QeQ" name="CO_UDISTRITAL_TEMPORAL88" id="_nEKioBYiEeW1zaqxgY4QeQ" label="CO_UDISTRITAL_TEMPORAL88" dataPackage="_vUINsBYiEeW1zaqxgY4QeQ" DatabaseType="PostgreSQL" DriverClass="org.postgresql.Driver" URL="jdbc:postgresql://10.20.0.88:5432/CO_UDISTRITAL_TEMPORAL" dbVersionString="PRIOR_TO_V9" Port="5432" Username="postgres" Password="CNlsM2hQx/yKsFREJf9l+Q==" ServerName="10.20.0.88" DatasourceName="" FileFieldName="" SID="CO_UDISTRITAL_TEMPORAL" SqlSynthax="Sintaxis SQL" DbmsId="postgres_id" ProductId="POSTGRESQL" AdditionalParams="" SystemSQL="true" SQLMode="false" UiSchema="CO_UDISTRITAL_TEMPORAL">
+    <taggedValue xmi:id="_vSAt0RYiEeW1zaqxgY4QeQ" tag="Is Conn Need Reload" value="false"/>
+    <taggedValue xmi:id="_vT9OkBYiEeW1zaqxgY4QeQ" tag="package filter" value=""/>
+    <taggedValue xmi:id="_vUD8QBYiEeW1zaqxgY4QeQ" tag="Status" value=""/>
+    <taggedValue xmi:id="_vUD8QRYiEeW1zaqxgY4QeQ" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_vUD8QhYiEeW1zaqxgY4QeQ" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_vUD8QxYiEeW1zaqxgY4QeQ" tag="Description" value=""/>
+    <taggedValue xmi:id="_vUD8RBYiEeW1zaqxgY4QeQ" tag="Author" value=""/>
+    <taggedValue xmi:id="_vUD8RRYiEeW1zaqxgY4QeQ" tag="otherParameter"/>
+    <taggedValue xmi:id="_vUEjUBYiEeW1zaqxgY4QeQ" tag="DB ProductName" value="PostgreSQL"/>
+    <taggedValue xmi:id="_vUEjURYiEeW1zaqxgY4QeQ" tag="DB ProductVersion" value="9.2.10"/>
+    <taggedValue xmi:id="_vUEjUhYiEeW1zaqxgY4QeQ" tag="DB IdentifierQuoteString" value="&quot;"/>
+    <parameters xmi:id="_vSAt0hYiEeW1zaqxgY4QeQ" key="CONN_PARA_KEY_USERNAME" value="postgres"/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_vUINsBYiEeW1zaqxgY4QeQ" name="CO_UDISTRITAL_TEMPORAL" dataManager="_vSAt0BYiEeW1zaqxgY4QeQ">
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_vUINsRYiEeW1zaqxgY4QeQ" name="CO_UDISTRITAL_TEMPORAL"/>
+  </orgomg.cwm.resource.relational:Catalog>
+</xmi:XMI>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
+  <TalendMetadata:DatabaseConnection xmi:id="_29yZcK2nEeaMNOMF9UgGyg" name="core" id="_tzSYwK2nEeaMNOMF9UgGyg" label="core" dataPackage="_3CFDkK2nEeaMNOMF9UgGyg" DatabaseType="PostgreSQL" DriverClass="org.postgresql.Driver" URL="jdbc:postgresql://10.20.0.62:5432/udistrital" dbVersionString="PRIOR_TO_V9" Port="5432" Username="consulta_crv" Password="BZqg7oruak3KrrA+O3wKeg==" ServerName="10.20.0.62" DatasourceName="" FileFieldName="" SID="udistrital" SqlSynthax="Sintaxis SQL" DbmsId="postgres_id" ProductId="POSTGRESQL" AdditionalParams="" StandardSQL="true" SQLMode="false" UiSchema="">
+    <taggedValue xmi:id="_29yZca2nEeaMNOMF9UgGyg" tag="Is Conn Need Reload" value="false"/>
+    <taggedValue xmi:id="_3B6EcK2nEeaMNOMF9UgGyg" tag="package filter" value=""/>
+    <taggedValue xmi:id="_3B6Eca2nEeaMNOMF9UgGyg" tag="Status" value=""/>
+    <taggedValue xmi:id="_3B6Ecq2nEeaMNOMF9UgGyg" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_3B6Ec62nEeaMNOMF9UgGyg" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_3B6EdK2nEeaMNOMF9UgGyg" tag="Description" value=""/>
+    <taggedValue xmi:id="_3B6Eda2nEeaMNOMF9UgGyg" tag="Author" value=""/>
+    <taggedValue xmi:id="_3B6Edq2nEeaMNOMF9UgGyg" tag="otherParameter"/>
+    <taggedValue xmi:id="_3B-88K2nEeaMNOMF9UgGyg" tag="DB ProductName" value="PostgreSQL"/>
+    <taggedValue xmi:id="_3B-88a2nEeaMNOMF9UgGyg" tag="DB ProductVersion" value="9.5.4"/>
+    <taggedValue xmi:id="_3B-88q2nEeaMNOMF9UgGyg" tag="DB IdentifierQuoteString" value="&quot;"/>
+    <parameters xmi:id="_29yZcq2nEeaMNOMF9UgGyg" key="CONN_PARA_KEY_USERNAME" value="consulta_crv"/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_3CFDkK2nEeaMNOMF9UgGyg" name="udistrital" dataManager="_29yZcK2nEeaMNOMF9UgGyg">
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_3CFDka2nEeaMNOMF9UgGyg" name="academica_estudiantes"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_3CFDkq2nEeaMNOMF9UgGyg" name="agora"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_3CFDk62nEeaMNOMF9UgGyg" name="argo"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_3CFDlK2nEeaMNOMF9UgGyg" name="arka"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_3CFDla2nEeaMNOMF9UgGyg" name="configuracion"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_3CFDlq2nEeaMNOMF9UgGyg" name="core"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_3CFDl62nEeaMNOMF9UgGyg" name="information_schema"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_3CFDmK2nEeaMNOMF9UgGyg" name="nix"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_3CFDma2nEeaMNOMF9UgGyg" name="nix_presupuesto"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_3CFDmq2nEeaMNOMF9UgGyg" name="parqueaderos"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_3CFDm62nEeaMNOMF9UgGyg" name="pg_catalog"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_3CFDnK2nEeaMNOMF9UgGyg" name="pg_toast_temp_1"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_3CFDna2nEeaMNOMF9UgGyg" name="pg_toast_temp_12"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_3CFDnq2nEeaMNOMF9UgGyg" name="pg_toast_temp_18"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_3CFDn62nEeaMNOMF9UgGyg" name="pg_toast_temp_7"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_3CFDoK2nEeaMNOMF9UgGyg" name="pg_toast_temp_9"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_3CFDoa2nEeaMNOMF9UgGyg" name="polux"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_3CFDoq2nEeaMNOMF9UgGyg" name="public"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_3CFDo62nEeaMNOMF9UgGyg" name="ruler"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_3CFDpK2nEeaMNOMF9UgGyg" name="titan"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_3CFDpa2nEeaMNOMF9UgGyg" name="topology"/>
+  </orgomg.cwm.resource.relational:Catalog>
+</xmi:XMI>

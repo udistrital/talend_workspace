@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
+  <TalendProperties:Property xmi:id="_CLEQoID6Eeay6-LXFsL0DQ" id="_PromYOJlEeav-_cK-MdCHg" label="estudiantes_materias_reprobadas" version="0.1" statusCode="" item="_CLEQooD6Eeay6-LXFsL0DQ" displayName="estudiantes_materias_reprobadas">
+    <author href="../../talend.project#_IVQlkINgEeWQnZvn-Dmq4g"/>
+    <additionalProperties xmi:id="_DGhW8Lq9Eei7XeacPSgcPg" key="import_product_fullname" value="Talend Open Studio for Data Integration"/>
+    <additionalProperties xmi:id="_DGhW8bq9Eei7XeacPSgcPg" key="import_product_version" value="6.1.0.20151029_1337"/>
+    <additionalProperties xmi:id="_DGhW8rq9Eei7XeacPSgcPg" key="import_date" value="2018-09-17T16:02:54.338-0500"/>
+    <additionalProperties xmi:id="_DGhW87q9Eei7XeacPSgcPg" key="created_product_fullname" value="Talend Open Studio for Data Integration"/>
+    <additionalProperties xmi:id="_DGhW9Lq9Eei7XeacPSgcPg" key="created_product_version" value="6.1.0.20151029_1337"/>
+    <additionalProperties xmi:id="_DGhW9bq9Eei7XeacPSgcPg" key="created_date" value="2016-09-22T14:23:25.737-0500"/>
+    <additionalProperties xmi:id="_DGhW9rq9Eei7XeacPSgcPg" key="modified_product_fullname" value="Talend Open Studio for Data Integration"/>
+    <additionalProperties xmi:id="_DGhW97q9Eei7XeacPSgcPg" key="modified_product_version" value="7.1.1.20180829_1603-M3"/>
+    <additionalProperties xmi:id="_DGhW-Lq9Eei7XeacPSgcPg" key="modified_date" value="2018-09-24T17:17:27.313-0500"/>
+  </TalendProperties:Property>
+  <TalendProperties:ItemState xmi:id="_Pr0MkOJlEeav-_cK-MdCHg" path="desercion" locked="true" lockDate="2018-09-24T17:17:27.313-0500">
+    <locker href="../../talend.project#_IVQlkINgEeWQnZvn-Dmq4g"/>
+  </TalendProperties:ItemState>
+  <TalendProperties:ProcessItem xmi:id="_CLEQooD6Eeay6-LXFsL0DQ" property="_CLEQoID6Eeay6-LXFsL0DQ" state="_Pr0MkOJlEeav-_cK-MdCHg">
+    <process href="estudiantes_materias_reprobadas_0.1.item#/"/>
+  </TalendProperties:ProcessItem>
+</xmi:XMI>

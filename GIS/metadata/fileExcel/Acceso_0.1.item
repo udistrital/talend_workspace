@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:FileExcelConnection xmi:id="_ftB1QE2pEeSa_e_yyYjhKw" name="Acceso" dataPackage="_ftB1QU2pEeSa_e_yyYjhKw" Server="Localhost 127.0.0.1" FilePath="/home/aarismendi/Documentos/FuentesExternas/FAASv2.xlsx" Encoding="UTF-8" UseHeader="true" HeaderValue="1" FirstLineCaption="true" SheetName="Lote" firstColumn="1" thousandSeparator="','" decimalSeparator="'.'" sheetList="Acceso:w&#xA;">
+    <sheetColumns>A</sheetColumns>
+    <sheetColumns>B</sheetColumns>
+    <sheetColumns>C</sheetColumns>
+    <sheetColumns>D</sheetColumns>
+    <sheetColumns>E</sheetColumns>
+    <sheetColumns>F</sheetColumns>
+    <sheetColumns>G</sheetColumns>
+    <sheetColumns>H</sheetColumns>
+    <sheetColumns>I</sheetColumns>
+    <sheetColumns>J</sheetColumns>
+    <sheetColumns>K</sheetColumns>
+    <sheetColumns>L</sheetColumns>
+    <sheetColumns>M</sheetColumns>
+    <sheetColumns>N</sheetColumns>
+    <sheetColumns>O</sheetColumns>
+    <sheetColumns>P</sheetColumns>
+  </TalendMetadata:FileExcelConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_ftB1QU2pEeSa_e_yyYjhKw" name="default" dataManager="_ftB1QE2pEeSa_e_yyYjhKw">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_ftB1Qk2pEeSa_e_yyYjhKw" id="_XcilwE2pEeSa_e_yyYjhKw" label="Acceso">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ftB1Q02pEeSa_e_yyYjhKw" label="AcCodigo" length="14" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ftB1RE2pEeSa_e_yyYjhKw" label="AcTipo" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ftB1RU2pEeSa_e_yyYjhKw" label="AcFechaIni" length="28" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ftB1Rk2pEeSa_e_yyYjhKw" label="AcFechaFin" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ftB1R02pEeSa_e_yyYjhKw" label="EspCodigo_EspacioFisico__FK_" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ftB1SE2pEeSa_e_yyYjhKw" label="ZoExtCodigo_ZonasExteriores__FK_" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

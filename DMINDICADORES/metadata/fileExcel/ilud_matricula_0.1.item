@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:FileExcelConnection xmi:id="_xjhgELFFEeOcVMKgAOlSZA" name="ilud_matricula" dataPackage="_xjhgEbFFEeOcVMKgAOlSZA" Server="Localhost 127.0.0.1" FilePath="/root/Documentos/ilud.xlsx" Encoding="ISO-8859-15" HeaderValue="0" FooterValue="0" LimitValue="" SheetName="Hoja1" firstColumn="1" lastColumn="" thousandSeparator="," decimalSeparator="." selectAllSheets="true" sheetList="Hoja1:w&#xA;">
+    <sheetColumns>A</sheetColumns>
+  </TalendMetadata:FileExcelConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_xjhgEbFFEeOcVMKgAOlSZA" name="default" dataManager="_xjhgELFFEeOcVMKgAOlSZA">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_xjhgErFFEeOcVMKgAOlSZA" id="_sGWswLFFEeOcVMKgAOlSZA" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xjhgE7FFEeOcVMKgAOlSZA" label="A" length="11" talendType="id_Long" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

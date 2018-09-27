@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TalendMetadata:DatabaseConnection xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmi:id="_2fL6gAnAEeef1KLV-L2NMg" name="tuleap" id="_5gDcwAm7Eeef1KLV-L2NMg" label="tuleap" DatabaseType="MySQL" DriverClass="org.gjt.mm.mysql.Driver" URL="jdbc:mysql://locahost:3306/tuleap?noDatetimeStringSync=true" dbVersionString="MYSQL_5" Port="3306" Username="codendiadm" Password="12GV2FuJZyd4MkZfzfJB0A==" ServerName="locahost" DatasourceName="" FileFieldName="" SID="tuleap" SqlSynthax="Sintaxis SQL" DbmsId="mysql_id" ProductId="MYSQL" AdditionalParams="noDatetimeStringSync=true" StandardSQL="true" SQLMode="false" UiSchema="">
+  <taggedValue xmi:id="_2fL6gQnAEeef1KLV-L2NMg" tag="Is Conn Need Reload" value="false"/>
+  <taggedValue xmi:id="_2keDIAnAEeef1KLV-L2NMg" tag="package filter" value=""/>
+  <taggedValue xmi:id="_2keDIQnAEeef1KLV-L2NMg" tag="Status" value=""/>
+  <taggedValue xmi:id="_2keDIgnAEeef1KLV-L2NMg" tag="Version" value="0.1"/>
+  <taggedValue xmi:id="_2keDIwnAEeef1KLV-L2NMg" tag="Purpose" value=""/>
+  <taggedValue xmi:id="_2keDJAnAEeef1KLV-L2NMg" tag="Description" value=""/>
+  <taggedValue xmi:id="_2keDJQnAEeef1KLV-L2NMg" tag="Author" value=""/>
+  <taggedValue xmi:id="_2keDJgnAEeef1KLV-L2NMg" tag="otherParameter"/>
+  <parameters xmi:id="_2fL6ggnAEeef1KLV-L2NMg" key="CONN_PARA_KEY_USERNAME" value="codendiadm"/>
+</TalendMetadata:DatabaseConnection>

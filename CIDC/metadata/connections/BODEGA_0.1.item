@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
+  <TalendMetadata:DatabaseConnection xmi:id="_eZ7-ULX3EeSHcORZ721fgg" name="BODEGA" id="_JlzoELX3EeSHcORZ721fgg" label="BODEGA" dataPackage="_LXfHMHCDEeaapJGW8KiWZw" DatabaseType="PostgreSQL" DriverClass="org.postgresql.Driver" URL="jdbc:postgresql://10.20.0.88:5432/DMINDICADORES" dbVersionString="PRIOR_TO_V9" Port="5432" Username="postgres" Password="CNlsM2hQx/yKsFREJf9l+Q==" ServerName="10.20.0.88" DatasourceName="" FileFieldName="" SID="DMINDICADORES" SqlSynthax="Sintaxis SQL" StringQuote="0.14" DbmsId="postgres_id" ProductId="POSTGRESQL" AdditionalParams="" SystemSQL="true" SQLMode="false" UiSchema="public">
+    <taggedValue xmi:id="_eZ7-UbX3EeSHcORZ721fgg" tag="Is Conn Need Reload" value="true"/>
+    <taggedValue xmi:id="_ebuHALX3EeSHcORZ721fgg" tag="package filter" value=""/>
+    <taggedValue xmi:id="_ecKL4LX3EeSHcORZ721fgg" tag="Status" value=""/>
+    <taggedValue xmi:id="_ecKL4bX3EeSHcORZ721fgg" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_ecKL4rX3EeSHcORZ721fgg" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_ecKL47X3EeSHcORZ721fgg" tag="Description" value=""/>
+    <taggedValue xmi:id="_ecKL5LX3EeSHcORZ721fgg" tag="Author" value=""/>
+    <taggedValue xmi:id="_ecKL5bX3EeSHcORZ721fgg" tag="otherParameter"/>
+    <taggedValue xmi:id="_ecLaALX3EeSHcORZ721fgg" tag="DB ProductName" value="PostgreSQL"/>
+    <taggedValue xmi:id="_ecLaAbX3EeSHcORZ721fgg" tag="DB ProductVersion" value="9.2.14"/>
+    <taggedValue xmi:id="_ecLaArX3EeSHcORZ721fgg" tag="DB IdentifierQuoteString" value="&quot;"/>
+    <queries xmi:id="_Q1hhoLhpEeS1eKCI4zYkFQ">
+      <query xmi:id="_Q1hhobhpEeS1eKCI4zYkFQ" id="_Q1hhorhpEeS1eKCI4zYkFQ" label="consolidado_investigacion" value="SELECT codigo_proyecto, nombre_proyecto, ano_creacion anno_creacion_proyecto, duracion duracion_proyecto, fecha_inicio inicio_proyecto,&#xA;&#x9;fecha_final final_proyecto, cisiud_proyectos_investigacion.codigo_persona lider_proyecto, cisiud_proyectos_investigacion.estado, presupuesto_proyecto, presupuesto_total_proyecto,&#xA;&#x9;codigo_grupo, nombre_grupo,cisiud_grupos_investigacion.mail email_grupo, fecha_creacion creacion_grupo, facultad facultad_grupo, tipo tipo_grupo, categoria categoria_grupo,&#xA;&#x9;cisiud_grupos_investigacion.estado estado_grupo, director cod_director_cisiud, cisiud_personas.nombres nombre_director, cisiud_personas.apellidos apellidos_director&#xA;  FROM cisiud_proyectos_investigacion LEFT JOIN cisiud_grupos_investigacion ON codigo_grupo = cisiud_grupos_investigacion.codigo&#xA;  LEFT JOIN cisiud_personas ON director=cisiud_personas.codigo_persona;"/>
+    </queries>
+    <parameters xmi:id="_eZ7-UrX3EeSHcORZ721fgg" key="CONN_PARA_KEY_USERNAME" value="postgres"/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_LXfHMHCDEeaapJGW8KiWZw" name="DMINDICADORES" dataManager="_eZ7-ULX3EeSHcORZ721fgg">
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_LXfHMXCDEeaapJGW8KiWZw" name="public"/>
+  </orgomg.cwm.resource.relational:Catalog>
+</xmi:XMI>

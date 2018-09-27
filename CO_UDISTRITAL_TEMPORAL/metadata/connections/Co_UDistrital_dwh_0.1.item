@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
+  <TalendMetadata:DatabaseConnection xmi:id="_KzEboKL2EeOqbp7w959yow" name="Co_UDistrital_dwh" id="_4980MKL1EeOqbp7w959yow" label="Co_UDistrital_dwh" dataPackage="_j68CcKO7EeO80Oqj5ft7HA _j68CcqO7EeO80Oqj5ft7HA" DatabaseType="PostgreSQL" DriverClass="org.postgresql.Driver" URL="jdbc:postgresql://10.20.2.106:5432/Co_UDistrital_dwh" dbVersionString="PRIOR_TO_V9" Port="5432" Username="postgres" Password="CNlsM2hQx/yKsFREJf9l+Q==" ServerName="10.20.2.106" DatasourceName="" FileFieldName="" SID="Co_UDistrital_dwh" SqlSynthax="Sintaxis SQL" DbmsId="postgres_id" ProductId="POSTGRESQL" AdditionalParams="" SystemSQL="true" SQLMode="false" UiSchema="Co_UDistrital_dwh">
+    <taggedValue xmi:id="_KzEboaL2EeOqbp7w959yow" tag="Is Conn Need Reload" value="false"/>
+    <taggedValue xmi:id="_KzkK4KL2EeOqbp7w959yow" tag="package filter" value=""/>
+    <taggedValue xmi:id="_KzocUKL2EeOqbp7w959yow" tag="Status" value=""/>
+    <taggedValue xmi:id="_KzocUaL2EeOqbp7w959yow" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_KzocUqL2EeOqbp7w959yow" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_KzocU6L2EeOqbp7w959yow" tag="Description" value=""/>
+    <taggedValue xmi:id="_KzocVKL2EeOqbp7w959yow" tag="Author" value=""/>
+    <taggedValue xmi:id="_KzocVaL2EeOqbp7w959yow" tag="otherParameter"/>
+    <taggedValue xmi:id="_KzpqcKL2EeOqbp7w959yow" tag="DB ProductName" value="PostgreSQL"/>
+    <taggedValue xmi:id="_KzpqcaL2EeOqbp7w959yow" tag="DB ProductVersion" value="9.2.4"/>
+    <taggedValue xmi:id="_KzpqcqL2EeOqbp7w959yow" tag="DB IdentifierQuoteString" value="&quot;"/>
+    <parameters xmi:id="_KzEboqL2EeOqbp7w959yow" key="CONN_PARA_KEY_USERNAME" value="postgres"/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_j68CcKO7EeO80Oqj5ft7HA" name="CO_UDISTRITAL_DWH" dataManager="_KzEboKL2EeOqbp7w959yow">
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_j68CcaO7EeO80Oqj5ft7HA" name="CO_UDISTRITAL_DWH"/>
+  </orgomg.cwm.resource.relational:Catalog>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_j68CcqO7EeO80Oqj5ft7HA" name="Co_UDistrital_dwh" dataManager="_KzEboKL2EeOqbp7w959yow">
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_j68Cc6O7EeO80Oqj5ft7HA" name="Co_UDistrital_dwh">
+      <ownedElement xsi:type="relational:TdTable" xmi:id="_j68CdKO7EeO80Oqj5ft7HA" name="inscritos" id="_grMI8KO7EeO80Oqj5ft7HA" label="inscritos" tableType="TABLE">
+        <taggedValue xmi:id="_j68CdaO7EeO80Oqj5ft7HA" tag="Comment" value=""/>
+      </ownedElement>
+    </ownedElement>
+  </orgomg.cwm.resource.relational:Catalog>
+</xmi:XMI>

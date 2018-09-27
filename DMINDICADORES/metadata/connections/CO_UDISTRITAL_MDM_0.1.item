@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
+  <TalendMetadata:DatabaseConnection xmi:id="_iBNWMKL2EeOqbp7w959yow" name="CO_UDISTRITAL_MDM" id="_LMCVQKL2EeOqbp7w959yow" label="CO_UDISTRITAL_MDM" dataPackage="_pXFWsBSREeW80IodVLTrHQ" DatabaseType="PostgreSQL" DriverClass="org.postgresql.Driver" URL="jdbc:postgresql://10.20.0.88:5432/CO_UDISTRITAL_MDM" dbVersionString="PRIOR_TO_V9" Port="5432" Username="postgres" Password="CNlsM2hQx/yKsFREJf9l+Q==" ServerName="10.20.0.88" DatasourceName="" FileFieldName="" SID="CO_UDISTRITAL_MDM" SqlSynthax="Sintaxis SQL" DbmsId="postgres_id" ProductId="POSTGRESQL" AdditionalParams="" SystemSQL="true" SQLMode="false" UiSchema="CO_UDISTRITAL_MDM">
+    <taggedValue xmi:id="_iBNWMaL2EeOqbp7w959yow" tag="Is Conn Need Reload" value="true"/>
+    <taggedValue xmi:id="_iBpbEKL2EeOqbp7w959yow" tag="package filter" value=""/>
+    <taggedValue xmi:id="_iBr3UKL2EeOqbp7w959yow" tag="Status" value=""/>
+    <taggedValue xmi:id="_iBr3UaL2EeOqbp7w959yow" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_iBr3UqL2EeOqbp7w959yow" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_iBr3U6L2EeOqbp7w959yow" tag="Description" value=""/>
+    <taggedValue xmi:id="_iBr3VKL2EeOqbp7w959yow" tag="Author" value=""/>
+    <taggedValue xmi:id="_iBr3VaL2EeOqbp7w959yow" tag="otherParameter"/>
+    <taggedValue xmi:id="_iBseYKL2EeOqbp7w959yow" tag="DB ProductName" value="PostgreSQL"/>
+    <taggedValue xmi:id="_iBseYaL2EeOqbp7w959yow" tag="DB ProductVersion" value="9.2.10"/>
+    <taggedValue xmi:id="_iBseYqL2EeOqbp7w959yow" tag="DB IdentifierQuoteString" value="&quot;"/>
+    <parameters xmi:id="_iBNWMqL2EeOqbp7w959yow" key="CONN_PARA_KEY_USERNAME" value="postgres"/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_pXFWsBSREeW80IodVLTrHQ" name="CO_UDISTRITAL_MDM" dataManager="_iBNWMKL2EeOqbp7w959yow">
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_pXFWsRSREeW80IodVLTrHQ" name="CO_UDISTRITAL_MDM">
+      <ownedElement xsi:type="relational:TdTable" xmi:id="_pXFWshSREeW80IodVLTrHQ" name="facultades" id="_osvZMBSREeW80IodVLTrHQ" label="facultades" tableType="TABLE">
+        <taggedValue xmi:id="_pXFWsxSREeW80IodVLTrHQ" tag="Comment" value=""/>
+        <feature xsi:type="relational:TdColumn" xmi:id="_pXFWtBSREeW80IodVLTrHQ" name="codigo_facultad" label="codigo_facultad" length="10" sourceType="INT4" talendType="id_Integer" key="true" nullable="false">
+          <taggedValue xmi:id="_pXFWtRSREeW80IodVLTrHQ" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_pXFWthSREeW80IodVLTrHQ" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_pXFWtxSREeW80IodVLTrHQ" name="INT4" numericPrecisionRadix="10" javaDataType="4"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_pXFWuBSREeW80IodVLTrHQ" name="facultad" label="facultad" length="64" sourceType="VARCHAR" talendType="id_String" nullable="false">
+          <taggedValue xmi:id="_pXFWuRSREeW80IodVLTrHQ" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_pXFWuhSREeW80IodVLTrHQ" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_pXFWuxSREeW80IodVLTrHQ" name="VARCHAR" numericPrecisionRadix="10" javaDataType="12"/>
+        </feature>
+      </ownedElement>
+    </ownedElement>
+  </orgomg.cwm.resource.relational:Catalog>
+</xmi:XMI>

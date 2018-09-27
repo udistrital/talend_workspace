@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:FileExcelConnection xmi:id="_QOgbMbCMEeONBdkTqysbag" name="encuesta_xls" dataPackage="_QOgbMrCMEeONBdkTqysbag" Server="Localhost 127.0.0.1" FilePath="/root/Documentos/respuesta_encuesta_docente_2014_20_03.xlsx" Encoding="ISO-8859-15" HeaderValue="0" FooterValue="0" LimitValue="" SheetName="Hoja1" firstColumn="1" lastColumn="" thousandSeparator="," decimalSeparator="." selectAllSheets="true" sheetList="Hoja1:w&#xA;">
+    <sheetColumns>A</sheetColumns>
+    <sheetColumns>B</sheetColumns>
+    <sheetColumns>C</sheetColumns>
+    <sheetColumns>D</sheetColumns>
+    <sheetColumns>E</sheetColumns>
+    <sheetColumns>F</sheetColumns>
+    <sheetColumns>G</sheetColumns>
+    <sheetColumns>H</sheetColumns>
+    <sheetColumns>I</sheetColumns>
+    <sheetColumns>J</sheetColumns>
+  </TalendMetadata:FileExcelConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_QOgbMrCMEeONBdkTqysbag" name="default" dataManager="_QOgbMbCMEeONBdkTqysbag">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_QOgbM7CMEeONBdkTqysbag" id="_8yS6ILCLEeONBdkTqysbag" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_QOgbNLCMEeONBdkTqysbag" label="pregunta" length="154" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_QOgbNbCMEeONBdkTqysbag" label="subpregunta" length="14" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_QOgbNrCMEeONBdkTqysbag" label="respuesta" length="11" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_QOgbN7CMEeONBdkTqysbag" label="cedula" length="10" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_QOgbOLCMEeONBdkTqysbag" label="apellidos" length="19" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_QOgbObCMEeONBdkTqysbag" label="nombre" length="17" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_QOgbOrCMEeONBdkTqysbag" label="codproyecto" length="3" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_QOgbO7CMEeONBdkTqysbag" label="proyecto" length="67" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_QOgbPLCMEeONBdkTqysbag" label="facultad" length="50" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_QOgbPbCMEeONBdkTqysbag" label="fecha" length="19" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

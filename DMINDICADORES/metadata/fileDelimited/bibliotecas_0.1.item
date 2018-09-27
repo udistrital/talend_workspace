@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_b_-UYHKeEeiR5K_ohI378g" name="bibliotecas" dataPackage="_b_-7cHKeEeiR5K_ohI378g" Server="Localhost 127.0.0.1" FilePath="/home/devmachine/bibliotecas.csv" Encoding="UTF-8" FieldSeparatorValue="&quot;,&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" FieldSeparatorType="Comma"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_b_-7cHKeEeiR5K_ohI378g" name="default" dataManager="_b_-UYHKeEeiR5K_ohI378g">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_b_-7cXKeEeiR5K_ohI378g" id="_ZINSgHKdEeiR5K_ohI378g" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_b_-7cnKeEeiR5K_ohI378g" label="Tipo_de_clasificacion_de_las_bibliotecas" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_b_-7c3KeEeiR5K_ohI378g" label="Nombre_de_la_biblioteca" length="62" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_b_-7dHKeEeiR5K_ohI378g" label="Telefonos" length="56" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_b_-7dXKeEeiR5K_ohI378g" label="Horario_general" length="153" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_b_-7dnKeEeiR5K_ohI378g" label="Fax" length="114" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_b_-7d3KeEeiR5K_ohI378g" label="Sitio_web" length="55" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_b_-7eHKeEeiR5K_ohI378g" label="Correo_electronico" length="40" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_b_-7eXKeEeiR5K_ohI378g" label="Direccion" length="36" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_b_-7enKeEeiR5K_ohI378g" label="coord_x" length="53" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_b_-7e3KeEeiR5K_ohI378g" label="coord_y" length="22" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_b_-7fHKeEeiR5K_ohI378g" label="Column10" length="17" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_b_-7fXKeEeiR5K_ohI378g" label="Column11" length="17" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_b_-7fnKeEeiR5K_ohI378g" label="Column12" length="17" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
